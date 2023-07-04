@@ -8,3 +8,10 @@ cd club-website
 npm install
 npm run dev
 ```
+
+## Tech Stack
+- Node JS 
+- Vite
+- React
+- Tailwind CSS
+- Vercel
