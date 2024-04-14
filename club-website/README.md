@@ -9,6 +9,9 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 - [Next.js](https://nextjs.org/) 
 - [Node.js](https://nodejs.org/)
 - CSS Framework - [Tailwind CSS](https://tailwindcss.com/)
+  - if you are new to CSS in general, just search up: "whatever you want to do in CSS" and then search up "that result in Tailwind"
+    - ex. "center div in CSS" > `align-items: center; justify-items: center;` > "align-items: center in Tailwind CSS"
+  - make sure you get the Tailwind extension on VScode!! (lowkey necessary for dev experience)
 - CSS Components - [Shadcn/ui](https://ui.shadcn.com/)
 - Icons - [react-icons](https://react-icons.github.io/react-icons/)
 - [Typescript](https://www.typescriptlang.org/)
@@ -23,6 +26,7 @@ If you are having trouble with anything specific to these technologies, check ab
   - [Meeting Information](https://docs.google.com/document/d/1rjiwPxXcW5ZxWXkjnDhKQ7CJljTLGLdVWQtS12sNpyI/edit?usp=sharing)
 - Design
   - [Figma](https://www.figma.com/file/hAHfu8CzkC4Tq6IcmUOErS/TAO-Website?type=design&node-id=0%3A1&mode=design&t=SKFlEnWEer3fJKiw-1)
+  - Notes on how to keep the frontend consistent - `FRONTEND.md` 
   
 
 ## Development
