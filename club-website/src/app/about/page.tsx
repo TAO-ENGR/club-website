@@ -1,10 +1,11 @@
 import { poppins } from "../fonts";
+import about from "./about.module.css";
 import Link from "next/link";
 
 export default function About() {
   return (
     <>
-      <div className="text-left bg bg-light-gray p-16 h-screen">
+      <div className={`text-left bg p-16 h-screen ${about["bg-light-gray"]}`}>
         <h1 className="font-bold text-6xl mb-10" style={poppins.style}>
           ABOUT
         </h1>
