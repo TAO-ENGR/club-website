@@ -17,6 +17,7 @@ export default function Resources() {
             <div className="flex items-center gap-10 w-full"> {/* Flex container for the dynamically changing image and the icons/text */}
                 <Image src={imageSrc} alt="Dynamic Image" width={750} height={200} /> {/* Image that changes based on hover */}
                 <div className="flex flex-col gap-10"> {/* Column flex for the icons and text */}
+                    <a href = "https://www.youtube.com/@engrtao" target="_blank">
                     <div className="flex items-center gap-4 -ml-2 hover:-translate-y-1"
                          onMouseEnter={() => setImageSrc('/yt_vid.png')}
                          onMouseLeave={() => setImageSrc('/yt_vid.png')}> {/* YouTube */}
@@ -25,6 +26,8 @@ export default function Resources() {
                             YouTube TAO-ENGR
                         </p>
                     </div>
+                    </a>
+                    <a href = "https://www.youtube.com/@engrtao" target="_blank">
                     <div className="flex items-center gap-4 hover:-translate-y-1"
                          onMouseEnter={() => setImageSrc('/drive_ss.png')}
                          onMouseLeave={() => setImageSrc('/yt_vid.png')}> {/* Google Drive */}
@@ -33,6 +36,7 @@ export default function Resources() {
                             TAO Google Drive
                         </p>
                     </div>
+                    </a>
                     <div className="flex items-center gap-4 hover:-translate-y-1"
                          onMouseEnter={() => setImageSrc('/gh_ss.png')}
                          onMouseLeave={() => setImageSrc('/yt_vid.png')}> {/* GitHub */}
