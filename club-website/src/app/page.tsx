@@ -27,7 +27,7 @@ export default function Resources() {
                         </p>
                     </div>
                     </a>
-                    <a href = "https://www.youtube.com/@engrtao" target="_blank">
+                    <a href = "https://drive.google.com/drive/folders/128TePaIK-zwts9vzNhZfj3_mJ3IH_L9d?usp=sharing" target="_blank">
                     <div className="flex items-center gap-4 hover:-translate-y-1"
                          onMouseEnter={() => setImageSrc('/drive_ss.png')}
                          onMouseLeave={() => setImageSrc('/yt_vid.png')}> {/* Google Drive */}
@@ -37,6 +37,7 @@ export default function Resources() {
                         </p>
                     </div>
                     </a>
+                    <a href = "https://github.com/TAO-ENGR" target="_blank">
                     <div className="flex items-center gap-4 hover:-translate-y-1"
                          onMouseEnter={() => setImageSrc('/gh_ss.png')}
                          onMouseLeave={() => setImageSrc('/yt_vid.png')}> {/* GitHub */}
@@ -45,6 +46,7 @@ export default function Resources() {
                             GitHub TAO-ENGR
                         </p>
                     </div>
+                    </a>
                 </div>
             </div>
         </div>
