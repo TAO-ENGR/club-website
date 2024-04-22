@@ -9,7 +9,7 @@ export default function About() {
         <h1 className="font-bold text-6xl mb-10" style={poppins.style}>
           ABOUT
         </h1>
-        <p className="Inter text-4xl">
+        <p className="Inter text-md">
           Howdy, we are the{" "}
           <b>Engineering Teaching Assistant Organization (TAO)</b>!
           <br />
@@ -20,7 +20,7 @@ export default function About() {
           <br />
           <br />
           This is done via building community on our{" "}
-          <u>
+          <u className="hover:text-maroon">
             <a href="https://tx.ag/taoserver" target="_blank">
               discord
             </a>
@@ -30,8 +30,8 @@ export default function About() {
           provide in-person and online exam reviews, using the insight of
           students who previously took the course and current professors which
           you can view under{" "}
-          <u>
-            <Link href="/resources">resources</Link>
+          <u className="hover:text-maroon">
+            <Link href="/">resources</Link>
           </u>
           .
         </p>
