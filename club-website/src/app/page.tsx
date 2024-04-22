@@ -26,7 +26,7 @@ export default function Resources() {
             <div className="pl-10 pb-10 lg:pb-[3.1rem]">
 
               <a href="https://drive.google.com/drive/u/4/folders/1Z0DnRWiczanfWoSsFcsjrseWeGW1YDEE" 
-              className="bg-ashyBlue text-slate-50 lg:text-base md:text-xs text-sm rounded-2xl px-2.5 py-1">view drive materials
+              target="_blank" rel="noopener noreferrer" className="bg-ashyBlue text-slate-50 lg:text-base md:text-xs text-sm rounded-2xl px-2.5 py-1">view drive materials
               ㅤ‎ ‎‎ ‎ ‎‎ ‎ ‎→</a>
             
             </div>
