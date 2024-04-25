@@ -22,13 +22,18 @@ export default function Resources() {
             pb-0">SPRING 2023 ENGR 216 FINAL</h3>
             <h3 className="text-lightGray lg:text-[1.2rem] lg:line-height-[1.75rem] d:text-l font-bold pl-10 pr-10 pt-0
             pb-8">EXAM MATERIALS</h3>
-
-            <div className="pl-10 pb-10 lg:pb-[3.1rem]">
-
-              <a href="https://drive.google.com/drive/u/4/folders/1Z0DnRWiczanfWoSsFcsjrseWeGW1YDEE" 
-              target="_blank" rel="noopener noreferrer" className="bg-ashyBlue text-slate-50 lg:text-base md:text-xs text-sm rounded-2xl px-2.5 py-1">view drive materials
-              ㅤ‎ ‎‎ ‎ ‎‎ ‎ ‎→</a>
             
+            <div className="pl-10 pb-10 lg:pb-[3.1rem] w-fit">
+              <a
+                href="https://drive.google.com/drive/u/4/folders/1Z0DnRWiczanfWoSsFcsjrseWeGW1YDEE"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center bg-ashyBlue text-slate-50 lg:text-base md:text-xs text-sm 
+                rounded-2xl px-2.5 py-1 lg:hover:text-lg md:hover:text-sm hover:text-base">
+
+                <span className="mr-8">view drive materials</span>
+                <span>→</span>
+              </a>
             </div>
 
           </div>
