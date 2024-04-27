@@ -61,7 +61,7 @@ const LINKS = [
 export default function Footer()
 {
     return (
-        <main className="flex min-h-screen flex-row items-start justify-between p-24 ps-32 pe-32 gap-12">
+        <main className="flex flex-row items-start justify-between p-24 ps-32 pe-32 gap-12">
             <div id="logo_address">
                 <img id="logo" src="lightLogo.png" className="w-1/2 h-1/2"/>
                 <p>
@@ -74,36 +74,36 @@ export default function Footer()
 
             <div id="about_resources">
                 <p>
-                <b><Link href="/about">About</Link></b><br/>
-                <Link href="/about/#impact">Impact</Link><br/>
-                <Link href="/about/#officers">Officers</Link><br/>
+                <b><Link href="/about" className="hover:text-maroon">About</Link></b><br/>
+                <Link href="/about/#impact" className="hover:text-maroon">Impact</Link><br/>
+                <Link href="/about/#officers" className="hover:text-maroon">Officers</Link><br/>
                 -
                 </p>
                 <p>
-                <b><Link href="/resources">Resources</Link></b><br/>
+                <b><Link href="/resources" className="hover:text-maroon">Resources</Link></b><br/>
                 {/* <Link href="/">ENGR 102</Link><br/> */}
-                <Link href="/">ENGR 216</Link><br/>
-                <Link href="/">Miscellaneous</Link><br/>
+                <Link href="/" className="hover:text-maroon">ENGR 216</Link><br/>
+                <Link href="/" className="hover:text-maroon">Miscellaneous</Link><br/>
                 -
                 </p>
             </div>
 
             <div id="landing">
                 <p>
-                <b><Link href="/home">Landing</Link></b><br/>
-                <Link href="/announcements">Announcements</Link><br/>
-                <Link href="/announcements">Upcoming</Link><br/>
-                <Link href="/calendar">Calendar</Link><br/>
+                <b><Link href="/home" className="hover:text-maroon">Landing</Link></b><br/>
+                <Link href="/announcements" className="hover:text-maroon">Announcements</Link><br/>
+                <Link href="/announcements" className="hover:text-maroon">Upcoming</Link><br/>
+                <Link href="/calendar" className="hover:text-maroon">Calendar</Link><br/>
                 -
                 </p>
             </div>
 
             <div id="contact">
                 <p><b>Contact</b><br/></p>
-                <a href="mailto:taoengr@gmail.com" target="_blank"><div className="flex gap-2 items-center"><RiMailLine/>taoengr@gmail.com<br/></div></a>
-                <a href="https://www.linkedin.com/company/engr-tao/" target="_blank"><div className="flex gap-2 items-center"><RiLinkedinBoxLine/>engr-ta-org<br/></div></a>
-                <a href="https://www.youtube.com/@ENGRTAO" target="_blank"><div className="flex gap-2 items-center"><RiYoutubeLine/>YouTube<br/></div></a>
-                <a href="https://github.com/TAO-ENGR" target="_blank"><div className="flex gap-2 items-center"><RiGithubLine/>TAO-ENGR<br/></div></a>
+                <a href="mailto:taoengr@gmail.com" target="_blank" className="hover:text-maroon"><div className="flex gap-2 items-center"><RiMailLine/>taoengr@gmail.com<br/></div></a>
+                <a href="https://www.linkedin.com/company/engr-tao/" target="_blank" className="hover:text-maroon"><div className="flex gap-2 items-center"><RiLinkedinBoxLine/>engr-ta-org<br/></div></a>
+                <a href="https://www.youtube.com/@ENGRTAO" target="_blank" className="hover:text-maroon"><div className="flex gap-2 items-center"><RiYoutubeLine/>YouTube<br/></div></a>
+                <a href="https://github.com/TAO-ENGR" target="_blank" className="hover:text-maroon"><div className="flex gap-2 items-center"><RiGithubLine/>TAO-ENGR<br/></div></a>
                 -
             </div>
         </main>
