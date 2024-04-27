@@ -1,15 +1,17 @@
-// import {
-//     NavigationMenu,
-//     NavigationMenuContent,
-//     NavigationMenuIndicator,
-//     NavigationMenuItem,
-//     NavigationMenuLink,
-//     NavigationMenuList,
-//     NavigationMenuTrigger,
-//     NavigationMenuViewport,
-//   } from "@/components/ui/navigation-menu"
+import {
+    NavigationMenu,
+    NavigationMenuContent,
+    NavigationMenuIndicator,
+    NavigationMenuItem,
+    navigationMenuTriggerStyle,
+    NavigationMenuLink,
+    NavigationMenuList,
+    NavigationMenuTrigger,
+    NavigationMenuViewport,
+  } from "@/components/ui/navigation-menu"
 
 export default function Header() {
+
 
     return (
         <div className="w-full border-2 border-black flex justify-between bg-pink-500">
