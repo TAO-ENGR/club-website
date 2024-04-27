@@ -61,7 +61,7 @@ const LINKS = [
 export default function Footer()
 {
     return (
-        <main className="flex min-h-screen flex-row items-start justify-between p-24 gap-12">
+        <main className="flex min-h-screen flex-row items-start justify-between p-24 ps-32 pe-32 gap-12">
             <div id="logo_address">
                 <img id="logo" src="lightLogo.png" className="w-1/2 h-1/2"/>
                 <p>
@@ -75,15 +75,15 @@ export default function Footer()
             <div id="about_resources">
                 <p>
                 <b><Link href="/about">About</Link></b><br/>
-                <Link href="/about/impact">Impact</Link><br/>
-                <Link href="/about/officers">Officers</Link><br/>
+                <Link href="/about/#impact">Impact</Link><br/>
+                <Link href="/about/#officers">Officers</Link><br/>
                 -
                 </p>
                 <p>
                 <b><Link href="/resources">Resources</Link></b><br/>
-                <Link href="/resources/102">ENGR 102</Link><br/>
-                <Link href="/resources/216">ENGR 216</Link><br/>
-                <Link href="/resources/misc">Miscellaneous</Link><br/>
+                {/* <Link href="/">ENGR 102</Link><br/> */}
+                <Link href="/">ENGR 216</Link><br/>
+                <Link href="/">Miscellaneous</Link><br/>
                 -
                 </p>
             </div>
@@ -99,13 +99,12 @@ export default function Footer()
             </div>
 
             <div id="contact">
-                <p>
-                    <b>Contact</b><br/>
-                    <RiMailLine/>taoengr@gmail.com<br/>
-                    <RiLinkedinBoxLine/>engr-ta-org<br/>
-                    <RiYoutubeLine/>youtube<br/>
-                    <RiGithubLine/>TAO-ENGR<br/>
-                </p>
+                <p><b>Contact</b><br/></p>
+                <a href="mailto:taoengr@gmail.com" target="_blank"><div className="flex gap-2 items-center"><RiMailLine/>taoengr@gmail.com<br/></div></a>
+                <a href="https://www.linkedin.com/company/engr-tao/" target="_blank"><div className="flex gap-2 items-center"><RiLinkedinBoxLine/>engr-ta-org<br/></div></a>
+                <a href="https://www.youtube.com/@ENGRTAO" target="_blank"><div className="flex gap-2 items-center"><RiYoutubeLine/>YouTube<br/></div></a>
+                <a href="https://github.com/TAO-ENGR" target="_blank"><div className="flex gap-2 items-center"><RiGithubLine/>TAO-ENGR<br/></div></a>
+                -
             </div>
         </main>
     )
