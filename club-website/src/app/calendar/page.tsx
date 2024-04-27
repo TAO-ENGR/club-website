@@ -7,8 +7,10 @@ import Event from '@/components/ui/event';
 
 export default function CalendarPage() {
     const events: EventType[] = [
-        { date: "2/16", startTime: "4:00PM", endTime: "6:00PM", title: "Review A - TA Alex, TA Anthony", desc: "Go over statics, k-pop, dungeon and dragons, what 6+7 is." },
-        { date: "2/16", startTime: "4:00PM", endTime: "6:00PM", title: "Review A - TA Alex, TA Anthony", desc: "Go over statics, k-pop, dungeon and dragons, what 6+7 is." }
+        { date: "4/28", startTime: "5:00PM", endTime: "6:00PM", title: "Review with Dr. Brooks", desc: "Zoom (join code: brooks86whoop), going over	10 new practice problems" },
+        { date: "4/28", startTime: "7:00PM", endTime: "8:00PM", title: "Review with TA Casey and Ryan", desc: "Zoom (https://tamu.zoom.us/j/93501857336)	Overview of all topics" },
+        { date: "4/30", startTime: "6:00PM", endTime: "8:00PM", title: "Review with TA Zachry and Casey", desc: "Zoom (link TBD)	error, finite differences, basic experimental statistics, and confidence intervals" },
+        { date: "5/1", startTime: "12:00PM", endTime: "2:00PM", title: "Review with Prof Ritchey and TA Sam", desc: "Zoom (https://tamu.zoom.us/j/99023872865?pwd=U2M5OEVkS0Q3amZsWEx6ejhBY1RmQT09)	Most missed topics from previous years" },
       ];
 
   return (
