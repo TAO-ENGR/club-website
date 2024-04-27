@@ -13,14 +13,14 @@ export default function CalendarPage() {
 
   return (
     <div className='w-[95%] max-w-7xl mx-auto my-8'>
-      <h1 className="text-4xl font-bold text-center mb-8">CALENDAR</h1>
-      <div className="flex flex-col md:flex-row gap-8 md:gap-8">
+      <h1 className="text-4xl font-bold text-left mb-8">CALENDAR</h1>
+      <div className="flex flex-col lg:flex-row gap-8 lg:gap-8">
         <div className='flex-1 px-4'> 
           <div className='w-full h-full rounded-2xl'>
             <Calendar mode="single" className="rounded-2xl shadow-lg w-full h-full"/>
           </div>
         </div>
-        <div className='md:w-1/3 px-4 grow'>
+        <div className='lg:w-1/3 px-4 grow'>
           <h2 className="text-xl font-semibold mb-4">EVENTS THIS MONTH</h2>
           <div className='bg-[#F8F8F8] rounded-2xl overflow-hidden shadow-lg'>
             {events.map((event, index) => (
