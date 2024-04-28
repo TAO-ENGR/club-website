@@ -18,7 +18,7 @@ export default function Header() {
             <div>
                 <p>something here</p>
             </div>
-            {/* <NavigationMenu>
+            <NavigationMenu>
                 <NavigationMenuList>
                     <NavigationMenuItem>
                     <NavigationMenuTrigger>Item One</NavigationMenuTrigger>
@@ -27,7 +27,7 @@ export default function Header() {
                     </NavigationMenuContent>
                     </NavigationMenuItem>
                 </NavigationMenuList>
-            </NavigationMenu> */}
+            </NavigationMenu>
         </div>
         
     );
