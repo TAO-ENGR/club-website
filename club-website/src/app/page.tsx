@@ -32,51 +32,51 @@ export default function Resources() {
 //   };
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24 gap-12">
+    <main className="flex min-h-screen flex-col items-center justify-between p-8 lg:p-24 gap-12">
         <div className="w-full">
         <div className="text-left">
             <h2 className='text-4xl lg:text-6xl font-bold uppercase' style={poppins.style}>
                 Material Hubs
             </h2>
         </div>
-        <div className="bg-[#EBEBEB] rounded-xl md:px-10 md:py-10 xl:px-20 xl:py-20 mt-5 flex flex-col items-start gap-6">
-            <div className="flex items-center gap-10 w-full">
-                <Image src={imageSrc} alt="Dynamic Image" width={750} height={200}/>
-                <div className="flex flex-col gap-10">
-                    <a href="https://www.youtube.com/@engrtao" target="_blank">
-                        <div className="flex items-center gap-4 -ml-2 hover:-translate-y-1 duration-200"
-                            onMouseEnter={handleYoutubeEnter} >
-                            <Image src="/youtube.png" alt="YouTube Logo" width={50} height={50} />
-                            <p className="text-md font-bold">
-                                YouTube TAO-ENGR
-                            </p>
-                        </div>
-                    </a>
-                    <a href="https://drive.google.com/drive/folders/128TePaIK-zwts9vzNhZfj3_mJ3IH_L9d?usp=sharing" target="_blank">
-                        <div className="flex items-center gap-4 hover:-translate-y-1 duration-200"
-                            onMouseEnter={handleDriveEnter} >
-                            <Image src="/google_drive.png" alt="Google Drive Logo" width={30} height={50}/>
-                            <p className="text-md font-bold">
-                                TAO Google Drive
-                            </p>
-                        </div>
-                    </a>
-                    <a href="https://github.com/TAO-ENGR" target="_blank">
-                        <div className="flex items-center gap-4 hover:-translate-y-1 duration-200"
-                            onMouseEnter={handleGithubEnter} >
-                            <Image src="/github.png" alt="GitHub Logo" width={30} height={50}/>
-                            <p className="text-md font-bold">
-                                GitHub TAO-ENGR
-                            </p>
-                        </div>
-                    </a>
-                    <div>
-                        <p className="text-md gap-4 w-90">
-                            {text}
-                        </p>
-                    </div>
-                </div>
+        <div className="bg-[#EBEBEB] rounded-xl px-8 py-8 md:px-10 md:py-10 xl:px-20 xl:py-20 mt-5 flex flex-col items-start gap-6">
+        <div className="flex flex-col md:flex-row items-center gap-6 lg:gap-10 w-full">
+    <Image src={imageSrc} alt="Dynamic Image" width={750} height={200}/>
+    <div className="flex flex-col gap-6 lg:gap-10">
+        <a href="https://www.youtube.com/@engrtao" target="_blank">
+            <div className="flex items-center gap-4 -ml-2 hover:-translate-y-1 duration-200"
+                onMouseEnter={handleYoutubeEnter} >
+                <Image src="/youtube.png" alt="YouTube Logo" width={50} height={50} />
+                <p className="text-md font-bold">
+                    YouTube TAO-ENGR
+                </p>
             </div>
+        </a>
+        <a href="https://drive.google.com/drive/folders/128TePaIK-zwts9vzNhZfj3_mJ3IH_L9d?usp=sharing" target="_blank">
+            <div className="flex items-center gap-4 hover:-translate-y-1 duration-200"
+                onMouseEnter={handleDriveEnter} >
+                <Image src="/google_drive.png" alt="Google Drive Logo" width={30} height={50}/>
+                <p className="text-md font-bold">
+                    TAO Google Drive
+                </p>
+            </div>
+        </a>
+        <a href="https://github.com/TAO-ENGR" target="_blank">
+            <div className="flex items-center gap-4 hover:-translate-y-1 duration-200"
+                onMouseEnter={handleGithubEnter} >
+                <Image src="/github.png" alt="GitHub Logo" width={30} height={50}/>
+                <p className="text-md font-bold">
+                    GitHub TAO-ENGR
+                </p>
+            </div>
+        </a>
+        <div>
+            <p className="text-md gap-4 w-90">
+                {text}
+            </p>
+        </div>
+    </div>
+</div>
         </div>
     </div>
     </main>
