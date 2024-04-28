@@ -35,11 +35,11 @@ export default function Resources() {
     <main className="flex min-h-screen flex-col items-center justify-between p-24 gap-12">
         <div className="w-full">
         <div className="text-left">
-            <h2 className='text-6xl font-bold uppercase' style={poppins.style}>
+            <h2 className='text-4xl lg:text-6xl font-bold uppercase' style={poppins.style}>
                 Material Hubs
             </h2>
         </div>
-        <div className="bg-[#EBEBEB] rounded-xl md:px-10 md:py-10 lg:px-20 lg:py-20 mt-5 flex flex-col items-start gap-6">
+        <div className="bg-[#EBEBEB] rounded-xl md:px-10 md:py-10 xl:px-20 xl:py-20 mt-5 flex flex-col items-start gap-6">
             <div className="flex items-center gap-10 w-full">
                 <Image src={imageSrc} alt="Dynamic Image" width={750} height={200}/>
                 <div className="flex flex-col gap-10">
