@@ -1,3 +1,6 @@
+import * as React from "react"
+import Link from "next/link"
+
 import {
     NavigationMenu,
     NavigationMenuContent,
@@ -21,10 +24,11 @@ export default function Header() {
             <NavigationMenu>
                 <NavigationMenuList>
                     <NavigationMenuItem>
-                    <NavigationMenuTrigger>Item One</NavigationMenuTrigger>
-                    <NavigationMenuContent>
-                        <NavigationMenuLink>Link</NavigationMenuLink>
-                    </NavigationMenuContent>
+                    <Link href="/resources" legacyBehavior passHref>
+                        <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                            Resources
+                        </NavigationMenuLink>
+                    </Link>
                     </NavigationMenuItem>
                 </NavigationMenuList>
             </NavigationMenu>
@@ -32,5 +36,8 @@ export default function Header() {
         
     );
 }
+
+ 
+
 
 //link TAO logo to resources page.. no home page yet sadge
