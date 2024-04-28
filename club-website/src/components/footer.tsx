@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import { RiDriveLine, RiDiscordLine, RiMailLine, RiLinkedinBoxLine, RiYoutubeLine, RiGithubLine, RiInstagramLine} from "react-icons/ri"
 import Link from "next/link"
 
@@ -63,48 +64,42 @@ export default function Footer()
     return (
         <main className="flex flex-row items-start justify-between p-24 ps-32 pe-32 gap-12">
             <div id="logo_address">
-                <img id="logo" src="lightLogo.png" className="w-1/2 h-1/2"/>
+                <Image id="logo" src="/lightLogo.png" alt="" className="w-1/2 h-1/2" width="300" height="300"></Image>
                 <p>
                     &nbsp;&nbsp;ZACH 420 - 125 Spence St, College<br/>
                     &nbsp;&nbsp;Station, TX 77843, United States<br/>
                     <br/>
-                    &nbsp;&nbsp;2023 © ENGR TA Organization
+                    &nbsp;&nbsp;2024 © ENGR TA Organization
                 </p>
             </div>
 
-            <div id="about_resources">
-                <p>
-                <b><Link href="/about" className="hover:text-maroon">About</Link></b><br/>
-                <Link href="/about/#impact" className="hover:text-maroon">Impact</Link><br/>
-                <Link href="/about/#officers" className="hover:text-maroon">Officers</Link><br/>
-                -
-                </p>
-                <p>
-                <b><Link href="/resources" className="hover:text-maroon">Resources</Link></b><br/>
+            <div id="about_resources" className='flex flex-col'>
+                <Link href="/about" className="hover:text-maroon font-bold">About</Link>
+                <Link href="/about/#impact" className="hover:text-maroon">Impact</Link>
+                <Link href="/about/#officers" className="hover:text-maroon">Officers</Link>
+                <p>-</p>
+                <Link href="/resources" className="hover:text-maroon font-bold">Resources</Link>
                 {/* <Link href="/">ENGR 102</Link><br/> */}
-                <Link href="/" className="hover:text-maroon">ENGR 216</Link><br/>
-                <Link href="/" className="hover:text-maroon">Miscellaneous</Link><br/>
-                -
-                </p>
+                <Link href="/" className="hover:text-maroon">ENGR 216</Link>
+                <Link href="/" className="hover:text-maroon">Miscellaneous</Link>
+                <p>-</p>
             </div>
 
-            <div id="landing">
-                <p>
-                <b><Link href="/home" className="hover:text-maroon">Landing</Link></b><br/>
-                <Link href="/announcements" className="hover:text-maroon">Announcements</Link><br/>
-                <Link href="/announcements" className="hover:text-maroon">Upcoming</Link><br/>
-                <Link href="/calendar" className="hover:text-maroon">Calendar</Link><br/>
-                -
-                </p>
+            <div id="landing" className='flex flex-col'>
+                <Link href="/home" className="hover:text-maroon font-bold">Landing</Link>
+                <Link href="/announcements" className="hover:text-maroon">Announcements</Link>
+                <Link href="/announcements" className="hover:text-maroon">Upcoming</Link>
+                <Link href="/calendar" className="hover:text-maroon">Calendar</Link>
+                <p>-</p>
             </div>
 
-            <div id="contact">
+            <div id="contact" className='flex flex-col'>
                 <p><b>Contact</b><br/></p>
-                <a href="mailto:taoengr@gmail.com" target="_blank" className="hover:text-maroon"><div className="flex gap-2 items-center"><RiMailLine/>taoengr@gmail.com<br/></div></a>
-                <a href="https://www.linkedin.com/company/engr-tao/" target="_blank" className="hover:text-maroon"><div className="flex gap-2 items-center"><RiLinkedinBoxLine/>engr-ta-org<br/></div></a>
-                <a href="https://www.youtube.com/@ENGRTAO" target="_blank" className="hover:text-maroon"><div className="flex gap-2 items-center"><RiYoutubeLine/>YouTube<br/></div></a>
-                <a href="https://github.com/TAO-ENGR" target="_blank" className="hover:text-maroon"><div className="flex gap-2 items-center"><RiGithubLine/>TAO-ENGR<br/></div></a>
-                -
+                <a href="mailto:taoengr@gmail.com" target="_blank" className="hover:text-maroon"><div className="flex gap-2 items-center"><RiMailLine/>taoengr@gmail.com</div></a>
+                <a href="https://www.linkedin.com/company/engr-tao/" target="_blank" className="hover:text-maroon"><div className="flex gap-2 items-center"><RiLinkedinBoxLine/>engr-ta-org</div></a>
+                <a href="https://www.youtube.com/@ENGRTAO" target="_blank" className="hover:text-maroon"><div className="flex gap-2 items-center"><RiYoutubeLine/>YouTube</div></a>
+                <a href="https://github.com/TAO-ENGR" target="_blank" className="hover:text-maroon"><div className="flex gap-2 items-center"><RiGithubLine/>TAO-ENGR</div></a>
+                <p>-</p>
             </div>
         </main>
     )
