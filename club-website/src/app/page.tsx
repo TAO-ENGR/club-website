@@ -26,10 +26,10 @@ export default function Resources() {
   };
 
   // Common handler for mouse leave that resets to default
-  const handleMouseLeave = () => {
-    setImageSrc('/yt_vid.png');
-    setText('TAO’s YouTube channel (TAO-ENGR) -- including basic videos as well as recordings of exam reviews.');
-  };
+//   const handleMouseLeave = () => {
+//     setImageSrc('/yt_vid.png');
+//     setText('TAO’s YouTube channel (TAO-ENGR) -- including basic videos as well as recordings of exam reviews.');
+//   };
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24 gap-12">
@@ -41,11 +41,11 @@ export default function Resources() {
         </div>
         <div className="bg-[#EBEBEB] rounded-xl px-12 py-12 mt-5 flex flex-col items-start gap-6">
             <div className="flex items-center gap-10 w-full">
-                <Image src={imageSrc} alt="Dynamic Image" width={750} height={200} />
+                <Image src={imageSrc} alt="Dynamic Image" width={750} height={200}/>
                 <div className="flex flex-col gap-10">
                     <a href="https://www.youtube.com/@engrtao" target="_blank">
                         <div className="flex items-center gap-4 -ml-2 hover:-translate-y-1 duration-200"
-                            onMouseEnter={handleYoutubeEnter} onMouseLeave={handleMouseLeave}>
+                            onMouseEnter={handleYoutubeEnter} >
                             <Image src="/youtube.png" alt="YouTube Logo" width={50} height={50} />
                             <p className="text-md font-bold">
                                 YouTube TAO-ENGR
@@ -54,8 +54,8 @@ export default function Resources() {
                     </a>
                     <a href="https://drive.google.com/drive/folders/128TePaIK-zwts9vzNhZfj3_mJ3IH_L9d?usp=sharing" target="_blank">
                         <div className="flex items-center gap-4 hover:-translate-y-1 duration-200"
-                            onMouseEnter={handleDriveEnter} onMouseLeave={handleMouseLeave}>
-                            <Image src="/google_drive.png" alt="Google Drive Logo" width={30} height={50} />
+                            onMouseEnter={handleDriveEnter} >
+                            <Image src="/google_drive.png" alt="Google Drive Logo" width={30} height={50}/>
                             <p className="text-md font-bold">
                                 TAO Google Drive
                             </p>
@@ -63,8 +63,8 @@ export default function Resources() {
                     </a>
                     <a href="https://github.com/TAO-ENGR" target="_blank">
                         <div className="flex items-center gap-4 hover:-translate-y-1 duration-200"
-                            onMouseEnter={handleGithubEnter} onMouseLeave={handleMouseLeave}>
-                            <Image src="/github.png" alt="GitHub Logo" width={30} height={50} />
+                            onMouseEnter={handleGithubEnter} >
+                            <Image src="/github.png" alt="GitHub Logo" width={30} height={50}/>
                             <p className="text-md font-bold">
                                 GitHub TAO-ENGR
                             </p>
