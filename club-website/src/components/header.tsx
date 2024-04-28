@@ -17,22 +17,19 @@ export default function Header() {
 
 
     return (
-        <div className="w-full border-2 border-black flex justify-between bg-pink-500">
-            <div>
-                <p>something here</p>
-            </div>
-            <NavigationMenu>
-                <NavigationMenuList>
-                    <NavigationMenuItem>
+        
+        <NavigationMenu>
+            <NavigationMenuList>
+                <NavigationMenuItem>
                     <Link href="/resources" legacyBehavior passHref>
                         <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                             Resources
                         </NavigationMenuLink>
                     </Link>
-                    </NavigationMenuItem>
-                </NavigationMenuList>
-            </NavigationMenu>
-        </div>
+                </NavigationMenuItem>
+            </NavigationMenuList>
+        </NavigationMenu>
+        
         
     );
 }
