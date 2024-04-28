@@ -39,7 +39,7 @@ export default function Resources() {
                 Material Hubs
             </h2>
         </div>
-        <div className="bg-[#EBEBEB] rounded-xl px-12 py-12 mt-5 flex flex-col items-start gap-6">
+        <div className="bg-[#EBEBEB] rounded-xl md:px-10 md:py-10 lg:px-20 lg:py-20 mt-5 flex flex-col items-start gap-6">
             <div className="flex items-center gap-10 w-full">
                 <Image src={imageSrc} alt="Dynamic Image" width={750} height={200}/>
                 <div className="flex flex-col gap-10">
