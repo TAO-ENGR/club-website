@@ -1,8 +1,30 @@
 import { poppins } from "../fonts";
 import about from "./about.module.css";
 import Link from "next/link";
+import { OfficerType } from "@/lib/types";
 
 export default function About() {
+  const officers: OfficerType[] = [
+    {
+      img: "cat2.jpeg",
+      firstName: "Ashley",
+      lastName: "Zhang",
+      position: "Web Officer",
+      major: "Computer Science",
+      linkedIn: "https://www.linkedin.com/in/ashley-j-zhang/",
+      desc: "cat",
+    },
+    {
+      img: "cat1.jpeg",
+      firstName: "Eric",
+      lastName: "Liu",
+      position: "Web Officer",
+      major: "Computer Science",
+      linkedIn: "https://www.linkedin.com/in/eric-liu-b75550220/",
+      desc: "cat2",
+    },
+  ];
+
   return (
     <>
       <div className={`text-left bg p-16 ${about["bg-light-gray"]}`}>
@@ -80,6 +102,59 @@ export default function About() {
             className=" md:w-8/12 rounded-3xl"
           />
           <p className="text-4xl">⬅️ Real impact 👀</p>
+        </div>
+      </div>
+      <div className={`text-left bg p-16 ${about["bg-light-gray"]}`}>
+        <h1 className="font-bold text-6xl mb-10" style={poppins.style}>
+          MEMBERSHIP
+        </h1>
+        <p className="Inter text-md">
+          While TAO serves all PTs and students of ENGR 102 and 216, our members
+          are those who pass both of these courses and then use their skills to
+          help future students on our discord and in our reviews.
+          <br />
+          <br /> Applications to be a member open <b>soon</b>, and will be
+          announced via our discord. <br />
+          <br /> The process will include an application and interview. <br />
+          <br /> So if TAO has positively impacted you and you want to give
+          back, please check in then! We&rsquo;d love to have you as a member.
+        </p>
+      </div>
+      <div className={`text-left bg p-16 ${about["bg-light-gray"]}`}>
+        <h1 className="font-bold text-6xl mb-10" style={poppins.style}>
+          OFFICERS
+        </h1>
+        <div className="flex items-center justify-center gap-12">
+          {officers.map((officer, index) => (
+            <div
+              className="flex flex-col items-center justify-center text-center"
+              key={index}
+            >
+              <img
+                src={officer.img}
+                alt=""
+                className="w-40 h-40 object-cover mb-4 rounded-2xl"
+              />
+              <p>
+                <a
+                  href={officer.linkedIn}
+                  target="_blank"
+                  className="hover:text-maroon"
+                >
+                  <b>
+                    <u>
+                      {officer.firstName.toUpperCase()}{" "}
+                      {officer.lastName.toUpperCase()}
+                    </u>
+                  </b>
+                </a>
+                <br />
+                {officer.position}
+                <br />
+                {officer.major}
+              </p>
+            </div>
+          ))}
         </div>
       </div>
     </>
