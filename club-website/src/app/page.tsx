@@ -2,6 +2,13 @@
 import Image from "next/image";
 import { useState } from "react";
 import { poppins } from "./fonts";
+import {
+    Carousel,
+    CarouselContent,
+    CarouselItem,
+    CarouselNext,
+    CarouselPrevious,
+  } from "@/components/ui/carousel"
 
 export default function Resources() {
   const [imageSrc, setImageSrc] = useState('/yt_vid.png'); // State for image source
@@ -41,7 +48,23 @@ export default function Resources() {
         </div>
         <div className="bg-[#EBEBEB] rounded-xl px-8 py-8 md:px-10 md:py-10 xl:px-20 xl:py-20 mt-5 flex flex-col items-start gap-6">
         <div className="flex flex-col md:flex-row items-center gap-6 lg:gap-10 w-full">
-    <Image src={imageSrc} alt="Dynamic Image" width={750} height={200}/>
+          <div className=" px-10">
+          <Carousel>
+            <CarouselContent>
+              <CarouselItem>
+                <Image src={'/yt_vid.png'} alt="Youtube Image" width={600} height={200}/>
+              </CarouselItem>
+              <CarouselItem>
+                 <Image src={'/drive_ss.png'} alt="Drive Image" width={600} height={200}/>
+              </CarouselItem>
+              <CarouselItem>
+                 <Image src={'/gh_ss.png'} alt="Github Image" width={600} height={200}/>
+              </CarouselItem>
+            </CarouselContent>
+            <CarouselPrevious />
+            <CarouselNext />
+          </Carousel>
+          </div>
     <div className="flex flex-col gap-6 lg:gap-10">
         <a href="https://www.youtube.com/@engrtao" target="_blank">
             <div className="flex items-center gap-4 -ml-2 hover:-translate-y-1 duration-200"
