@@ -66,7 +66,7 @@ useEffect(() => {
         </div>
         <div className="bg-[#EBEBEB] rounded-xl px-8 py-8 md:px-10 md:py-10 xl:px-20 xl:py-20 mt-5 flex flex-col items-start gap-6">
         <div className="flex flex-col md:flex-row items-center gap-6 lg:gap-10 w-full">
-          <div className=" px-10">
+          <div className="md:px-10 ">
           <Carousel setApi={setApi}>
             <CarouselContent>
               {carouselImages.map((image, index) => (
