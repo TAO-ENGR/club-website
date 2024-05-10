@@ -1,6 +1,6 @@
 'use client';
 import Image from "next/image";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { poppins } from "./fonts";
 import {
     Carousel,
@@ -8,12 +8,20 @@ import {
     CarouselItem,
     CarouselNext,
     CarouselPrevious,
+    CarouselApi
   } from "@/components/ui/carousel"
 
 export default function Resources() {
   const [imageSrc, setImageSrc] = useState('/yt_vid.png'); // State for image source
-  const [text, setText] = useState('TAO’s YouTube channel (TAO-ENGR) -- including basic videos as well as recordings of exam reviews.'); // State for text
-
+  const [api, setApi] = useState<CarouselApi>()
+  const [carouselIndex, setCarouselIndex] = useState(0); // State for carousel index
+  const carouselImages = [
+    { src: '/yt_vid.png', alt: 'Youtube Image', width: 750, height: 200, text: 'TAO’s YouTube channel (TAO-ENGR) -- including basic videos as well as recordings of exam reviews.'},
+    { src: '/drive_ss.png', alt: 'Drive Image', width: 750, height: 200, text: 'Access TAO’s shared resources including review materials and practice problems on tx.ag/taodrive.'},
+    { src: '/gh_ss.png', alt: 'Github Image', width: 750, height: 200, text: 'TAO’s Github (TAO-ENGR) -- including projects and example code for certain programming concepts.'}
+  ];
+  const [text, setText] = useState(carouselImages[0].text);
+  
   // Handlers for mouse enter and leave for YouTube
   const handleYoutubeEnter = () => {
     setImageSrc('/yt_vid.png');
@@ -31,12 +39,22 @@ export default function Resources() {
     setImageSrc('/gh_ss.png');
     setText('TAO’s Github (TAO-ENGR) -- including projects and example code for certain programming concepts.');
   };
-
   // Common handler for mouse leave that resets to default
 //   const handleMouseLeave = () => {
 //     setImageSrc('/yt_vid.png');
 //     setText('TAO’s YouTube channel (TAO-ENGR) -- including basic videos as well as recordings of exam reviews.');
 //   };
+useEffect(() => {
+    if (!api) return;
+
+    const updateText = () => {
+      const selectedIndex = api.selectedScrollSnap();
+      setText(carouselImages[selectedIndex].text);  // Correctly use the new index immediately
+    };
+
+    api.on("select", updateText);  // Attach listener
+    return () => api.off("select", updateText);  // Cleanup listener
+  }, [api]);
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-8 lg:p-24 gap-12">
@@ -49,17 +67,13 @@ export default function Resources() {
         <div className="bg-[#EBEBEB] rounded-xl px-8 py-8 md:px-10 md:py-10 xl:px-20 xl:py-20 mt-5 flex flex-col items-start gap-6">
         <div className="flex flex-col md:flex-row items-center gap-6 lg:gap-10 w-full">
           <div className=" px-10">
-          <Carousel>
+          <Carousel setApi={setApi}>
             <CarouselContent>
-              <CarouselItem>
-                <Image src={'/yt_vid.png'} alt="Youtube Image" width={600} height={200}/>
-              </CarouselItem>
-              <CarouselItem>
-                 <Image src={'/drive_ss.png'} alt="Drive Image" width={600} height={200}/>
-              </CarouselItem>
-              <CarouselItem>
-                 <Image src={'/gh_ss.png'} alt="Github Image" width={600} height={200}/>
-              </CarouselItem>
+              {carouselImages.map((image, index) => (
+                <CarouselItem key={index}>
+                  <Image src={image.src} alt={image.alt} width={image.width} height={image.height}/>
+                </CarouselItem>
+              ))}
             </CarouselContent>
             <CarouselPrevious />
             <CarouselNext />

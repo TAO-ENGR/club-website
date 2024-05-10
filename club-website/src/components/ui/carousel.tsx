@@ -61,7 +61,10 @@ const Carousel = React.forwardRef<
     const [carouselRef, api] = useEmblaCarousel(
       {
         ...opts,
+        containScroll: 'trimSnaps',
         axis: orientation === "horizontal" ? "x" : "y",
+        loop: false,
+        align: 'center'
       },
       plugins
     )
