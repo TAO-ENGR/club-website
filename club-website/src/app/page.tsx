@@ -16,9 +16,9 @@ export default function Resources() {
   const [api, setApi] = useState<CarouselApi>()
   const [carouselIndex, setCarouselIndex] = useState(0); // State for carousel index
   const carouselImages = [
-    { src: '/yt_vid.png', alt: 'Youtube Image', width: 750, height: 200, text: 'TAO’s YouTube channel (TAO-ENGR) -- including basic videos as well as recordings of exam reviews.'},
-    { src: '/drive_ss.png', alt: 'Drive Image', width: 750, height: 200, text: 'Access TAO’s shared resources including review materials and practice problems on tx.ag/taodrive.'},
-    { src: '/gh_ss.png', alt: 'Github Image', width: 750, height: 200, text: 'TAO’s Github (TAO-ENGR) -- including projects and example code for certain programming concepts.'}
+    { src: '/yt_vid.png', alt: 'Youtube Image', width: 850, height: 200, text: 'TAO’s YouTube channel (TAO-ENGR) -- including basic videos as well as recordings of exam reviews.'},
+    { src: '/drive_ss.png', alt: 'Drive Image', width: 850, height: 200, text: 'Access TAO’s shared resources including review materials and practice problems on tx.ag/taodrive.'},
+    { src: '/gh_ss.png', alt: 'Github Image', width: 850, height: 200, text: 'TAO’s Github (TAO-ENGR) -- including projects and example code for certain programming concepts.'}
   ];
   const [text, setText] = useState(carouselImages[0].text);
   
@@ -84,7 +84,7 @@ useEffect(() => {
             <div className="flex items-center gap-4 -ml-2 hover:-translate-y-1 duration-200"
                 onMouseEnter={handleYoutubeEnter} >
                 <Image src="/youtube.png" alt="YouTube Logo" width={50} height={50} />
-                <p className="text-md font-bold">
+                <p className="text-md font-bold -ml-2">
                     YouTube TAO-ENGR
                 </p>
             </div>
