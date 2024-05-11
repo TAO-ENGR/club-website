@@ -9,16 +9,24 @@ import {
     CarouselNext,
     CarouselPrevious,
     CarouselApi
-  } from "@/components/ui/carousel"
+} from "@/components/ui/carousel"
+import {
+    Card,
+    CardContent,
+    CardDescription,
+    CardFooter,
+    CardHeader,
+    CardTitle,
+} from "@/components/ui/card"
 
 export default function Resources() {
   const [imageSrc, setImageSrc] = useState('/yt_vid.png'); // State for image source
   const [api, setApi] = useState<CarouselApi>()
   const [carouselIndex, setCarouselIndex] = useState(0); // State for carousel index
   const carouselImages = [
-    { src: '/yt_vid.png', alt: 'Youtube Image', width: 850, height: 200, text: 'TAO’s YouTube channel (TAO-ENGR) -- including basic videos as well as recordings of exam reviews.'},
-    { src: '/drive_ss.png', alt: 'Drive Image', width: 850, height: 200, text: 'Access TAO’s shared resources including review materials and practice problems on tx.ag/taodrive.'},
-    { src: '/gh_ss.png', alt: 'Github Image', width: 850, height: 200, text: 'TAO’s Github (TAO-ENGR) -- including projects and example code for certain programming concepts.'}
+    { src: '/yt_vid.png', alt: 'Youtube Image', width: 500, height: 200, text: 'TAO’s YouTube channel (TAO-ENGR) -- including basic videos as well as recordings of exam reviews.'},
+    { src: '/drive_ss.png', alt: 'Drive Image', width: 500, height: 200, text: 'Access TAO’s shared resources including review materials and practice problems on tx.ag/taodrive.'},
+    { src: '/gh_ss.png', alt: 'Github Image', width: 500, height: 200, text: 'TAO’s Github (TAO-ENGR) -- including projects and example code for certain programming concepts.'}
   ];
   const [text, setText] = useState(carouselImages[0].text);
   
@@ -71,7 +79,11 @@ useEffect(() => {
             <CarouselContent>
               {carouselImages.map((image, index) => (
                 <CarouselItem key={index}>
-                  <Image src={image.src} alt={image.alt} width={image.width} height={image.height}/>
+                  <Card>
+                    <CardContent className="flex justify-center items-center">
+                      <Image src={image.src} alt={image.alt} width={image.width} height={image.height}/>
+                    </CardContent>
+                  </Card>
                 </CarouselItem>
               ))}
             </CarouselContent>
