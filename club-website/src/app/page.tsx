@@ -4,7 +4,7 @@ export default function Resources() {
   return (
     <main className="bg-slate-50 flex min-h-screen flex-col space-y-1 gap-12">
 
-      <h1 className="text-slate-950 md:text-4xl text-3xl text-left font-bold items-start mt-16 ml-6">RESOURCES</h1>
+      <h1 className="text-slate-950 md:text-4xl text-3xl text-left font-bold items-start mt-16 ml-24">RESOURCES</h1>
 
       <div className="bg-maroon w-full md:h-[23.5rem] flex justify-between overflow-hidden">
 
