@@ -2,6 +2,7 @@ import { poppins } from "../fonts";
 import about from "./about.module.css";
 import Link from "next/link";
 import { OfficerType } from "@/lib/types";
+import Image from "next/image";
 
 export default function About() {
   const officers: OfficerType[] = [
@@ -93,13 +94,21 @@ export default function About() {
           students and TA&rsquo;s
         </p>
         <br />
-        <img src="impact_graph.png" alt="Impact graph" className="w-lvw" />
+        <Image
+          src="/impact_graph.png"
+          alt="Impact graph"
+          className="w-lvw"
+          width={500}
+          height={500}
+        />
         <br />
         <div className="flex items-center gap-16">
-          <img
-            src="discord_impact.png"
+          <Image
+            src="/discord_impact.png"
             alt="Discord impact"
             className=" md:w-8/12 rounded-3xl"
+            width={500}
+            height={500}
           />
           <p className="text-4xl">⬅️ Real impact 👀</p>
         </div>

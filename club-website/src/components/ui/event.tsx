@@ -7,7 +7,7 @@ export default function Event({date, startTime, endTime, title, desc} : EventTyp
         📚
       </span>
       <div className="text-sm">
-        <div className="font-bold text-gray-800">{date} // {startTime} - {endTime}</div>
+        <div className="font-bold text-gray-800">{date + " // " + startTime + " - " + endTime}</div>
       </div>
     </div>
     <div className="px-4 py-2">

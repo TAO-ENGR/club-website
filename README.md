@@ -1,5 +1,7 @@
 # TAO Club Website
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5c873547-b50d-4ee5-98d3-2decd3b4d5a0/deploy-status)](https://app.netlify.com/sites/engrtao/deploys)
+
 Public-facing website for TAO :D
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
