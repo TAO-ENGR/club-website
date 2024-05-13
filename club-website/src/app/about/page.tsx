@@ -4,6 +4,12 @@ import Link from "next/link";
 import { OfficerType } from "@/lib/types";
 import Image from "next/image";
 
+import {
+  HoverCard,
+  HoverCardContent,
+  HoverCardTrigger,
+} from "@/components/ui/hover-card";
+
 export default function About() {
   const officers: OfficerType[] = [
     {
@@ -139,11 +145,17 @@ export default function About() {
               className="flex flex-col items-center justify-center text-center"
               key={index}
             >
-              <img
-                src={officer.img}
-                alt=""
-                className="w-40 h-40 object-cover mb-4 rounded-2xl"
-              />
+              <HoverCard>
+                <HoverCardTrigger>
+                  <img
+                    src={officer.img}
+                    alt=""
+                    className="w-40 h-40 object-cover mb-4 rounded-2xl"
+                  />
+                </HoverCardTrigger>
+                <HoverCardContent>{officer.desc}</HoverCardContent>
+              </HoverCard>
+
               <p>
                 <a
                   href={officer.linkedIn}
