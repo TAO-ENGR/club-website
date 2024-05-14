@@ -1,6 +1,7 @@
+"use client"
 import * as React from "react"
 import Link from "next/link"
-
+import Image from "next/image";
 import {
     NavigationMenu,
     NavigationMenuContent,
@@ -18,18 +19,39 @@ export default function Header() {
  
     return (
         
-        <NavigationMenu>
-            <NavigationMenuList>
-                <NavigationMenuItem>
-                    <Link href="/resources" legacyBehavior passHref>
-                        <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                            Resources
-                        </NavigationMenuLink>
-                    </Link>
-                </NavigationMenuItem>
-            </NavigationMenuList>
-        </NavigationMenu>
-        
+        <div className="flex justify-between p-6" id="logo_address">
+            <Link href="/about" legacyBehavior passHref>
+                <Image id="logo" src="/favicon180.png" alt="" width={50} height={50}></Image> 
+            </Link>
+                
+            <div className="flex gap-6">
+                <NavigationMenu>
+                    <NavigationMenuList>
+                        <NavigationMenuItem>
+                            <Link href="/resources" legacyBehavior passHref>
+                                <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                                    RESOURCES
+                                </NavigationMenuLink>
+                            </Link>
+                        </NavigationMenuItem>
+                    </NavigationMenuList>
+                </NavigationMenu>
+
+                <NavigationMenu>
+                    <NavigationMenuList>
+                        <NavigationMenuItem>
+                            <Link href="/about" legacyBehavior passHref>
+                                <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                                    ABOUT
+                                </NavigationMenuLink>
+                            </Link>
+                        </NavigationMenuItem>
+                    </NavigationMenuList>
+                </NavigationMenu>
+
+            </div>
+ 
+        </div>
         
     );
 }
