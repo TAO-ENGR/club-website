@@ -99,7 +99,7 @@ export default function Home() {
                   mode="single"
                   selected={date}
                   onSelect={setDate}
-                  className="rounded-md border"
+                  className="rounded-md border w-full h-full"
                 />
               </div>
               <div className="flex flex-col gap-2 lg:w-2/3">
