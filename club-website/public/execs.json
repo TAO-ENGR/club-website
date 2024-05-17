@@ -1,0 +1,29 @@
+[
+    {
+        "firstName": "Ryan",
+        "lastName": "Kabir",
+        "position": "President",
+        "major": "Computer Science & Electrical Engineering",
+        "img": "officer_imgs/Ryan Kabir.jpg",
+        "linkedIn": "https://www.linkedin.com/in/ryankbr",
+        "desc": "Hi! I'm Ryan, I founded TAO with Casey Pei and Lily Tang in 2022, and am currently Co-Presidents with Casey. In my free time, I like to watch tech, food, and lifestyle vlog videos, and I like to play Valorant & Genshin now and then. I'm also a Software Engineering Intern at Microsoft!"
+      },
+      {
+        "firstName": "Andrew",
+        "lastName": "Tan",
+        "position": "Content Chair",
+        "major": "BMEN",
+        "img": "officer_imgs/Andrew Tan.jpg",
+        "linkedIn": "",
+        "desc": ""
+      },
+      {
+        "firstName": "Summer",
+        "lastName": "Wong",
+        "position": "Server and Bot Junior Chair",
+        "major": "Industrial & Systems Engineering",
+        "img": "officer_imgs/Summer Wong.jpg",
+        "linkedIn": "https://www.linkedin.com/in/summerrwong",
+        "desc": "Howdy, I'm Summer, class of '26. I am the Server and Bot Junior Chair and a PT for ENGR 102 and PHYS 216. I am passionate about software development and user interaction. I am an enjoyer of music, star gazing, and doing spontaneous activities with friends. "
+      }
+]

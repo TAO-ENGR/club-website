@@ -3,6 +3,8 @@ import about from "./about.module.css";
 import Link from "next/link";
 import { OfficerType } from "@/lib/types";
 import Image from "next/image";
+import officerData from "../../../public/officers.json";
+import execData from "../../../public/execs.json";
 
 import {
   HoverCard,
@@ -11,26 +13,8 @@ import {
 } from "@/components/ui/hover-card";
 
 export default function About() {
-  const officers: OfficerType[] = [
-    {
-      img: "cat2.jpeg",
-      firstName: "Ashley",
-      lastName: "Zhang",
-      position: "Web Officer",
-      major: "Computer Science",
-      linkedIn: "https://www.linkedin.com/in/ashley-j-zhang/",
-      desc: "cat",
-    },
-    {
-      img: "cat1.jpeg",
-      firstName: "Eric",
-      lastName: "Liu",
-      position: "Web Officer",
-      major: "Computer Science",
-      linkedIn: "https://www.linkedin.com/in/eric-liu-b75550220/",
-      desc: "cat2",
-    },
-  ];
+  const execs: OfficerType[] = execData;
+  const officers: OfficerType[] = officerData;
 
   return (
     <>
@@ -139,36 +123,107 @@ export default function About() {
         <h1 className="font-bold text-6xl mb-10" style={poppins.style}>
           OFFICERS
         </h1>
-        <div className="flex items-center justify-center gap-12">
-          {officers.map((officer, index) => (
+        <div className="flex flex-wrap items-start justify-center gap-12 mb-12">
+          {execs.map((exec, index) => (
             <div
-              className="flex flex-col items-center justify-center text-center"
+              className="flex flex-col items-center justify-center text-center w-56"
               key={index}
             >
-              <HoverCard>
-                <HoverCardTrigger>
-                  <img
-                    src={officer.img}
-                    alt=""
-                    className="w-40 h-40 object-cover mb-4 rounded-2xl"
-                  />
-                </HoverCardTrigger>
-                <HoverCardContent>{officer.desc}</HoverCardContent>
-              </HoverCard>
-
+              {exec.desc == "" ? (
+                <img
+                  src={exec.img}
+                  alt=""
+                  className="w-40 h-40 object-cover mb-4 rounded-2xl"
+                />
+              ) : (
+                <HoverCard>
+                  <HoverCardTrigger>
+                    <img
+                      src={exec.img}
+                      alt=""
+                      className="w-40 h-40 object-cover mb-4 rounded-2xl cursor-pointer"
+                    />
+                  </HoverCardTrigger>
+                  <HoverCardContent
+                    dangerouslySetInnerHTML={{ __html: exec.desc }}
+                  ></HoverCardContent>
+                </HoverCard>
+              )}
               <p>
-                <a
-                  href={officer.linkedIn}
-                  target="_blank"
-                  className="hover:text-maroon"
-                >
+                {exec.linkedIn == "" ? (
                   <b>
-                    <u>
-                      {officer.firstName.toUpperCase()}{" "}
-                      {officer.lastName.toUpperCase()}
-                    </u>
+                    {exec.firstName.toUpperCase()} {exec.lastName.toUpperCase()}
                   </b>
-                </a>
+                ) : (
+                  <a
+                    href={exec.linkedIn}
+                    target="_blank"
+                    className="hover:text-maroon"
+                  >
+                    <b>
+                      <u>
+                        {exec.firstName.toUpperCase()}{" "}
+                        {exec.lastName.toUpperCase()}
+                      </u>
+                    </b>
+                  </a>
+                )}
+
+                <br />
+                {exec.position}
+                <br />
+                {exec.major}
+              </p>
+            </div>
+          ))}
+        </div>
+        <div className="flex flex-wrap items-start justify-center gap-12">
+          {officers.map((officer, index) => (
+            <div
+              className="flex flex-col items-center justify-center text-center w-44"
+              key={index}
+            >
+              {officer.desc == "" ? (
+                <img
+                  src={officer.img}
+                  alt=""
+                  className="w-40 h-40 object-cover mb-4 rounded-2xl"
+                />
+              ) : (
+                <HoverCard>
+                  <HoverCardTrigger>
+                    <img
+                      src={officer.img}
+                      alt=""
+                      className="w-40 h-40 object-cover mb-4 rounded-2xl cursor-pointer"
+                    />
+                  </HoverCardTrigger>
+                  <HoverCardContent
+                    dangerouslySetInnerHTML={{ __html: officer.desc }}
+                  ></HoverCardContent>
+                </HoverCard>
+              )}
+              <p>
+                {officer.linkedIn == "" ? (
+                  <b>
+                    {officer.firstName.toUpperCase()}{" "}
+                    {officer.lastName.toUpperCase()}
+                  </b>
+                ) : (
+                  <a
+                    href={officer.linkedIn}
+                    target="_blank"
+                    className="hover:text-maroon"
+                  >
+                    <b>
+                      <u>
+                        {officer.firstName.toUpperCase()}{" "}
+                        {officer.lastName.toUpperCase()}
+                      </u>
+                    </b>
+                  </a>
+                )}
+
                 <br />
                 {officer.position}
                 <br />

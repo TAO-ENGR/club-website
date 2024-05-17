@@ -1,122 +1,92 @@
 [
   {
-    "Timestamp": "2024-05-01T02:39:57.674Z",
     "firstName": "Antony",
     "lastName": "Quach",
     "position": "Social Officer",
     "major": "Computer Engineer",
-    "img": "https://drive.google.com/open?id=1d8WR1nEsZtEOsey78ozTYl7lVG7Z9crz",
+    "img": "officer_imgs/Antony Quach.jpg",
     "linkedIn": "",
     "desc": "I like to draw, mainly muscles and anatomy, I also play tennis and go to the gym frequently"
   },
   {
-    "Timestamp": "2024-05-01T02:46:44.336Z",
     "firstName": "Claire",
     "lastName": "Wu",
     "position": "Web Officer",
     "major": "General Engineering",
-    "img": "https://drive.google.com/open?id=1jSwgJMGj3K3IXpRtnlwSXB1TIlO0Xz0C",
+    "img": "officer_imgs/Claire Wu.jpeg",
     "linkedIn": "https://www.linkedin.com/in/you-claire-wu?trk=contact-info",
     "desc": ""
   },
   {
-    "Timestamp": "2024-05-01T02:47:16.964Z",
+    "firstName": "Larissa",
+    "lastName": "Kim",
+    "position": "Web Officer",
+    "major": "Computer Science",
+    "img": "officer_imgs/Larissa Kim.jpg",
+    "linkedIn": "https://www.linkedin.com/in/kimlarissa/",
+    "desc": "CPSC '27<br/>cat lover<br/>i play val, league, and occasionally r6<br/>i love drawing"
+  },
+  {
     "firstName": "Tristan-Lee",
     "lastName": "Aujong",
-    "position": "Web Intern",
+    "position": "Web Officer",
     "major": "Computer Science",
-    "img": "https://drive.google.com/open?id=19VOLPpnNhZF8MOD_7Qdc9EXU4nmUZhec",
-    "linkedIn": "www.linkedin.com/in/tristan-lee-aujong-447362290",
+    "img": "officer_imgs/Tristan Aujong.jpg",
+    "linkedIn": "https://www.linkedin.com/in/tristan-lee-aujong-447362290",
     "desc": "I love cars"
   },
   {
-    "Timestamp": "2024-05-01T03:37:26.981Z",
     "firstName": "Sophia",
     "lastName": "Phu",
     "position": "Web Officer",
     "major": "Computer Engineering",
-    "img": "https://drive.google.com/open?id=1xHKRQy9uAPvmlv1arT3UlEqAuK6aP_cb",
+    "img": "officer_imgs/Sophia Phu.jpeg",
     "linkedIn": "https://www.linkedin.com/in/sophiaphu",
     "desc": ""
   },
   {
-    "Timestamp": "2024-05-01T03:39:58.571Z",
-    "firstName": "Ryan",
-    "lastName": "Kabir",
-    "position": "President",
-    "major": "Computer Science & Electrical Engineering",
-    "img": "https://drive.google.com/open?id=170tX1kBd8Mqv6Y26xGScDSZ1lvGqxvOJ",
-    "linkedIn": "https://www.linkedin.com/in/ryankbr",
-    "desc": "Hi! I’m Ryan, I founded TAO with Casey Pei and Lily Tang in 2022, and am currently Co-Presidents with Casey. In my free time, I like to watch tech, food, and lifestyle vlog videos, and I like to play Valorant & Genshin now and then. I’m also a Software Engineering Intern at Microsoft!"
-  },
-  {
-    "Timestamp": "2024-05-01T03:52:44.370Z",
-    "firstName": "Andrew",
-    "lastName": "Tan",
-    "position": "Content Chair",
-    "major": "BMEN",
-    "img": "https://drive.google.com/open?id=1pTduq_O7gl5V71Mo3YuHCHrjaAqidx8b",
-    "linkedIn": "",
-    "desc": ""
-  },
-  {
-    "Timestamp": "2024-05-01T04:34:46.712Z",
-    "firstName": "Summer",
-    "lastName": "Wong",
-    "position": "Server and Bot Junior Chair",
-    "major": "Industrial & Systems Engineering",
-    "img": "https://drive.google.com/open?id=1LEzryDWf61ha3lx-6RvdFY0unurrvtvW",
-    "linkedIn": "www.linkedin.com/in/summerrwong",
-    "desc": "Howdy, I'm Summer, class of '26. I am the Server and Bot Junior Chair and a PT for ENGR 102 and PHYS 216. I am passionate about software development and user interaction. I am an enjoyer of music, star gazing, and doing spontaneous activities with friends. "
-  },
-  {
-    "Timestamp": "2024-05-01T18:45:57.086Z",
-    "firstName": "Lawrence",
-    "lastName": "Wong",
-    "position": "Server and Bot Officer",
-    "major": "Computer Science",
-    "img": "https://drive.google.com/open?id=1rI7Yv26eq429_FzF_Yml0JAiipzxZGt9",
-    "linkedIn": "https://linkedin.com/in//lawrencewongg",
-    "desc": "Howdy! I'm a Computer Science Major in the class of '26 and I'm looking to get a masters degree and specialize in ML. In my free time I enjoy sleeping."
-  },
-  {
-    "Timestamp": "2024-05-02T02:15:00.777Z",
-    "firstName": "Xiaoyan",
-    "lastName": "Zhou",
-    "position": "Content Officer",
-    "major": "Mechanical Engineering",
-    "img": "https://drive.google.com/open?id=1_Wig1QefRy6Ooj7by467ZLEu7mFUpNSq",
-    "linkedIn": "linkedin.com/in/xiaoyan-zhou-487092254",
-    "desc": ""
-  },
-  {
-    "Timestamp": "2024-05-03T16:04:03.576Z",
-    "firstName": "Siddarth",
-    "lastName": "Kotthur",
-    "position": "Web Officer",
-    "major": "Computer Science",
-    "img": "https://drive.google.com/open?id=1mxRI-Us_TokYRPDTNMFCahdY2sWgK5pb",
-    "linkedIn": "https://www.linkedin.com/in/siddarthkot/",
-    "desc": ""
-  },
-  {
-    "Timestamp": "2024-05-05T01:25:10.011Z",
-    "firstName": "Larissa",
-    "lastName": "Kim",
-    "position": "Web Officer",
-    "major": "CPSC",
-    "img": "https://drive.google.com/open?id=1cwmc87uuFVaIOFvt7XCtDaSRXyQR7dYZ",
-    "linkedIn": "https://www.linkedin.com/in/kimlarissa/",
-    "desc": "CPSC '27\ncat lover\ni play val, league, and occasionally r6\ni love drawing"
-  },
-  {
-    "Timestamp": "2024-05-13T02:55:15.827Z",
     "firstName": "Eric",
     "lastName": "Liu",
     "position": "Web Officer",
     "major": "Computer Science",
-    "img": "https://drive.google.com/open?id=1UtWJ-8He6CdiRomdLdgDkRx7obYLxA6N",
+    "img": "officer_imgs/Eric Liu.jpeg",
     "linkedIn": "https://www.linkedin.com/in/eric-liu-b75550220/",
     "desc": "Howdy! I'm Eric and I'm a web officer here at TAO. Besides CS, I'm really into English (literature courses go crazy), and I'm also a sports reporter at the Battalion."
+  },
+  {
+    "firstName": "Ashley",
+    "lastName": "Zhang",
+    "position": "Web Officer",
+    "major": "Computer Science",
+    "img": "officer_imgs/Ashley Zhang.jpeg",
+    "linkedIn": "https://www.linkedin.com/in/ashley-j-zhang/",
+    "desc": "Hi! I'm Ashley. I love programming, fashion, my dog Cici, chess, and shoegaze music. This summer I've been playing a LOT of Realm of the Mad God."
+  },
+  {
+    "firstName": "Siddarth",
+    "lastName": "Kotthur",
+    "position": "Web Officer",
+    "major": "Computer Science",
+    "img": "officer_imgs/Siddarth Kotthur.jpg",
+    "linkedIn": "https://www.linkedin.com/in/siddarthkot/",
+    "desc": ""
+  },
+  {
+    "firstName": "Lawrence",
+    "lastName": "Wong",
+    "position": "Server and Bot Officer",
+    "major": "Computer Science",
+    "img": "officer_imgs/Lawrence Wong.jpg",
+    "linkedIn": "https://linkedin.com/in//lawrencewongg",
+    "desc": "Howdy! I'm a Computer Science Major in the class of '26 and I'm looking to get a masters degree and specialize in ML. In my free time I enjoy sleeping."
+  },
+  {
+    "firstName": "Xiaoyan",
+    "lastName": "Zhou",
+    "position": "Content Officer",
+    "major": "Mechanical Engineering",
+    "img": "officer_imgs/Xiaoyan Zhou.jpeg",
+    "linkedIn": "https://www.linkedin.com/in/xiaoyan-zhou-487092254/",
+    "desc": ""
   }
 ]
