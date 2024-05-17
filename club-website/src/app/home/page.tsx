@@ -2,7 +2,10 @@
 import { poppins } from "../fonts";
 import { Badge } from "@/components/ui/badge"
 import Image from "next/image";
+import { Calendar } from "@/components/ui/calendar"
+import React from "react";
 export default function Home() {
+    const [date, setDate] = React.useState<Date | undefined>(new Date())
     const announcements = [
         {
             date: '8/23',
@@ -21,6 +24,24 @@ export default function Home() {
             title: 'Review drive posted',
         },
     ]
+    const upcomings = [
+        {
+            date: '8/25',
+            title: 'First day of classes',
+        },
+        {
+            date: '8/25',
+            title: 'First day of classes',
+        },
+        {
+            date: '8/25',
+            title: 'First day of classes',
+        },
+        {
+            date: '8/25',
+            title: 'First day of classes',
+        },
+    ]
     return(
         <main className="flex min-h-screen flex-col items-center justify-between p-8 lg:p-24 gap-12">
           <div className="flex flex-col gap-4">
@@ -28,7 +49,7 @@ export default function Home() {
               WHAT WE'RE DOING
             </h1>
             <div className=" flex flex-col lg:flex-row gap-8">
-              <div className="flex flex-col lg:w-1/3">
+              <div className="flex flex-col lg:w-1/3 gap-2">
                 <h2 className="text-2xl font-bold style={poppins.style}">
                   Announcements
                 </h2>
@@ -69,6 +90,33 @@ export default function Home() {
                   <Badge className="bg-[#364967]">
                     <p className="text-xl">See all Announcements -></p>
                   </Badge>
+                </div>
+              </div>
+            </div>
+            <div className="flex flex-col gap-8 lg:flex-row">
+              <div className="flex flex-col lg:w-1/3">
+                <Calendar
+                  mode="single"
+                  selected={date}
+                  onSelect={setDate}
+                  className="rounded-md border"
+                />
+              </div>
+              <div className="flex flex-col gap-2 lg:w-2/3">
+                <h2 className="text-2xl font-bold style={poppins.style}">
+                  Upcoming Events!
+                </h2>
+                <div>
+                  <div className="flex flex-col gap-4">
+                    {upcomings.map((upcoming, index) => (
+                      <a>
+                        <div className="bg-[#F6F6F6] p-4 rounded-xl hover:translate-y-2 duration-200" key={index}>
+                          <p>{upcoming.date}</p>
+                          <p>{upcoming.title}</p>
+                        </div>
+                      </a>
+                    ))}
+                  </div>
                 </div>
               </div>
             </div>
