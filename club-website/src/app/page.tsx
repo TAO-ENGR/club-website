@@ -62,9 +62,43 @@ export default function Experience_TL() {
   }, [index]);
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-4 lg:p-24 gap-12">
+    <main className="bg-slate-50 flex min-h-screen flex-col gap-12">
+      
+      <h1 className="text-slate-950 md:text-4xl text-3xl text-left font-bold items-start mt-16 px-24" style={poppins.style}>RESOURCES</h1>
+
+      <div className="bg-maroon w-full md:h-[23.5rem] flex justify-between overflow-hidden">
+
+        <div>
+          <h2 className="text-slate-50 lg:text-6xl md:text-5xl text-4xl font-bold pl-10 pr-10 pt-10
+          pb-7 order-2 uppercase">Featured</h2>
+          <h3 className="text-slate-50 lg:text-6xl md:text-5xl text-4xl font-bold pl-10 uppercase">Content</h3>
+
+          <h3 className="text-lightGray lg:text-[1.2rem] lg:line-height-[1.75rem] md:text-l font-bold pl-10 pr-10 pt-9
+          pb-0">SPRING 2023 ENGR 216 FINAL</h3>
+          <h3 className="text-lightGray lg:text-[1.2rem] lg:line-height-[1.75rem] d:text-l font-bold pl-10 pr-10 pt-0
+          pb-8">EXAM MATERIALS</h3>
+          
+          <div className="pl-10 pb-10 lg:pb-[3.1rem] w-fit">
+            <a
+              href="https://drive.google.com/drive/u/4/folders/1Z0DnRWiczanfWoSsFcsjrseWeGW1YDEE"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-4 hover:gap-6 duration-200 bg-ashyBlue text-slate-50 lg:text-base md:text-xs text-sm 
+              rounded-2xl px-2.5 py-1">
+
+              <span>view drive materials</span>
+              <span>→</span>
+            </a>
+          </div>
+
+        </div>
+
+        <Image src="/featured_content.png" alt="Featured content" width={500} height={500} className="h-full"></Image>
+
+      </div>
+    
       <div className="w-full">
-        <h2 className='text-4xl lg:text-6xl font-bold uppercase mb-8' style={poppins.style}>
+        <h2 className='text-slate-950 md:text-4xl text-3xl text-left font-bold items-start uppercase mb-8 px-24' style={poppins.style}>
             Material Hubs
         </h2>
       
@@ -101,15 +135,12 @@ export default function Experience_TL() {
                   </div>
               ))}
             </div>
-                 
-            <div className="text-sm">
-              <p>{ MATERIAL_HUBS[index].description }</p>
-            </div>
 
           </div>
         </div>
 
       </div>
+
     </main>
     
   );
