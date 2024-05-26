@@ -11,24 +11,27 @@ interface MaterialHub {
   description: string;
 }
 
+const WINDOW_SIZE_min = "min-w-[300px] md:min-w-[400px] lg:min-w-[600px] "
+const WINDOW_SIZE_max = "max-w-[300px] md:max-w-[400px] lg:max-w-[600px] "
+
 const MATERIAL_HUBS : MaterialHub[] = 
 [
   {
     title: 'Our YouTube',
     icon: <FaYoutube size={24} />,
-    image: <Image src='/yt_vid.png' alt="Youtube video" width={500} height={200}></Image>,
+    image: <Image src='/yt_vid.png' alt="Youtube video" width={500} height={200} className="w-full"></Image>,
     description: "TAO’s YouTube channel (TAO-ENGR) -- including basic videos as well as recordings of exam reviews.",
   },
   {
     title: 'Our Google Drive',
     icon: <FaGoogleDrive size={24} />,
-    image: <Image src='/drive_ss.png' alt="Google drive" width={500} height={200}></Image>,
+    image: <Image src='/drive_ss.png' alt="Google drive" width={500} height={200} className="w-full"></Image>,
     description: "Access TAO’s shared resources including review materials and practice problems on tx.ag/taodrive.",
   },
   {
     title: 'Our Github',
     icon: <FaGithub size={24} />,
-    image: <Image src='/gh_ss.png' alt="Github profile" width={500} height={200}></Image>,
+    image: <Image src='/gh_ss.png' alt="Github profile" width={500} height={200} className="w-full"></Image>,
     description: "TAO’s Github (TAO-ENGR) -- including projects and example code for certain programming concepts.",
   },
 
@@ -98,30 +101,30 @@ export default function Experience_TL() {
       </div>
     
       <div className="w-full">
-        <h2 className='text-slate-950 md:text-4xl text-3xl text-left font-bold items-start uppercase mb-8 px-24' style={poppins.style}>
+        <h2 className='text-slate-950 md:text-4xl text-3xl text-left font-bold items-start uppercase mb-8 mx-12 sm:mx-24' style={poppins.style}>
             Material Hubs
         </h2>
       
-        <div className='bg-[#EBEBEB] rounded-xl p-8 flex flex-col md:flex-row gap-8 items-center justify-between'>
-          <div className="max-w-[500px] rounded-lg overflow-hidden">
+        <div className='bg-[#EBEBEB] rounded-xl p-8 flex flex-col md:flex-row gap-8 items-center justify-between mx-12 sm:mx-24'>
+          <div className={WINDOW_SIZE_max + ` rounded-lg overflow-hidden`}>
             <div
               className="flex no-wrap gap-0 duration-500 ease-in-out"
               style={{ transform: `translate3d(${-index * 100}%, 0, 0)` }}
             >
               {MATERIAL_HUBS.map((material_hub, index) => (
 
-                <div key={index} className="min-w-[500px] p-2 bg-white">
+                <div key={index} className={WINDOW_SIZE_min + ` p-2 bg-white`}>
                   {material_hub.image}
                 </div>
               ))}
             </div>
           </div>          
           <div className='w-full md:w-[50vw] flex flex-row md:flex-col gap-4 items-start flex-grow p-4'>
-            <div className="flex flex-col gap-4 flex-grow w-[70vw] md:w-auto">
+            <div className="flex flex-col gap-4 flex-grow w-[50vw] md:w-auto">
               {MATERIAL_HUBS.map((material_hub, idx) => (
                   <div
                       key={idx}
-                      className={`duration-500 flex gap-4 ${index === idx ? " opacity-100" : "opacity-50"}`}
+                      className={`hover:cursor-pointer hover:opacity-70 duration-500 flex gap-4 ${index === idx ? " opacity-100" : "opacity-50"}`}
                       onClick={() => {
                         setIndex(idx);
                       }}
@@ -134,6 +137,10 @@ export default function Experience_TL() {
                     </div>
                   </div>
               ))}
+            </div>
+
+            <div className="text-sm">
+              <p>{ MATERIAL_HUBS[index].description }</p>
             </div>
 
           </div>
