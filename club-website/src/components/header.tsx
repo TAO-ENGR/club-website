@@ -21,7 +21,7 @@ export default function Header() {
         
         <div className="flex justify-between p-6" id="logo_address">
             <Link href="/about" legacyBehavior passHref>
-                <Image id="logo" src="/lightLogo.png" alt="" width={50} height={50}></Image> 
+                <Image id="logo" src="/lightLogo.png" alt="" width={160} height={80}></Image> 
             </Link>
                 
             <div className="flex gap-6">
