@@ -106,7 +106,7 @@ export default function Experience_TL() {
         </h2>
       
         <div className='bg-[#EBEBEB] rounded-xl p-8 flex flex-col md:flex-row gap-8 items-center justify-between mx-12 sm:mx-24'>
-          <div className={WINDOW_SIZE_max + ` rounded-lg overflow-hidden`}>
+          <div className={ WINDOW_SIZE_max + ` rounded-lg overflow-hidden`}>
             <div
               className="flex no-wrap gap-0 duration-500 ease-in-out"
               style={{ transform: `translate3d(${-index * 100}%, 0, 0)` }}
