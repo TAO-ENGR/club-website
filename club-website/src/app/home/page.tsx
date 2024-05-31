@@ -45,7 +45,7 @@ export default function Home() {
     return(
         <main className="flex min-h-screen flex-col items-center justify-between p-8 lg:p-24 gap-12">
           <div className="flex flex-col gap-4">
-            <h1 className='text-4xl lg:text-6xl font-bold uppercase' style={poppins.style}>
+            <h1 className='text-4xl font-bold uppercase' style={poppins.style}>
               WHAT WE'RE DOING
             </h1>
             <div className=" flex flex-col lg:flex-row gap-8">
@@ -88,7 +88,7 @@ export default function Home() {
                 </div>
                 <div>
                   <Badge className="bg-[#364967]">
-                    <p className="text-xl">See all Announcements -></p>
+                    <p className="text-xl">See all Announcements -{'>'}</p>
                   </Badge>
                 </div>
               </div>
