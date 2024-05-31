@@ -96,7 +96,7 @@ export default function Experience_TL() {
 
         </div>
 
-        <Image src="/featured_content.png" alt="Featured content" width={500} height={500} className="h-full"></Image>
+        <Image src="/featured_content-transparent.png" alt="Featured content" width={500} height={500} className="h-full"></Image>
 
       </div>
     
