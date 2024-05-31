@@ -119,7 +119,7 @@ export default function Experience_TL() {
               ))}
             </div>
           </div>          
-          <div className='w-full md:w-[50vw] flex flex-row md:flex-col gap-4 items-start flex-grow p-4'>
+          <div className='w-full md:w-[50vw] flex flex-col gap-4 items-start flex-grow p-4'>
             <div className="flex flex-col gap-4 flex-grow w-[50vw] md:w-auto">
               {MATERIAL_HUBS.map((material_hub, idx) => (
                   <div
