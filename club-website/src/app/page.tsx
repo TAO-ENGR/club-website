@@ -72,7 +72,7 @@ export default function Experience_TL() {
       <div className="bg-maroon w-full md:h-[23.5rem] flex justify-between overflow-hidden">
 
         <div>
-          <h2 className="text-slate-50 lg:text-6xl md:text-5xl text-4xl font-bold px-12 lg:px-24 pt-12
+          <h2 className="text-slate-50 lg:text-6xl md:text-5xl text-4xl font-bold px-12 lg:px-24 pt-10
           pb-3 lg:pb-5 order-2 uppercase">Featured</h2>
           <h3 className="text-slate-50 lg:text-6xl md:text-5xl text-4xl font-bold pl-12 lg:pl-24 uppercase">Content</h3>
 
