@@ -2,12 +2,20 @@ import Image from "next/image";
 
 export default function Home() {
     return (
+<<<<<<< Updated upstream
         <main className="bg-[#f8f4f4] pl-20">
+=======
+        <main className="bg-[#f8f4f4] px-24">
+>>>>>>> Stashed changes
             <h1 className="text-4xl font-bold pt-11 pb-7">CREATING CHANGE</h1>
 
             <p className="text-xl pb-7">We have already <s>improved exam and assignment scores</s> fostered a community.</p>
 
+<<<<<<< Updated upstream
             <div className="flex border-2 max-w-[54rem]">
+=======
+            <div className="flex flex-col lg:flex-row">
+>>>>>>> Stashed changes
                 <div className="bg-maroon flex-initial w-72 border-2 p-6 pb-8 text-white">
                     <p className="text-xl mb-2">⬜ Total hours</p>
                     <p className="text-6xl">919.40</p>
