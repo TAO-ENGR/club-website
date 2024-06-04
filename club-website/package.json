@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "postbuild": "ls .next/static/css",
     "start": "next start",
     "lint": "next lint"
   },
