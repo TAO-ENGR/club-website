@@ -1,10 +1,3 @@
 [build]
-  environment = { NODE_VERSION = "21.6.1" }
   command = "npm run build"
-
-[[redirects]]
-from = '/_next/image/*'
-query = { q = ':quality', url = ':url', w = ':width' }
-to = '/.netlify/images?url=:url&w=:width&q=:quality'
-status = 200
-force = true
+  publish = ".next"

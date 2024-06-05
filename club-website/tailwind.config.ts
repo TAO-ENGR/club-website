@@ -3,13 +3,10 @@ import type { Config } from "tailwindcss"
 const config = {
   darkMode: ["class"],
   content: [
-    './pages/**/*.{js,ts,jsx,tsx}',
-    './components/**/*.{js,ts,jsx,tsx}',
-    './app/**/*.{js,ts,jsx,tsx}',
-    './src/components/ui/**/*.{js,ts,jsx,tsx}',
-    './src/components/**/*.{js,ts,jsx,tsx}',
-    './src/app/**/*.{js,ts,jsx,tsx}',
-    './src/**/*.{js,ts,jsx,tsx}',
+    './pages/**/*.{ts,tsx}',
+    './components/**/*.{ts,tsx}',
+    './app/**/*.{ts,tsx}',
+    './src/**/*.{ts,tsx}',
 	],
   prefix: "",
   theme: {
@@ -22,9 +19,8 @@ const config = {
     },
     extend: {
       colors: {
-        maroon: "#5a0000",
+        maroon: "#731b1d",
         darkMaroon: "#4d0000",
-        lightGray: "#818181",
         weirdGray: "#272a29",
         ashyBlue: "#3c4c68",
         lightBlue: "#4d8f9f",
