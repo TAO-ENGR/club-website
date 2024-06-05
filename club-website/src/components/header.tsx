@@ -20,7 +20,7 @@ export default function Header() {
     return (
         
         <div className="flex justify-between p-6" id="logo_address">
-            <Link href="/about" legacyBehavior passHref>
+            <Link href="/">
                 <Image id="logo" src="/lightLogo.png" alt="" width={160} height={80}></Image> 
             </Link>
                 
