@@ -104,7 +104,7 @@ export default function Experience_TL() {
 
       </div>
     
-      <div className="w-full">
+      <div className="w-full pb-12">
         <h2 className='text-slate-950 md:text-4xl text-3xl text-left font-bold items-start uppercase mb-8 mx-12 lg:mx-24' style={poppins.style}>
             Material Hubs
         </h2>
