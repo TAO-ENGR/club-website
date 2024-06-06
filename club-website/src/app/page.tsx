@@ -71,7 +71,7 @@ export default function Experience_TL() {
   return (
     <main className="bg-slate-50 flex min-h-screen flex-col gap-12">
       
-      <h1 className="text-slate-950 md:text-4xl text-3xl text-left font-bold items-start mt-16 mx-12 sm:mx-24" style={poppins.style}>RESOURCES</h1>
+      <h1 className="text-slate-950 md:text-4xl text-3xl text-left font-bold items-start mt-16 mx-12 lg:mx-24" style={poppins.style}>RESOURCES</h1>
 
       <div className="bg-maroon w-full md:h-[23.5rem] flex justify-between overflow-hidden">
 
@@ -105,11 +105,11 @@ export default function Experience_TL() {
       </div>
     
       <div className="w-full">
-        <h2 className='text-slate-950 md:text-4xl text-3xl text-left font-bold items-start uppercase mb-8 mx-12 sm:mx-24' style={poppins.style}>
+        <h2 className='text-slate-950 md:text-4xl text-3xl text-left font-bold items-start uppercase mb-8 mx-12 lg:mx-24' style={poppins.style}>
             Material Hubs
         </h2>
       
-        <div className='bg-[#EBEBEB] rounded-xl p-8 flex flex-col md:flex-row gap-8 items-center justify-between mx-12 sm:mx-24'>
+        <div className='bg-[#EBEBEB] rounded-xl p-8 flex flex-col md:flex-row gap-8 items-center justify-between mx-12 lg:mx-24'>
           <div className={ WINDOW_SIZE_max + ` rounded-lg overflow-hidden`}>
             <div
               className="flex no-wrap gap-0 duration-500 ease-in-out"
