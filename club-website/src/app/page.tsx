@@ -22,21 +22,21 @@ const MATERIAL_HUBS : MaterialHub[] =
     icon: <FaYoutube size={24} />,
     image: <Image src='/yt_vid.png' alt="Youtube video" width={500} height={200} className="w-full"></Image>,
     link:"https://www.youtube.com/@engrtao",
-    description: "TAO’s YouTube channel (TAO-ENGR) -- including basic videos as well as recordings of exam reviews.",
+    description: "TAO\'s YouTube channel (TAO-ENGR) -- including basic videos as well as recordings of exam reviews.",
   },
   {
     title: 'Our Google Drive',
     icon: <FaGoogleDrive size={24} />,
     image: <Image src='/drive_ss.png' alt="Google drive" width={500} height={200} className="w-full"></Image>,
     link: "https://drive.google.com/drive/folders/128TePaIK-zwts9vzNhZfj3_mJ3IH_L9d?usp=sharing",
-    description: "Access TAO’s shared resources including review materials and practice problems on tx.ag/taodrive.",
+    description: "Access TAO\'s shared resources including review materials and practice problems on tx.ag/taodrive.",
   },
   {
     title: 'Our Github',
     icon: <FaGithub size={24} />,
     image: <Image src='/gh_ss.png' alt="Github profile" width={500} height={200} className="w-full"></Image>,
     link: "https://github.com/TAO-ENGR",
-    description: "TAO’s Github (TAO-ENGR) -- including projects and example code for certain programming concepts.",
+    description: "TAO\'s Github (TAO-ENGR) -- including projects and example code for certain programming concepts.",
   },
 
 ]

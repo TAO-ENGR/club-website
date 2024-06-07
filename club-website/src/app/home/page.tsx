@@ -46,7 +46,7 @@ export default function Home() {
         <main className="flex min-h-screen flex-col items-center justify-between p-8 lg:p-24 gap-12">
           <div className="flex flex-col gap-4">
             <h1 className='text-4xl font-bold uppercase' style={poppins.style}>
-              WHAT WE'RE DOING
+              WHAT WE&apos;RE DOING
             </h1>
             <div className=" flex flex-col lg:flex-row gap-8">
               <div className="flex flex-col lg:w-1/3 gap-2">
@@ -56,7 +56,7 @@ export default function Home() {
                 <div>
                   <div className="flex flex-col gap-4">
                     {announcements.map((announcement, index) => (
-                      <a>
+                      <a key={index}>
                         <div className="bg-[#F6F6F6] p-4 rounded-xl hover:translate-y-2 duration-200" key={index}>
                           <p>{announcement.date}</p>
                           <p>{announcement.title}</p>
@@ -75,7 +75,7 @@ export default function Home() {
                     <Badge className="bg-[#5A0000]"><p className="text-xl">@everyone</p></Badge>
                     <div className="flex flex-col gap-8">
                       <div>
-                        <p className="text-xl font-bold">TAO Server: What's Next?</p>
+                        <p className="text-xl font-bold">TAO Server: What&apos;s Next?</p>
                         <p className="text-xl">Howdy everyone! you might be wondering what will become of this server now that most of you have completed the etam sequence and here are your answers :)</p>
                       </div>
                       <div>
@@ -109,7 +109,7 @@ export default function Home() {
                 <div>
                   <div className="flex flex-col gap-4">
                     {upcomings.map((upcoming, index) => (
-                      <a>
+                      <a key={index}>
                         <div className="bg-[#F6F6F6] p-4 rounded-xl hover:translate-y-2 duration-200" key={index}>
                           <p>{upcoming.date}</p>
                           <p>{upcoming.title}</p>
