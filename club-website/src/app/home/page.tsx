@@ -22,11 +22,6 @@ export default function Home() {
                 </div>
             </div>
 
-            <div className="pt-7 pb-40">
-                <a href="/about/#impact" className="bg-ashyBlue text-slate-50
-             rounded-2xl px-2.5 py-1 text-sm">see more of our impact →</a>
-            </div>
-
         </main>
     );
 }
