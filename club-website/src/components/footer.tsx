@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import { RiDriveLine, RiDiscordLine, RiMailLine, RiLinkedinBoxLine, RiYoutubeLine, RiGithubLine, RiInstagramLine} from "react-icons/ri"
+import { RiMailLine, RiYoutubeLine, RiGithubLine, RiDriveLine, RiLinkedinBoxLine, RiInstagramLine, RiDiscordLine } from "react-icons/ri";
 import Link from "next/link"
 
 const LINKS = [
