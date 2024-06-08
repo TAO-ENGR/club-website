@@ -3,8 +3,12 @@ import about from "./about.module.css";
 import Link from "next/link";
 import { OfficerType } from "@/lib/types";
 import Image from "next/image";
-import officerData from "../../../public/officers.json";
-import execData from "../../../public/execs.json";
+import contentData from "../../../public/officers/content.json";
+import webData from "../../../public/officers/web.json";
+import serverData from "../../../public/officers/server.json";
+import socialData from "../../../public/officers/social.json";
+
+import execData from "../../../public/officers/execs.json";
 
 import {
   HoverCard,
@@ -14,7 +18,10 @@ import {
 
 export default function About() {
   const execs: OfficerType[] = execData;
-  const officers: OfficerType[] = officerData;
+  const content: OfficerType[] = contentData;
+  const web: OfficerType[] = webData;
+  const server: OfficerType[] = serverData;
+  const social: OfficerType[] = socialData;
 
   return (
     <>
@@ -177,8 +184,173 @@ export default function About() {
             </div>
           ))}
         </div>
-        <div className="flex flex-wrap items-start justify-center gap-12">
-          {officers.map((officer, index) => (
+        <div className="flex flex-wrap items-start justify-center gap-12 mb-12">
+          {content.map((officer, index) => (
+            <div
+              className="flex flex-col items-center justify-center text-center w-44"
+              key={index}
+            >
+              {officer.desc == "" ? (
+                <img
+                  src={officer.img}
+                  alt=""
+                  className="w-40 h-40 object-cover mb-4 rounded-2xl"
+                />
+              ) : (
+                <HoverCard>
+                  <HoverCardTrigger>
+                    <img
+                      src={officer.img}
+                      alt=""
+                      className="w-40 h-40 object-cover mb-4 rounded-2xl cursor-pointer"
+                    />
+                  </HoverCardTrigger>
+                  <HoverCardContent
+                    dangerouslySetInnerHTML={{ __html: officer.desc }}
+                  ></HoverCardContent>
+                </HoverCard>
+              )}
+              <p>
+                {officer.linkedIn == "" ? (
+                  <b>
+                    {officer.firstName.toUpperCase()}{" "}
+                    {officer.lastName.toUpperCase()}
+                  </b>
+                ) : (
+                  <a
+                    href={officer.linkedIn}
+                    target="_blank"
+                    className="hover:text-maroon"
+                  >
+                    <b>
+                      <u>
+                        {officer.firstName.toUpperCase()}{" "}
+                        {officer.lastName.toUpperCase()}
+                      </u>
+                    </b>
+                  </a>
+                )}
+
+                <br />
+                {officer.position}
+                <br />
+                {officer.major}
+              </p>
+            </div>
+          ))}
+        </div>
+        <div className="flex flex-wrap items-start justify-center gap-12 mb-12">
+          {web.map((officer, index) => (
+            <div
+              className="flex flex-col items-center justify-center text-center w-44"
+              key={index}
+            >
+              {officer.desc == "" ? (
+                <img
+                  src={officer.img}
+                  alt=""
+                  className="w-40 h-40 object-cover mb-4 rounded-2xl"
+                />
+              ) : (
+                <HoverCard>
+                  <HoverCardTrigger>
+                    <img
+                      src={officer.img}
+                      alt=""
+                      className="w-40 h-40 object-cover mb-4 rounded-2xl cursor-pointer"
+                    />
+                  </HoverCardTrigger>
+                  <HoverCardContent
+                    dangerouslySetInnerHTML={{ __html: officer.desc }}
+                  ></HoverCardContent>
+                </HoverCard>
+              )}
+              <p>
+                {officer.linkedIn == "" ? (
+                  <b>
+                    {officer.firstName.toUpperCase()}{" "}
+                    {officer.lastName.toUpperCase()}
+                  </b>
+                ) : (
+                  <a
+                    href={officer.linkedIn}
+                    target="_blank"
+                    className="hover:text-maroon"
+                  >
+                    <b>
+                      <u>
+                        {officer.firstName.toUpperCase()}{" "}
+                        {officer.lastName.toUpperCase()}
+                      </u>
+                    </b>
+                  </a>
+                )}
+
+                <br />
+                {officer.position}
+                <br />
+                {officer.major}
+              </p>
+            </div>
+          ))}
+        </div>
+        <div className="flex flex-wrap items-start justify-center gap-12 mb-12">
+          {server.map((officer, index) => (
+            <div
+              className="flex flex-col items-center justify-center text-center w-44"
+              key={index}
+            >
+              {officer.desc == "" ? (
+                <img
+                  src={officer.img}
+                  alt=""
+                  className="w-40 h-40 object-cover mb-4 rounded-2xl"
+                />
+              ) : (
+                <HoverCard>
+                  <HoverCardTrigger>
+                    <img
+                      src={officer.img}
+                      alt=""
+                      className="w-40 h-40 object-cover mb-4 rounded-2xl cursor-pointer"
+                    />
+                  </HoverCardTrigger>
+                  <HoverCardContent
+                    dangerouslySetInnerHTML={{ __html: officer.desc }}
+                  ></HoverCardContent>
+                </HoverCard>
+              )}
+              <p>
+                {officer.linkedIn == "" ? (
+                  <b>
+                    {officer.firstName.toUpperCase()}{" "}
+                    {officer.lastName.toUpperCase()}
+                  </b>
+                ) : (
+                  <a
+                    href={officer.linkedIn}
+                    target="_blank"
+                    className="hover:text-maroon"
+                  >
+                    <b>
+                      <u>
+                        {officer.firstName.toUpperCase()}{" "}
+                        {officer.lastName.toUpperCase()}
+                      </u>
+                    </b>
+                  </a>
+                )}
+
+                <br />
+                {officer.position}
+                <br />
+                {officer.major}
+              </p>
+            </div>
+          ))}
+        </div>
+        <div className="flex flex-wrap items-start justify-center gap-12 mb-12">
+          {social.map((officer, index) => (
             <div
               className="flex flex-col items-center justify-center text-center w-44"
               key={index}
