@@ -1,9 +1,28 @@
 import { poppins } from "../fonts";
 import about from "./about.module.css";
 import Link from "next/link";
+import { OfficerType } from "@/lib/types";
 import Image from "next/image";
+import contentData from "../../../public/officers/content.json";
+import webData from "../../../public/officers/web.json";
+import serverData from "../../../public/officers/server.json";
+import socialData from "../../../public/officers/social.json";
+
+import execData from "../../../public/officers/execs.json";
+
+import {
+  HoverCard,
+  HoverCardContent,
+  HoverCardTrigger,
+} from "@/components/ui/hover-card";
 
 export default function About() {
+  const execs: OfficerType[] = execData;
+  const content: OfficerType[] = contentData;
+  const web: OfficerType[] = webData;
+  const server: OfficerType[] = serverData;
+  const social: OfficerType[] = socialData;
+
   return (
     <>
       <div className={`text-left bg p-16 ${about["bg-light-gray"]}`}>
@@ -72,7 +91,13 @@ export default function About() {
           students and TA&rsquo;s
         </p>
         <br />
-        <Image src="/impact_graph.png" alt="Impact graph" className="w-lvw" width={500} height={500} />
+        <Image
+          src="/impact_graph.png"
+          alt="Impact graph"
+          className="w-lvw"
+          width={500}
+          height={500}
+        />
         <br />
         <div className="flex items-center gap-16">
           <Image
@@ -83,6 +108,301 @@ export default function About() {
             height={500}
           />
           <p className="text-4xl">⬅️ Real impact 👀</p>
+        </div>
+      </div>
+      <div className={`text-left bg p-16 ${about["bg-light-gray"]}`}>
+        <h1 className="font-bold text-6xl mb-10" style={poppins.style}>
+          MEMBERSHIP
+        </h1>
+        <p className="Inter text-md">
+          While TAO serves all PTs and students of ENGR 102 and 216, our members
+          are those who pass both of these courses and then use their skills to
+          help future students on our discord and in our reviews.
+          <br />
+          <br /> Applications to be a member open <b>soon</b>, and will be
+          announced via our discord. <br />
+          <br /> The process will include an application and interview. <br />
+          <br /> So if TAO has positively impacted you and you want to give
+          back, please check in then! We&rsquo;d love to have you as a member.
+        </p>
+      </div>
+      <div className={`text-left bg p-16 ${about["bg-light-gray"]}`}>
+        <h1 className="font-bold text-6xl mb-10" style={poppins.style}>
+          OFFICERS
+        </h1>
+        <div className="flex flex-wrap items-start justify-center gap-12 mb-12">
+          {execs.map((exec, index) => (
+            <div
+              className="flex flex-col items-center justify-center text-center w-56"
+              key={index}
+            >
+              {exec.desc == "" ? (
+                <img
+                  src={exec.img}
+                  alt=""
+                  className="w-40 h-40 object-cover mb-4 rounded-2xl"
+                />
+              ) : (
+                <HoverCard>
+                  <HoverCardTrigger>
+                    <img
+                      src={exec.img}
+                      alt=""
+                      className="w-40 h-40 object-cover mb-4 rounded-2xl cursor-pointer"
+                    />
+                  </HoverCardTrigger>
+                  <HoverCardContent
+                    dangerouslySetInnerHTML={{ __html: exec.desc }}
+                  ></HoverCardContent>
+                </HoverCard>
+              )}
+              <p>
+                {exec.linkedIn == "" ? (
+                  <b>
+                    {exec.firstName.toUpperCase()} {exec.lastName.toUpperCase()}
+                  </b>
+                ) : (
+                  <a
+                    href={exec.linkedIn}
+                    target="_blank"
+                    className="hover:text-maroon"
+                  >
+                    <b>
+                      <u>
+                        {exec.firstName.toUpperCase()}{" "}
+                        {exec.lastName.toUpperCase()}
+                      </u>
+                    </b>
+                  </a>
+                )}
+
+                <br />
+                {exec.position}
+                <br />
+                {exec.major}
+              </p>
+            </div>
+          ))}
+        </div>
+        <div className="flex flex-wrap items-start justify-center gap-12 mb-12">
+          {content.map((officer, index) => (
+            <div
+              className="flex flex-col items-center justify-center text-center w-44"
+              key={index}
+            >
+              {officer.desc == "" ? (
+                <img
+                  src={officer.img}
+                  alt=""
+                  className="w-40 h-40 object-cover mb-4 rounded-2xl"
+                />
+              ) : (
+                <HoverCard>
+                  <HoverCardTrigger>
+                    <img
+                      src={officer.img}
+                      alt=""
+                      className="w-40 h-40 object-cover mb-4 rounded-2xl cursor-pointer"
+                    />
+                  </HoverCardTrigger>
+                  <HoverCardContent
+                    dangerouslySetInnerHTML={{ __html: officer.desc }}
+                  ></HoverCardContent>
+                </HoverCard>
+              )}
+              <p>
+                {officer.linkedIn == "" ? (
+                  <b>
+                    {officer.firstName.toUpperCase()}{" "}
+                    {officer.lastName.toUpperCase()}
+                  </b>
+                ) : (
+                  <a
+                    href={officer.linkedIn}
+                    target="_blank"
+                    className="hover:text-maroon"
+                  >
+                    <b>
+                      <u>
+                        {officer.firstName.toUpperCase()}{" "}
+                        {officer.lastName.toUpperCase()}
+                      </u>
+                    </b>
+                  </a>
+                )}
+
+                <br />
+                {officer.position}
+                <br />
+                {officer.major}
+              </p>
+            </div>
+          ))}
+        </div>
+        <div className="flex flex-wrap items-start justify-center gap-12 mb-12">
+          {web.map((officer, index) => (
+            <div
+              className="flex flex-col items-center justify-center text-center w-44"
+              key={index}
+            >
+              {officer.desc == "" ? (
+                <img
+                  src={officer.img}
+                  alt=""
+                  className="w-40 h-40 object-cover mb-4 rounded-2xl"
+                />
+              ) : (
+                <HoverCard>
+                  <HoverCardTrigger>
+                    <img
+                      src={officer.img}
+                      alt=""
+                      className="w-40 h-40 object-cover mb-4 rounded-2xl cursor-pointer"
+                    />
+                  </HoverCardTrigger>
+                  <HoverCardContent
+                    dangerouslySetInnerHTML={{ __html: officer.desc }}
+                  ></HoverCardContent>
+                </HoverCard>
+              )}
+              <p>
+                {officer.linkedIn == "" ? (
+                  <b>
+                    {officer.firstName.toUpperCase()}{" "}
+                    {officer.lastName.toUpperCase()}
+                  </b>
+                ) : (
+                  <a
+                    href={officer.linkedIn}
+                    target="_blank"
+                    className="hover:text-maroon"
+                  >
+                    <b>
+                      <u>
+                        {officer.firstName.toUpperCase()}{" "}
+                        {officer.lastName.toUpperCase()}
+                      </u>
+                    </b>
+                  </a>
+                )}
+
+                <br />
+                {officer.position}
+                <br />
+                {officer.major}
+              </p>
+            </div>
+          ))}
+        </div>
+        <div className="flex flex-wrap items-start justify-center gap-12 mb-12">
+          {server.map((officer, index) => (
+            <div
+              className="flex flex-col items-center justify-center text-center w-44"
+              key={index}
+            >
+              {officer.desc == "" ? (
+                <img
+                  src={officer.img}
+                  alt=""
+                  className="w-40 h-40 object-cover mb-4 rounded-2xl"
+                />
+              ) : (
+                <HoverCard>
+                  <HoverCardTrigger>
+                    <img
+                      src={officer.img}
+                      alt=""
+                      className="w-40 h-40 object-cover mb-4 rounded-2xl cursor-pointer"
+                    />
+                  </HoverCardTrigger>
+                  <HoverCardContent
+                    dangerouslySetInnerHTML={{ __html: officer.desc }}
+                  ></HoverCardContent>
+                </HoverCard>
+              )}
+              <p>
+                {officer.linkedIn == "" ? (
+                  <b>
+                    {officer.firstName.toUpperCase()}{" "}
+                    {officer.lastName.toUpperCase()}
+                  </b>
+                ) : (
+                  <a
+                    href={officer.linkedIn}
+                    target="_blank"
+                    className="hover:text-maroon"
+                  >
+                    <b>
+                      <u>
+                        {officer.firstName.toUpperCase()}{" "}
+                        {officer.lastName.toUpperCase()}
+                      </u>
+                    </b>
+                  </a>
+                )}
+
+                <br />
+                {officer.position}
+                <br />
+                {officer.major}
+              </p>
+            </div>
+          ))}
+        </div>
+        <div className="flex flex-wrap items-start justify-center gap-12 mb-12">
+          {social.map((officer, index) => (
+            <div
+              className="flex flex-col items-center justify-center text-center w-44"
+              key={index}
+            >
+              {officer.desc == "" ? (
+                <img
+                  src={officer.img}
+                  alt=""
+                  className="w-40 h-40 object-cover mb-4 rounded-2xl"
+                />
+              ) : (
+                <HoverCard>
+                  <HoverCardTrigger>
+                    <img
+                      src={officer.img}
+                      alt=""
+                      className="w-40 h-40 object-cover mb-4 rounded-2xl cursor-pointer"
+                    />
+                  </HoverCardTrigger>
+                  <HoverCardContent
+                    dangerouslySetInnerHTML={{ __html: officer.desc }}
+                  ></HoverCardContent>
+                </HoverCard>
+              )}
+              <p>
+                {officer.linkedIn == "" ? (
+                  <b>
+                    {officer.firstName.toUpperCase()}{" "}
+                    {officer.lastName.toUpperCase()}
+                  </b>
+                ) : (
+                  <a
+                    href={officer.linkedIn}
+                    target="_blank"
+                    className="hover:text-maroon"
+                  >
+                    <b>
+                      <u>
+                        {officer.firstName.toUpperCase()}{" "}
+                        {officer.lastName.toUpperCase()}
+                      </u>
+                    </b>
+                  </a>
+                )}
+
+                <br />
+                {officer.position}
+                <br />
+                {officer.major}
+              </p>
+            </div>
+          ))}
         </div>
       </div>
     </>
