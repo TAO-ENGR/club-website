@@ -23,8 +23,8 @@ export default function Home() {
             </div>
 
             <div className="pt-7 pb-40 w-fit">
-                <a href="/about/#impact" className="flex items-center gap-4 hover:gap-6 duration-200 bg-ashyBlue text-slate-50
-             rounded-2xl px-2.5 py-1 text-sm">
+                <a href="/about/#impact" className="flex items-center gap-4 hover:gap-6 duration-200 bg-ashyBlue text-slate-50 lg:text-base md:text-xs text-sm
+             rounded-2xl px-2.5 py-1">
 
                     <span>see more of our impact</span>
                     <span>→</span>
