@@ -71,21 +71,21 @@ export default function Experience_TL() {
   return (
     <main className="bg-slate-50 flex min-h-screen flex-col gap-12">
       
-      <h1 className="text-slate-950 md:text-4xl text-3xl text-left font-bold items-start mt-16 mx-8 lg:mx-24" style={poppins.style}>RESOURCES</h1>
+      <h1 className="text-slate-950 md:text-4xl text-3xl text-left font-bold items-start mt-16 mx-12 lg:mx-24" style={poppins.style}>RESOURCES</h1>
 
       <div className="bg-maroon w-full md:h-[23.5rem] flex justify-between overflow-hidden">
 
         <div>
-          <h2 className="text-slate-50 lg:text-6xl md:text-5xl text-4xl font-bold px-8 lg:px-24 pt-10
+          <h2 className="text-slate-50 lg:text-6xl md:text-5xl text-4xl font-bold px-12 lg:px-24 pt-10
           pb-3 lg:pb-5 order-2 uppercase">Featured</h2>
-          <h3 className="text-slate-50 lg:text-6xl md:text-5xl text-4xl font-bold pl-8 lg:pl-24 uppercase">Content</h3>
+          <h3 className="text-slate-50 lg:text-6xl md:text-5xl text-4xl font-bold pl-12 lg:pl-24 uppercase">Content</h3>
 
-          <h3 className="text-gray-400 lg:text-[1.2rem] lg:line-height-[1.75rem] md:text-l font-bold px-8 lg:px-24 pt-9
+          <h3 className="text-gray-400 lg:text-[1.2rem] lg:line-height-[1.75rem] md:text-l font-bold px-12 lg:px-24 pt-9
           pb-0">SPRING 2023 ENGR 216 FINAL</h3>
-          <h3 className="text-gray-400 lg:text-[1.2rem] lg:line-height-[1.75rem] d:text-l font-bold px-8 lg:px-24  pt-0
+          <h3 className="text-gray-400 lg:text-[1.2rem] lg:line-height-[1.75rem] d:text-l font-bold px-12 lg:px-24  pt-0
           pb-8">EXAM MATERIALS</h3>
           
-          <div className="pl-8 lg:pl-24 pb-12 lg:pb-[3.1rem] w-fit">
+          <div className="pl-12 lg:pl-24 pb-12 lg:pb-[3.1rem] w-fit">
             <a
               href="https://drive.google.com/drive/u/4/folders/1Z0DnRWiczanfWoSsFcsjrseWeGW1YDEE"
               target="_blank"
@@ -104,12 +104,12 @@ export default function Experience_TL() {
 
       </div>
     
-      <div className="w-full pb-8">
-        <h2 className='text-slate-950 md:text-4xl text-3xl text-left font-bold items-start uppercase mb-8 mx-8 lg:mx-24' style={poppins.style}>
+      <div className="w-full pb-12">
+        <h2 className='text-slate-950 md:text-4xl text-3xl text-left font-bold items-start uppercase mb-8 mx-12 lg:mx-24' style={poppins.style}>
             Material Hubs
         </h2>
       
-        <div className='bg-[#EBEBEB] rounded-xl p-8 flex flex-col md:flex-row gap-8 items-center justify-between mx-8 lg:mx-24'>
+        <div className='bg-[#EBEBEB] rounded-xl p-8 flex flex-col md:flex-row gap-8 items-center justify-between mx-12 lg:mx-24'>
           <div className={ WINDOW_SIZE_max + ` rounded-lg overflow-hidden`}>
             <div
               className="flex no-wrap gap-0 duration-500 ease-in-out"
