@@ -38,10 +38,26 @@
       {
         "firstName": "Anthony",
         "lastName": "Pham",
-        "position": "Server Chair",
+        "position": "Server and Bot Chair",
         "major": "Multidisciplinary Engineering",
         "img": "officer_imgs/Anthony Pham.jpeg",
         "linkedIn": "https://www.linkedin.com/in/anthony-ha-pham/",
         "desc": "Howdy! I am a MXET major, class of 2025, from Katy, Texas, and I am the server chair for TAO! Outside of academics, I really love gaming, coding, and hanging out with friends!"
+      },
+      {
+        "firstName": "Samuel",
+        "lastName": "Bush",
+        "position": "Vice President of Senate",
+        "major": "Computer Engineering",
+        "img": "officer_imgs/Samuel Bush.jpeg",
+        "linkedIn": "https://www.linkedin.com/in/samuelkbush/"
+      },
+      {
+        "firstName": "Andrew",
+        "lastName": "Zheng",
+        "position": "Web Chair",
+        "major": "Computer Science",
+        "img": "officer_imgs/Andrew Zheng.jpeg",
+        "linkedIn": "https://www.linkedin.com/in/andrew--zheng/"
       }
 ]

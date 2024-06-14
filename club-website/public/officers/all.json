@@ -1,0 +1,133 @@
+[
+    {
+        "firstName": "Claire",
+        "lastName": "Wu",
+        "position": "Web Officer",
+        "major": "General Engineering",
+        "img": "officer_imgs/Claire Wu.jpeg",
+        "linkedIn": "https://www.linkedin.com/in/you-claire-wu?trk=contact-info",
+        "desc": ""
+      },
+      {
+        "firstName": "Larissa",
+        "lastName": "Kim",
+        "position": "Web Officer",
+        "major": "Computer Science",
+        "img": "officer_imgs/Larissa Kim.jpg",
+        "linkedIn": "https://www.linkedin.com/in/kimlarissa/",
+        "desc": "CPSC '27<br/>cat lover<br/>i play val, league, and occasionally r6<br/>i love drawing"
+      },
+      {
+        "firstName": "Tristan-Lee",
+        "lastName": "Aujong",
+        "position": "Web Officer",
+        "major": "Computer Science",
+        "img": "officer_imgs/Tristan Aujong.jpg",
+        "linkedIn": "https://www.linkedin.com/in/tristan-lee-aujong-447362290",
+        "desc": "I love cars"
+      },
+      {
+        "firstName": "Sophia",
+        "lastName": "Phu",
+        "position": "Web Officer",
+        "major": "Computer Engineering",
+        "img": "officer_imgs/Sophia Phu.jpeg",
+        "linkedIn": "https://www.linkedin.com/in/sophiaphu",
+        "desc": ""
+      },
+      {
+        "firstName": "Eric",
+        "lastName": "Liu",
+        "position": "Web Officer",
+        "major": "Computer Science",
+        "img": "officer_imgs/Eric Liu.jpeg",
+        "linkedIn": "https://www.linkedin.com/in/eric-liu-b75550220/",
+        "desc": "Howdy! I'm Eric and I'm a web officer here at TAO. Besides CS, I'm really into English (literature courses go crazy), and I'm also a sports reporter at the Battalion."
+      },
+      {
+        "firstName": "Ashley",
+        "lastName": "Zhang",
+        "position": "Web Officer",
+        "major": "Computer Science",
+        "img": "officer_imgs/Ashley Zhang.jpeg",
+        "linkedIn": "https://www.linkedin.com/in/ashley-j-zhang/",
+        "desc": "Hi! I'm Ashley. I love programming, fashion, my dog Cici, chess, and shoegaze music. This summer I've been playing a LOT of Realm of the Mad God."
+      },
+      {
+        "firstName": "Siddarth",
+        "lastName": "Kotthur",
+        "position": "Web Officer",
+        "major": "Computer Science",
+        "img": "officer_imgs/Siddarth Kotthur.jpg",
+        "linkedIn": "https://www.linkedin.com/in/siddarthkot/",
+        "desc": ""
+      },
+      {
+        "firstName": "Antony",
+        "lastName": "Quach",
+        "position": "Social Officer",
+        "major": "Computer Engineering",
+        "img": "officer_imgs/Antony Quach.jpg",
+        "linkedIn": "",
+        "desc": "I like to draw, mainly muscles and anatomy, I also play tennis and go to the gym frequently"
+      },
+      {
+        "firstName": "Christin",
+        "lastName": "Park",
+        "position": "Social Officer",
+        "major": "Electrical Engineering",
+        "img": "officer_imgs/Christin Park.jpeg",
+        "linkedIn": "https://www.linkedin.com/in/christin-park/"
+      },
+      {
+        "firstName": "Laina",
+        "lastName": "Hoang",
+        "position": "Social Officer",
+        "major": "General Engineering",
+        "img": "cat1.jpeg",
+        "linkedIn": ""
+      },
+      {
+        "firstName": "Lawrence",
+        "lastName": "Wong",
+        "position": "Server and Bot Officer",
+        "major": "Computer Science",
+        "img": "officer_imgs/Lawrence Wong.jpg",
+        "linkedIn": "https://linkedin.com/in//lawrencewongg",
+        "desc": "Howdy! I'm a Computer Science Major in the class of '26 and I'm looking to get a masters degree and specialize in ML. In my free time I enjoy sleeping."
+      },
+      {
+        "firstName": "Nayab",
+        "lastName": "Warach",
+        "position": "Server and Bot Officer",
+        "major": "Electrical Engineering",
+        "img": "officer_imgs/Nayab Warach.jpeg",
+        "linkedIn": "https://www.linkedin.com/in/nayabwarach/",
+        "desc": "I am THE loudest and proudest member of the class of 2026 and I'm currently pursuing a bachelors degree in electrical engineering. I plan to work in infrastructure design, having previously interned at Burns & McDonnell and at HW Lochner, where I was a part of the team that oversaw the DFW Airport Way-finding Project. In addition to my work at TAO, I serve as the President and Station Manager of KANM Student Radio at Texas A&M University."
+      },
+      {
+        "firstName": "Archer",
+        "lastName": "Simmons",
+        "position": "Server and Bot Officer",
+        "major": "Industry and Systems Engineering",
+        "img": "officer_imgs/Archer Simmons.jpg",
+        "linkedIn": "https://www.linkedin.com/in/archer-simmons-0b653b148/"
+      },
+      {
+        "firstName": "Xiaoyan",
+        "lastName": "Zhou",
+        "position": "Content Officer",
+        "major": "Mechanical Engineering",
+        "img": "officer_imgs/Xiaoyan Zhou.jpeg",
+        "linkedIn": "https://www.linkedin.com/in/xiaoyan-zhou-487092254/",
+        "desc": ""
+      },
+      {
+        "firstName": "Alex",
+        "lastName": "Gonce",
+        "position": "Finance Officer",
+        "major": "Computer Engineering",
+        "img": "officer_imgs/Alex Gonce.jpeg",
+        "linkedIn": "https://www.linkedin.com/in/alex-gonce/"
+      }
+]
