@@ -37,9 +37,12 @@ const LINKS = [
 export default function Footer()
 {
     return (
-        <main className="items-start justify-between grid grid-cols-2 md:grid-cols-5 p-8 ps-12 pe-12 md:p-24 md:ps-32 md:pe-32 gap-12">
-            <div className="md:row-span-2 col-span-2" id="logo_address">
+        <main className="items-start justify-between lg:text-base md:text-md text-sm grid grid-rows-3 md:grid-cols-5 grid-cols-2 gap-8 lg:p-24 lg:ps-32 lg:pe-32 md:p-16 md:ps-16 md:pe-16 p-8 ps-12 pe-12">
+            <div className="row-start-3 md:row-start-1 col-start-1 col-span-2" id="logo">
                 <img id="logo" src="lightLogo.png"/>
+            </div>
+
+            <div className="row-start-4 md:row-start-2 col-start-1 col-span-2 ps-2" id="address">
                 <p>
                     ZACH 420 - 125 Spence St, College Station, TX 77843, United States<br/>
                     <br/>
@@ -78,10 +81,10 @@ export default function Footer()
 
             <div id="contact" className='flex flex-col'>
                 <p><b>Contact</b><br/></p>
-                <a href="mailto:taoengr@gmail.com" target="_blank" className="hover:text-maroon"><div className="flex gap-2 items-center"><RiMailLine/>taoengr@gmail.com</div></a>
-                <a href="https://www.linkedin.com/company/engr-tao/" target="_blank" className="hover:text-maroon"><div className="flex gap-2 items-center"><RiLinkedinBoxLine/>engr-ta-org</div></a>
-                <a href="https://www.youtube.com/@ENGRTAO" target="_blank" className="hover:text-maroon"><div className="flex gap-2 items-center"><RiYoutubeLine/>YouTube</div></a>
-                <a href="https://github.com/TAO-ENGR" target="_blank" className="hover:text-maroon"><div className="flex gap-2 items-center"><RiGithubLine/>TAO-ENGR</div></a>
+                <a href="mailto:taoengr@gmail.com" target="_blank" className="hover:text-maroon"><div className="flex gap-2 items-center"><RiMailLine className="shrink-0"/>taoengr@gmail.com</div></a>
+                <a href="https://www.linkedin.com/company/engr-tao/" target="_blank" className="hover:text-maroon"><div className="flex gap-2 items-center"><RiLinkedinBoxLine className="shrink-0"/>engr-ta-org</div></a>
+                <a href="https://www.youtube.com/@ENGRTAO" target="_blank" className="hover:text-maroon"><div className="flex gap-2 items-center"><RiYoutubeLine className="shrink-0"/>YouTube</div></a>
+                <a href="https://github.com/TAO-ENGR" target="_blank" className="hover:text-maroon"><div className="flex gap-2 items-center"><RiGithubLine className="shrink-0"/>TAO-ENGR</div></a>
                 <p>-</p>
             </div>
 
