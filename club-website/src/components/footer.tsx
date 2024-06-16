@@ -39,7 +39,7 @@ export default function Footer()
     return (
         <main className="items-start justify-between lg:text-base md:text-md text-sm grid grid-rows-3 md:grid-cols-5 grid-cols-2 gap-8 lg:p-24 lg:ps-32 lg:pe-32 md:p-16 md:ps-16 md:pe-16 p-8 ps-12 pe-12">
             <div className="row-start-3 md:row-start-1 col-start-1 col-span-2" id="logo">
-                <img id="logo" src="lightLogo.png"/>
+                <Image id="logo" src="/lightLogo.png" width={604} height={234} alt="glorious TAO logo :D"/>
             </div>
 
             <div className="row-start-4 md:row-start-2 col-start-1 col-span-2 ps-2" id="address">
