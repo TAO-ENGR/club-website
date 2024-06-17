@@ -5,6 +5,10 @@ import {
     CarouselNext,
     CarouselPrevious,
   } from "@/components/ui/carousel"
+import { OfficerType } from "@/lib/types";
+import Image from "next/image";
+
+
 
 export default function Home() {
     return(
