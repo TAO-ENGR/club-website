@@ -22,63 +22,72 @@ export default function Home() {
     const officers: OfficerType[] = officerData;
     return(
         <div>
-            {officers.map((officer, index) => (
-            <div
-              className="flex flex-col items-center justify-center text-center w-44"
-              key={index}
-            >
-              {officer.desc == "" ? (
-                <Image
-                  src={officer.img}
-                  alt=""
-                  width={500}
-                  height={500}
-                  className="w-40 h-40 object-cover mb-4 rounded-2xl"
-                />
-              ) : (
-                <HoverCard>
-                  <HoverCardTrigger>
-                    <Image
-                      src={officer.img}
-                      alt=""
-                      width={500}
-                      height={500}
-                      className="w-40 h-40 object-cover mb-4 rounded-2xl cursor-pointer"
-                    />
-                  </HoverCardTrigger>
-                  <HoverCardContent>
-                    <div>{officer.desc}</div>
-                  </HoverCardContent>
-                </HoverCard>
-              )}
-              <p>
-                {officer.linkedIn == "" ? (
-                  <b>
-                    {officer.firstName.toUpperCase()}{" "}
-                    {officer.lastName.toUpperCase()}
-                  </b>
-                ) : (
-                  <a
-                    href={officer.linkedIn}
-                    target="_blank"
-                    className="hover:text-maroon"
-                  >
-                    <b>
-                      <u>
-                        {officer.firstName.toUpperCase()}{" "}
-                        {officer.lastName.toUpperCase()}
-                      </u>
-                    </b>
-                  </a>
-                )}
+            <Carousel>
+                <CarouselContent>
+                    <CarouselItem className="basis-1/4">
+                        {officers.map((officer, index) => (
+                            <div
+                            className="flex flex-col items-center justify-center text-center w-44"
+                            key={index}
+                            >
+                            {officer.desc == "" ? (
+                                <Image
+                                src={officer.img}
+                                alt=""
+                                width={500}
+                                height={500}
+                                className="w-40 h-40 object-cover mb-4 rounded-2xl"
+                                />
+                            ) : (
+                                <HoverCard>
+                                <HoverCardTrigger>
+                                    <Image
+                                    src={officer.img}
+                                    alt=""
+                                    width={500}
+                                    height={500}
+                                    className="w-40 h-40 object-cover mb-4 rounded-2xl cursor-pointer"
+                                    />
+                                </HoverCardTrigger>
+                                <HoverCardContent>
+                                    <div>{officer.desc}</div>
+                                </HoverCardContent>
+                                </HoverCard>
+                            )}
+                            <p>
+                                {officer.linkedIn == "" ? (
+                                <b>
+                                    {officer.firstName.toUpperCase()}{" "}
+                                    {officer.lastName.toUpperCase()}
+                                </b>
+                                ) : (
+                                <a
+                                    href={officer.linkedIn}
+                                    target="_blank"
+                                    className="hover:text-maroon"
+                                >
+                                    <b>
+                                    <u>
+                                        {officer.firstName.toUpperCase()}{" "}
+                                        {officer.lastName.toUpperCase()}
+                                    </u>
+                                    </b>
+                                </a>
+                                )}
 
-                <br />
-                {officer.position}
-                <br />
-                {officer.major}
-              </p>
-            </div>
-          ))}
+                                <br />
+                                {officer.position}
+                                <br />
+                                {officer.major}
+                            </p>
+                            </div>
+                        ))}
+                    </CarouselItem>
+                </CarouselContent>
+                <CarouselPrevious />
+                <CarouselNext />
+            </Carousel>
+                
         </div>
     )
 

@@ -1,5 +1,4 @@
-{
-    "officers": [
+[
         {
             "firstName": "Claire",
             "lastName": "Wu",
@@ -178,5 +177,4 @@
             "major": "Industrial & Systems Engineering"
         }
 
-    ]
-}
+]
