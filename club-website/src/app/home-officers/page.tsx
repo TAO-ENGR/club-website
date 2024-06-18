@@ -18,21 +18,25 @@ import {
   } from "@/components/ui/hover-card"
   import { Button } from "@/components/ui/button"
   import Link from "next/link";
+  import { ArrowRight } from "lucide-react"
 
 export default function Home() {
     const execs: OfficerType[] = execData;
     const officers: OfficerType[] = officerData;
     return(
         <div className={`text-left bg p-16 ${home["bg-maroon"]}`}>
-            <div className="flex gap-6">
+            <div className="flex gap-10 ">
                 <h1 className={`font-bold text-6xl mb-10 ${home["text-light-gray"]}`} style={poppins.style}>
                     OFFICERS
                 </h1>
-                <Button>
-                    <Link href="/about">
-                        see our full officer list
-                    </Link>
-                </Button>
+                <div>
+                    <Button>
+                        <Link href="/about">
+                            see our full officer list<ArrowRight/>
+                        </Link>
+                    </Button>
+                </div>
+                
             </div>
             
             <Carousel>
