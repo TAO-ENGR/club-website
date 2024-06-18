@@ -6,6 +6,8 @@ import {
     CarouselPrevious,
   } from "@/components/ui/carousel"
   import { OfficerType } from "@/lib/types";
+  import { poppins } from "../fonts";
+  import home from "./home.module.css";
   import Image from "next/image";
   import officerData from "../../../public/officers/all.json";
   import execData from "../../../public/officers/execs.json";
@@ -21,7 +23,10 @@ export default function Home() {
     const execs: OfficerType[] = execData;
     const officers: OfficerType[] = officerData;
     return(
-        <div>
+        <div className={`text-left bg p-16 ${home["bg-maroon"]}`}>
+            <h1 className={`font-bold text-6xl mb-10 ${home["text-light-gray"]}`} style={poppins.style}>
+                OFFICERS
+            </h1>
             <Carousel>
                 <CarouselContent>
                     <CarouselItem className="basis-1/4">
@@ -54,7 +59,7 @@ export default function Home() {
                                 </HoverCardContent>
                                 </HoverCard>
                             )}
-                            <p>
+                            <p className={`${home["text-light-gray"]}`}>
                                 {officer.linkedIn == "" ? (
                                 <b>
                                     {officer.firstName.toUpperCase()}{" "}
