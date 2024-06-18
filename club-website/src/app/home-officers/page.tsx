@@ -18,6 +18,8 @@ import {
 
 
 export default function Home() {
+    const execs: OfficerType[] = execData;
+    const officers: OfficerType[] = officerData;
     return(
         <div>
             {officers.map((officer, index) => (
