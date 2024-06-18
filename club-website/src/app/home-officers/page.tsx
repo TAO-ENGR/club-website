@@ -44,16 +44,14 @@ export default function Home() {
                                 />
                             ) : (
                                 <HoverCard>
-                                <HoverCardTrigger>
+                                
                                     <img
                                     src={exec.img}
                                     alt=""
-                                    className="w-40 h-40 object-cover mb-4 rounded-2xl cursor-pointer"
+                                    className="w-40 h-40 object-cover mb-4 rounded-2xl"
                                     />
-                                </HoverCardTrigger>
-                                <HoverCardContent
-                                    dangerouslySetInnerHTML={{ __html: exec.desc }}
-                                ></HoverCardContent>
+                                
+                                
                                 </HoverCard>
                             )}
                             <p className={`${home["text-light-gray"]}`}>
@@ -101,18 +99,16 @@ export default function Home() {
                                     />
                                 ) : (
                                     <HoverCard>
-                                    <HoverCardTrigger>
+                                    
                                         <Image
                                         src={officer.img}
                                         alt=""
                                         width={500}
                                         height={500}
-                                        className="w-40 h-40 object-cover mb-4 rounded-2xl cursor-pointer"
+                                        className="w-40 h-40 object-cover mb-4 rounded-2xl"
                                         />
-                                    </HoverCardTrigger>
-                                    <HoverCardContent>
-                                        <div>{officer.desc}</div>
-                                    </HoverCardContent>
+                                    
+                                    
                                     </HoverCard>
                                 )}
                                 <p className={`${home["text-light-gray"]}`}>
