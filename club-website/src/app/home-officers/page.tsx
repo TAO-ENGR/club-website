@@ -75,7 +75,7 @@ export default function Home() {
                                 <a
                                     href={exec.linkedIn}
                                     target="_blank"
-                                    className="hover:text-light-gray"
+                                    className="hover:text-maroon"
                                 >
                                     <b>
                                     <u>
