@@ -14,7 +14,7 @@ function Myaccordion1() {
 
   <AccordionItem value="item-1"> 
     <AccordionTrigger>
-        <p className="text-4xl text-left font-bold text-white" style={poppins.style}>
+        <p className="text-3xl text-left font-bold text-white" style={poppins.style}>
         ENGR/PHYS 216
         </p>
         </AccordionTrigger> 

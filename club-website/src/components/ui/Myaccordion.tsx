@@ -14,7 +14,7 @@ function Myaccordion() {
 
   <AccordionItem value="item-1" className="text-white"> 
     <AccordionTrigger>
-    <p className="text-4xl text-left font-bold text-white" style={poppins.style}>
+    <p className="text-3xl text-left font-bold text-white" style={poppins.style}>
         ENGR 102
         </p>
       </AccordionTrigger> 
@@ -23,38 +23,25 @@ function Myaccordion() {
     coding examples, IDE help.
     </p>
     <AccordionContent>
-      <AccordionItem value="item-1a">
-      <AccordionTrigger>
-      <p>
-          Spring 2023-24
-        </p>
-        </AccordionTrigger> 
-      <AccordionContent>
-        <p className="indent-4">
-          Final Exam Review
-        </p>
-      </AccordionContent>
-      <AccordionContent>
-      <p className="indent-4">
-          Review Session Recordings
-        </p>
-      </AccordionContent>
-      </AccordionItem>
       <AccordionItem value="item-1b">
       <AccordionTrigger>
       <p>
-          Spring 2022-23
+          Fall 2023
         </p>
         </AccordionTrigger> 
       <AccordionContent>
+      <a href="https://drive.google.com/drive/folders/1V5gzv7ZKG3EwIKqxGHhVja8W_JfrXclC?usp=sharing" target="_blank">
+      <p className="indent-4">
+          Midterm Exam Review
+        </p>
+        </a>
+      </AccordionContent>
+      <AccordionContent>
+      <a href="https://drive.google.com/drive/folders/1Y8cQ3URQ4LXOPUywjN5ihDgsAVUsKo3D?usp=sharing" target="_blank">
       <p className="indent-4">
           Final Exam Review
         </p>
-      </AccordionContent>
-      <AccordionContent>
-      <p className="indent-4">
-      Review Session Recordings
-        </p>
+        </a>
       </AccordionContent>
       </AccordionItem>
     </AccordionContent>

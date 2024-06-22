@@ -13,10 +13,10 @@ export default function Reviews() {
         </h1>
         {/* // flex-row div allows accordions to be side-by-side */}
         <div className="flex flex-row"> 
-        <div className="px-5 basis-1/2 size-100 rounded-lg m-3 min-h-96 bg-gradient-to-br from-red-950 from-20% via-red-800 via-40% to-blue-950 to-90%"> 
+        <div className="px-5 basis-1/2 size-100 rounded-lg m-3 min-h-96 min-w-72 bg-gradient-to-br from-red-950 from-20% via-red-800 via-40% to-blue-950 to-90%"> 
             <Myaccordion/>
         </div>
-        <div className="px-5 basis-1/2 size-100 rounded-lg m-3 min-h-96 bg-gradient-to-br from-red-900 from-10% to-red-400 to-90%"> 
+        <div className="px-5 basis-1/2 size-100 rounded-lg m-3 min-h-96 min-w-72 bg-gradient-to-br from-red-900 from-10% to-red-400 to-90%"> 
             <Myaccordion1/>
         </div>
         </div>
