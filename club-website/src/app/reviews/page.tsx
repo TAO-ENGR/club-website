@@ -1,4 +1,4 @@
-import { poppins } from "../fonts";
+import { poppins } from "../fonts"
 import about from "./reviews.module.css";
 import Link from "next/link";
 import Myaccordion from "@/components/ui/Myaccordion";
