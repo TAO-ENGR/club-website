@@ -44,10 +44,12 @@ export default function Home() {
                   </a>
                 </div>
                 <div>
-                  <Badge className="bg-[#364967] gap-2 hover:gap-6 duration-200 hover:bg-[#364967] ">
-                    <p className="text-xl">See all announcements</p>
-                    <p>-{'>'}</p>
-                  </Badge>
+                  <a href="/announcements">
+                    <Badge className="bg-[#364967] gap-2 hover:gap-6 duration-200 hover:bg-[#364967] ">
+                      <p className="text-xl">See all announcements</p>
+                      <p>-{'>'}</p>
+                    </Badge>
+                  </a>
                 </div>
               </div>
             </div>
@@ -60,10 +62,12 @@ export default function Home() {
                   className="rounded-md border w-full h-full"
                 />
                 <div>
-                  <Badge className="bg-[#364967] gap-2 hover:gap-6 duration-200 hover:bg-[#364967] ">
-                    <p className="text-xl">See all upcoming events</p>
-                    <p>-{'>'}</p>
-                  </Badge>
+                  <a href="/calendar">
+                    <Badge className="bg-[#364967] gap-2 hover:gap-6 duration-200 hover:bg-[#364967] ">
+                      <p className="text-xl">See all upcoming events</p>
+                      <p>-{'>'}</p>
+                    </Badge>
+                  </a>
                 </div>
               </div>
               <div className="flex flex-col gap-2 lg:w-2/3">
