@@ -8,7 +8,7 @@ import {
   import { poppins } from "../../app/fonts"
 
 // type = "multiple" allows for both accordions to be open
-function Myaccordion1() {
+function Accordion216() {
     return ( 
         <Accordion type="multiple" className=" text-white"> 
 
@@ -52,4 +52,4 @@ function Myaccordion1() {
     )
 }
 
-export default Myaccordion1
+export default Accordion216

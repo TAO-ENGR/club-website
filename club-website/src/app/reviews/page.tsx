@@ -1,8 +1,8 @@
 import { poppins } from "../fonts"
 import about from "./reviews.module.css";
 import Link from "next/link";
-import Myaccordion from "@/components/ui/Myaccordion";
-import Myaccordion1 from "@/components/ui/Myaccordion1";
+import Accordion102 from "@/components/ui/Accordion102"
+import Accordion216 from "@/components/ui/Accordion216";
 
 export default function Reviews() {
   return (
@@ -14,10 +14,10 @@ export default function Reviews() {
         {/* // flex-row div allows accordions to be side-by-side */}
         <div className="flex flex-row"> 
         <div className="px-5 basis-1/2 size-100 rounded-lg m-3 min-h-96 min-w-72 bg-gradient-to-br from-red-950 from-20% via-red-800 via-40% to-blue-950 to-90%"> 
-            <Myaccordion/>
+            <Accordion102/>
         </div>
         <div className="px-5 basis-1/2 size-100 rounded-lg m-3 min-h-96 min-w-72 bg-gradient-to-br from-red-900 from-10% to-red-400 to-90%"> 
-            <Myaccordion1/>
+            <Accordion216/>
         </div>
         </div>
         
