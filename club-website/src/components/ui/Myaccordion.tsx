@@ -31,15 +31,29 @@ function Myaccordion() {
         </AccordionTrigger> 
       <AccordionContent>
       <a href="https://drive.google.com/drive/folders/1V5gzv7ZKG3EwIKqxGHhVja8W_JfrXclC?usp=sharing" target="_blank">
-      <p className="indent-4">
-          Midterm Exam Review
+      <p className="indent-4 hover:underline">
+          Midterm Exam Review Drive
+        </p>
+        </a>
+      </AccordionContent>
+      <AccordionContent>
+      <a href="https://drive.google.com/file/d/15fV5F6wmwJqiPdWJGd-vmPa5tLUUMgGd/view?usp=sharing" target="_blank">
+      <p className="indent-4 hover:underline">
+          Midterm Cheatsheet
         </p>
         </a>
       </AccordionContent>
       <AccordionContent>
       <a href="https://drive.google.com/drive/folders/1Y8cQ3URQ4LXOPUywjN5ihDgsAVUsKo3D?usp=sharing" target="_blank">
-      <p className="indent-4">
-          Final Exam Review
+      <p className="indent-4 hover:underline">
+          Final Exam Review Drive
+        </p>
+        </a>
+      </AccordionContent>
+      <AccordionContent>
+      <a href="https://drive.google.com/drive/folders/1Y8cQ3URQ4LXOPUywjN5ihDgsAVUsKo3D?usp=sharing" target="_blank">
+      <p className="indent-4 hover:underline">
+          Final Exam Cheatsheet (cant find link)
         </p>
         </a>
       </AccordionContent>

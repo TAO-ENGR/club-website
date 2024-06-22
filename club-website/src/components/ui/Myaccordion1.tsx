@@ -25,35 +25,22 @@ function Myaccordion1() {
       <AccordionItem value="item-1a">
       <AccordionTrigger>
       <p>
-          Spring 2023-24
+          Spring 2024
         </p>
         </AccordionTrigger> 
       <AccordionContent>
-      <p className="indent-4">
-          Lab Report Materials
+      <a href="https://drive.google.com/drive/folders/1AeYFDv4shFLuiMDOAEKqq9Yk2onzfEiI?usp=sharing" target="_blank">
+      <p className="indent-4 hover:underline">
+          Final Exam Review Drive
         </p>
+        </a>
       </AccordionContent>
       <AccordionContent>
-      <p className="indent-4">
-          Final Exam Review
+      <a href="https://drive.google.com/file/d/1EJDErnbdNbpHHOIXD0pBxmyYJt6ynOxW/view?usp=sharing" target="_blank">
+      <p className="indent-4 hover:underline">
+          Formula Sheet/Instructions
         </p>
-      </AccordionContent>
-      </AccordionItem>
-      <AccordionItem value="item-1b">
-      <AccordionTrigger>
-      <p>
-          Spring 2022-23
-        </p>
-        </AccordionTrigger> 
-      <AccordionContent>
-      <p className="indent-4">
-          Lab Report Materials
-        </p>
-      </AccordionContent>
-      <AccordionContent>
-      <p className="indent-4">
-          Final Exam Review
-        </p>
+        </a>
       </AccordionContent>
       </AccordionItem>
     </AccordionContent>
