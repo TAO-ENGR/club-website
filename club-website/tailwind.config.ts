@@ -21,7 +21,6 @@ const config = {
       colors: {
         maroon: "#5a0000",
         darkMaroon: "#4d0000",
-        lightGray: "#818181",
         weirdGray: "#272a29",
         ashyBlue: "#3c4c68",
         lightBlue: "#4d8f9f",
