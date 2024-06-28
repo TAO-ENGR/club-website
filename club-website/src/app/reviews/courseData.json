@@ -1,0 +1,14 @@
+[
+    {
+        "courseName": "ENGR 102",
+        "courseDescription": "Exam review materials, practice problems, coding examples, IDE help.",
+        "semesters": ["Fall 2023"],
+        "materials": ["Midterm Exam Review Drive", "Midterm Cheatsheet", "Final Exam Review Drive"]
+    },
+    {
+        "courseName": "ENGR/PHYS 216",
+        "courseDescription": "Exam review materials, past recordings, lab report materials.",
+        "semesters": ["Spring 2024"],
+        "materials": ["Final Exam Review Drive", "Formula Sheet/Exam Instructions"]
+    }
+]

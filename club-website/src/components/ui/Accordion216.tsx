@@ -5,7 +5,7 @@ import {
     AccordionTrigger,
   } from "@/components/ui/accordion"
 
-  import { poppins } from "../../app/fonts"
+import { poppins } from "../../app/fonts"
 
 // type = "multiple" allows for both accordions to be open
 function Accordion216() {
