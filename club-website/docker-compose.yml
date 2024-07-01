@@ -1,0 +1,13 @@
+version: "4.3"
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/app
+      - /app/node_modules
+    container_name: TAO
+    ports:
+      - "3000:3000"
