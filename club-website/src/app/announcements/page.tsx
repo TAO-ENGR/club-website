@@ -19,10 +19,10 @@ export default function Home(){
                 </p>
                 <div className=" flex flex-col lg:flex-row gap-2">
                   <Badge className="bg-[#364967]">
-                    Server Update
+                    <p className = " text-base">Server Update</p>
                   </Badge>
                   <Badge className="bg-[#8B1818]">
-                    <p>TAO-related</p>
+                    <p className = " text-base">TAO-related</p>
                   </Badge>
                 </div>
               </div>
