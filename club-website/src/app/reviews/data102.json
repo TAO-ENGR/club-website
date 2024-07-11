@@ -1,0 +1,20 @@
+[
+    {
+        "accordionValue" : "sem1",
+        "semester": "Fall 2023",
+        "links": [
+           { "displayText": "Midterm Exam Review Drive", "url": "https://drive.google.com/drive/folders/1V5gzv7ZKG3EwIKqxGHhVja8W_JfrXclC?usp=sharing"},
+           { "displayText": "Midterm Cheatsheet", "url": "https://drive.google.com/file/d/15fV5F6wmwJqiPdWJGd-vmPa5tLUUMgGd/view?usp=sharing"},
+           { "displayText": "Final Exam Review Drive", "url": "https://drive.google.com/drive/folders/1Y8cQ3URQ4LXOPUywjN5ihDgsAVUsKo3D?usp=sharing"}
+        ]
+    },
+    {
+        "accordionValue" : "sem2",
+        "semester": "Fall 2024",
+        "links": [
+           { "displayText": "Midterm Exam Review Drive", "url": "https://drive.google.com/drive/folders/1V5gzv7ZKG3EwIKqxGHhVja8W_JfrXclC?usp=sharing"},
+           { "displayText": "Midterm Cheatsheet", "url": "https://drive.google.com/file/d/15fV5F6wmwJqiPdWJGd-vmPa5tLUUMgGd/view?usp=sharing"},
+           { "displayText": "Final Exam Review Drive", "url": "https://drive.google.com/drive/folders/1Y8cQ3URQ4LXOPUywjN5ihDgsAVUsKo3D?usp=sharing"}
+        ]
+    }
+]
