@@ -1,0 +1,10 @@
+[
+    {
+        "accordionValue" : "sem1",
+        "semester": "Spring 2024",
+        "links": [
+           { "displayText": "Final Exam Review Drive", "url": "https://drive.google.com/drive/folders/1AeYFDv4shFLuiMDOAEKqq9Yk2onzfEiI?usp=sharing"},
+           { "displayText": "Formula Sheet/Final Exam Instructions", "url": "https://drive.google.com/file/d/1EJDErnbdNbpHHOIXD0pBxmyYJt6ynOxW/view?usp=sharing"}
+        ]
+    }
+]

@@ -7,9 +7,7 @@ import {
 
 import { poppins } from "../../app/fonts";
 import data102 from "../../app/reviews/data102.json";
-import { Course } from "../../lib/types";
 import { SemesterMaterials } from "../../lib/types";
-import { Link } from "../../lib/types";
 
 // type = "multiple" allows for both accordions to be open
 function Accordion102() {
@@ -47,7 +45,6 @@ function Accordion102() {
                 </AccordionItem>
                 ))}
               </AccordionContent>
-            
             </AccordionItem>
           </Accordion>
       )
