@@ -26,9 +26,9 @@ export default function Home() {
             </div>
             <div>
               <p>
-                TAO Server: What’s next? howdy everyone! you might be wondering
-                what will become of this server now that most of you have
-                completed the etam sequence and here are your answers :)...
+                TAO Server: What&rsquo;s next? howdy everyone! you might be
+                wondering what will become of this server now that most of you
+                have completed the etam sequence and here are your answers :)...
               </p>
             </div>
           </div>
