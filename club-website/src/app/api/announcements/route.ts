@@ -5,7 +5,6 @@ export async function GET() {
         }
     });
     const data = await res.json();
-    console.log(data);
     let msgs: any[] = []
 
     await Promise.all(data.map(async (msg: any) => {
