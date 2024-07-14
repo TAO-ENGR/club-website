@@ -3,47 +3,13 @@ import { poppins } from "../fonts";
 import { Badge } from "@/components/ui/badge"
 import Image from "next/image";
 import { Calendar } from "@/components/ui/calendar"
+import Announcements from "@/components/announcements";
+import Upcomings from "@/components/upcomings";
 import React from "react";
 export default function Home() {
     const [date, setDate] = React.useState<Date | undefined>(new Date())
-    const announcements = [
-        {
-            date: '8/23',
-            title: 'Tree @ #tree-a-o',
-        },
-        {
-            date: '8/23',
-            title: 'Counting @ #counting',
-        },
-        {
-            date: '8/19',
-            title: 'New server emotes added!',
-        },
-        {
-            date: '7/29',
-            title: 'Review drive posted',
-        },
-    ]
-    const upcomings = [
-        {
-            date: '8/25',
-            title: 'First day of classes',
-        },
-        {
-            date: '8/25',
-            title: 'First day of classes',
-        },
-        {
-            date: '8/25',
-            title: 'First day of classes',
-        },
-        {
-            date: '8/25',
-            title: 'First day of classes',
-        },
-    ]
     return(
-        <main className="flex min-h-screen flex-col items-center justify-between p-8 lg:p-24 gap-12">
+        <main className="flex min-h-screen flex-col items-center justify-between px-8 lg:px-24 gap-12">
           <div className="flex flex-col gap-4">
             <h1 className='text-4xl font-bold uppercase' style={poppins.style}>
               WHAT WE&apos;RE DOING
@@ -54,16 +20,7 @@ export default function Home() {
                   Announcements
                 </h2>
                 <div>
-                  <div className="flex flex-col gap-4">
-                    {announcements.map((announcement, index) => (
-                      <a key={index}>
-                        <div className="bg-[#F6F6F6] p-4 rounded-xl hover:translate-y-2 duration-200" key={index}>
-                          <p>{announcement.date}</p>
-                          <p>{announcement.title}</p>
-                        </div>
-                      </a>
-                    ))}
-                  </div>
+                  <Announcements />
                 </div>
               </div>
               <div className="flex flex-col lg:w-2/3 gap-4">
@@ -87,36 +44,38 @@ export default function Home() {
                   </a>
                 </div>
                 <div>
-                  <Badge className="bg-[#364967]">
-                    <p className="text-xl">See all Announcements -{'>'}</p>
-                  </Badge>
+                  <a href="/announcements">
+                    <Badge className="bg-[#364967] gap-2 hover:gap-6 duration-200 hover:bg-[#364967] ">
+                      <p className="text-xl">See all announcements</p>
+                      <p>-{'>'}</p>
+                    </Badge>
+                  </a>
                 </div>
               </div>
             </div>
             <div className="flex flex-col gap-8 lg:flex-row">
-              <div className="flex flex-col lg:w-1/3">
+              <div className="flex flex-col lg:w-1/3 gap-4">
                 <Calendar
                   mode="single"
                   selected={date}
                   onSelect={setDate}
                   className="rounded-md border w-full h-full"
                 />
+                <div>
+                  <a href="/calendar">
+                    <Badge className="bg-[#364967] gap-2 hover:gap-6 duration-200 hover:bg-[#364967] ">
+                      <p className="text-xl">See all upcoming events</p>
+                      <p>-{'>'}</p>
+                    </Badge>
+                  </a>
+                </div>
               </div>
               <div className="flex flex-col gap-2 lg:w-2/3">
                 <h2 className="text-2xl font-bold style={poppins.style}">
                   Upcoming Events!
                 </h2>
                 <div>
-                  <div className="flex flex-col gap-4">
-                    {upcomings.map((upcoming, index) => (
-                      <a key={index}>
-                        <div className="bg-[#F6F6F6] p-4 rounded-xl hover:translate-y-2 duration-200" key={index}>
-                          <p>{upcoming.date}</p>
-                          <p>{upcoming.title}</p>
-                        </div>
-                      </a>
-                    ))}
-                  </div>
+                  <Upcomings />
                 </div>
               </div>
             </div>
