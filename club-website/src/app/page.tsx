@@ -13,6 +13,9 @@ export default function Home() {
   const [date, setDate] = React.useState<Date | undefined>(new Date());
   return (
     <main className="flex min-h-screen flex-col items-center justify-between px-8 lg:px-24 gap-12">
+      <div className="py-32">
+        <IntroText />
+      </div>
       <div className="flex flex-col gap-4">
         <h1 className="text-4xl font-bold uppercase" style={poppins.style}>
           WHAT WE&apos;RE DOING
