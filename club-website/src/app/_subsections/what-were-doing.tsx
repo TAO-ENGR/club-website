@@ -1,0 +1,92 @@
+"use client";
+
+import React from "react";
+import { poppins } from "../fonts";
+import { Badge } from "@/components/ui/badge";
+import { Calendar } from "@/components/ui/calendar";
+import Announcements from "@/components/announcements";
+import Upcomings from "@/components/upcomings";
+import ArrowButton from "@/components/arrowButton";
+
+const WhatWereDoing: React.FC = () => {
+  const [date, setDate] = React.useState<Date | undefined>(new Date());
+
+  return (
+    <>
+      <div className="flex flex-col gap-4">
+        <h1 className="text-4xl font-bold uppercase" style={poppins.style}>
+          WHAT WE&apos;RE DOING
+        </h1>
+        <div className=" flex flex-col lg:flex-row gap-8">
+          <div className="flex flex-col lg:w-1/3 gap-2">
+            <h2 className="text-2xl font-bold style={poppins.style}">
+              Announcements
+            </h2>
+            <div>
+              <Announcements />
+            </div>
+          </div>
+          <div className="flex flex-col lg:w-2/3 gap-4">
+            <div className="bg-[#d9d9d9] p-4 rounded-xl">
+              <a>
+                <h2 className="text-xl font-bold style={poppins.style}">
+                  8/24
+                </h2>
+                <Badge className="bg-[#5A0000]">
+                  <p className="text-xl">@everyone</p>
+                </Badge>
+                <div className="flex flex-col gap-8">
+                  <div>
+                    <p className="text-xl font-bold">
+                      TAO Server: What&apos;s Next?
+                    </p>
+                    <p className="text-xl">
+                      Howdy everyone! you might be wondering what will become of
+                      this server now that most of you have completed the etam
+                      sequence and here are your answers :)
+                    </p>
+                  </div>
+                  <div>
+                    <p className="text-xl">
+                      ⏫ this server will become the TAO...
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div>
+              <ArrowButton link={"/announcements"}>
+                <>see all announcements</>
+              </ArrowButton>
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col gap-8 lg:flex-row">
+          <div className="flex flex-col lg:w-1/3 gap-4">
+            <Calendar
+              mode="single"
+              selected={date}
+              onSelect={setDate}
+              className="rounded-md border w-full h-full"
+            />
+            <div>
+              <ArrowButton link={"/calendar"}>
+                <>see all upcoming events</>
+              </ArrowButton>
+            </div>
+          </div>
+          <div className="flex flex-col gap-2 lg:w-2/3">
+            <h2 className="text-2xl font-bold style={poppins.style}">
+              Upcoming Events!
+            </h2>
+            <div>
+              <Upcomings />
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
+
+export default WhatWereDoing;

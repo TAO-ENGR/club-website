@@ -10,7 +10,7 @@ import { FaDiscord, FaEnvelope, FaLink } from "react-icons/fa";
 const Blurb: React.FC = () => {
   return (
     <div
-      className={`w-full text-4xl flex flex-col gap-4 ${styles["hover-raise"]}`}
+      className={`w-full py-32 text-4xl flex flex-col gap-4 ${styles["hover-raise"]}`}
       style={poppins.style}
     >
       <div className="flex gap-4">

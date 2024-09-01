@@ -16,9 +16,6 @@ import {
   HoverCardContent,
   HoverCardTrigger
 } from "@/components/ui/hover-card";
-import { Button } from "@/components/ui/button";
-import Link from "next/link";
-import { ArrowRight } from "lucide-react";
 import ArrowButton from "@/components/arrowButton";
 
 export default function HomeOfficers() {
