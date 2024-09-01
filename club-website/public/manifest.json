@@ -1,11 +1,13 @@
 {
-    "name": "ENGR TA Organization",
-    "short_name": "TAO",
-    "icons": [{
-        "src": "favicon512.png",
-        "sizes": "512x512"
-    }],
-    "background_color": "#ffffff",
-    "theme_color": "#ffffff",
-    "display": "fullscreen"
+  "name": "ENGR TA Organization",
+  "short_name": "TAO",
+  "icons": [
+    {
+      "src": "favicon512.png",
+      "sizes": "512x512"
+    }
+  ],
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "display": "fullscreen"
 }

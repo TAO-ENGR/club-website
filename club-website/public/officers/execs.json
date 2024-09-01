@@ -18,6 +18,14 @@
     "desc": "(she/her) My name is Casey and one of the co-founders of TAO. We made this club with the intention of helping students through their first year of engineering and we hope we continue to do better and better! In my free time I make useless updates to my personal website, draw, and watch video essays on Youtube :)"
   },
   {
+    "firstName": "Samuel",
+    "lastName": "Bush",
+    "position": "Vice President of Senate",
+    "major": "Computer Engineering",
+    "img": "/officer_imgs/Samuel Bush.jpeg",
+    "linkedIn": "https://www.linkedin.com/in/samuelkbush/"
+  },
+  {
     "firstName": "Andrew",
     "lastName": "Tan",
     "position": "Content Chair",
@@ -43,14 +51,6 @@
     "img": "/officer_imgs/Anthony Pham.jpeg",
     "linkedIn": "https://www.linkedin.com/in/anthony-ha-pham/",
     "desc": "Howdy! I am a MXET major, class of 2025, from Katy, Texas, and I am the server chair for TAO! Outside of academics, I really love gaming, coding, and hanging out with friends!"
-  },
-  {
-    "firstName": "Samuel",
-    "lastName": "Bush",
-    "position": "Vice President of Senate",
-    "major": "Computer Engineering",
-    "img": "/officer_imgs/Samuel Bush.jpeg",
-    "linkedIn": "https://www.linkedin.com/in/samuelkbush/"
   },
   {
     "firstName": "Andrew",

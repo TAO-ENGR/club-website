@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { poppins } from "../fonts";
 import { Badge } from "@/components/ui/badge";
 export default function Home() {

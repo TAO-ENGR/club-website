@@ -1,20 +1,20 @@
 [
-    {
-        "firstName": "Lawrence",
-        "lastName": "Wong",
-        "position": "Server and Bot Officer",
-        "major": "Computer Science",
-        "img": "officer_imgs/Lawrence Wong.jpg",
-        "linkedIn": "https://linkedin.com/in//lawrencewongg",
-        "desc": "Howdy! I'm a Computer Science Major in the class of '26 and I'm looking to get a masters degree and specialize in ML. In my free time I enjoy sleeping."
-      },
-      {
-        "firstName": "Nayab",
-        "lastName": "Warach",
-        "position": "Server and Bot Officer",
-        "major": "Electrical Engineering",
-        "img": "officer_imgs/Nayab Warach.jpeg",
-        "linkedIn": "https://www.linkedin.com/in/nayabwarach/",
-        "desc": "I am THE loudest and proudest member of the class of 2026 and I'm currently pursuing a bachelors degree in electrical engineering. I plan to work in infrastructure design, having previously interned at Burns & McDonnell and at HW Lochner, where I was a part of the team that oversaw the DFW Airport Way-finding Project. In addition to my work at TAO, I serve as the President and Station Manager of KANM Student Radio at Texas A&M University."
-      }
+  {
+    "firstName": "Lawrence",
+    "lastName": "Wong",
+    "position": "Server and Bot Officer",
+    "major": "Computer Science",
+    "img": "/officer_imgs/Lawrence Wong.jpg",
+    "linkedIn": "https://linkedin.com/in//lawrencewongg",
+    "desc": "Howdy! I'm a Computer Science Major in the class of '26 and I'm looking to get a masters degree and specialize in ML. In my free time I enjoy sleeping."
+  },
+  {
+    "firstName": "Nayab",
+    "lastName": "Warach",
+    "position": "Server and Bot Officer",
+    "major": "Electrical Engineering",
+    "img": "/officer_imgs/Nayab Warach.jpeg",
+    "linkedIn": "https://www.linkedin.com/in/nayabwarach/",
+    "desc": "I am THE loudest and proudest member of the class of 2026 and I'm currently pursuing a bachelors degree in electrical engineering. I plan to work in infrastructure design, having previously interned at Burns & McDonnell and at HW Lochner, where I was a part of the team that oversaw the DFW Airport Way-finding Project. In addition to my work at TAO, I serve as the President and Station Manager of KANM Student Radio at Texas A&M University."
+  }
 ]

@@ -3,42 +3,37 @@ import {
   CarouselContent,
   CarouselItem,
   CarouselNext,
-  CarouselPrevious,
+  CarouselPrevious
 } from "@/components/ui/carousel";
 import { OfficerType } from "@/lib/types";
-import { poppins } from "../../fonts";
+import { poppins } from "../fonts";
 import home from "./home.module.css";
 import Image from "next/image";
-import officerData from "../../../../public/officers/all.json";
-import execData from "../../../../public/officers/execs.json";
+import officerData from "../../../public/officers/all.json";
+import execData from "../../../public/officers/execs.json";
 import {
   HoverCard,
   HoverCardContent,
-  HoverCardTrigger,
+  HoverCardTrigger
 } from "@/components/ui/hover-card";
-import { Button } from "@/components/ui/button";
-import Link from "next/link";
-import { ArrowRight } from "lucide-react";
+import ArrowButton from "@/components/arrowButton";
 
 export default function HomeOfficers() {
   const execs: OfficerType[] = execData;
   const officers: OfficerType[] = officerData;
   return (
     <div className={`w-[100vw] text-left bg p-16 ${home["bg-maroon"]}`}>
-      <div className="flex gap-10 ">
+      <div className="flex gap-10 items-center mb-10">
         <h1
-          className={`font-bold text-6xl mb-10 ${home["text-light-gray"]}`}
+          className={`font-bold text-6xl ${home["text-light-gray"]}`}
           style={poppins.style}
         >
           OFFICERS
         </h1>
         <div>
-          <Button>
-            <Link href="/about">
-              see our full officer list
-              <ArrowRight />
-            </Link>
-          </Button>
+          <ArrowButton link={"/about"}>
+            <>see our full officer list</>
+          </ArrowButton>
         </div>
       </div>
 
