@@ -137,23 +137,25 @@ export default function About() {
               key={index}
             >
               {exec.desc == "" ? (
-                <img
+                <Image
                   src={exec.img}
                   alt=""
+                  width={500}
+                  height={500}
                   className="w-40 h-40 object-cover mb-4 rounded-2xl"
                 />
               ) : (
                 <HoverCard>
                   <HoverCardTrigger>
-                    <img
+                    <Image
                       src={exec.img}
                       alt=""
+                      width={500}
+                      height={500}
                       className="w-40 h-40 object-cover mb-4 rounded-2xl cursor-pointer"
                     />
                   </HoverCardTrigger>
-                  <HoverCardContent
-                    dangerouslySetInnerHTML={{ __html: exec.desc }}
-                  ></HoverCardContent>
+                  <HoverCardContent>{exec.desc}</HoverCardContent>
                 </HoverCard>
               )}
               <p>
@@ -191,23 +193,25 @@ export default function About() {
               key={index}
             >
               {officer.desc == "" ? (
-                <img
+                <Image
                   src={officer.img}
                   alt=""
+                  width={500}
+                  height={500}
                   className="w-40 h-40 object-cover mb-4 rounded-2xl"
                 />
               ) : (
                 <HoverCard>
                   <HoverCardTrigger>
-                    <img
+                    <Image
                       src={officer.img}
                       alt=""
+                      width={500}
+                      height={500}
                       className="w-40 h-40 object-cover mb-4 rounded-2xl cursor-pointer"
                     />
                   </HoverCardTrigger>
-                  <HoverCardContent
-                    dangerouslySetInnerHTML={{ __html: officer.desc }}
-                  ></HoverCardContent>
+                  <HoverCardContent>{officer.desc}</HoverCardContent>
                 </HoverCard>
               )}
               <p>
@@ -246,23 +250,25 @@ export default function About() {
               key={index}
             >
               {officer.desc == "" ? (
-                <img
+                <Image
                   src={officer.img}
                   alt=""
+                  width={500}
+                  height={500}
                   className="w-40 h-40 object-cover mb-4 rounded-2xl"
                 />
               ) : (
                 <HoverCard>
                   <HoverCardTrigger>
-                    <img
+                    <Image
                       src={officer.img}
                       alt=""
+                      width={500}
+                      height={500}
                       className="w-40 h-40 object-cover mb-4 rounded-2xl cursor-pointer"
                     />
                   </HoverCardTrigger>
-                  <HoverCardContent
-                    dangerouslySetInnerHTML={{ __html: officer.desc }}
-                  ></HoverCardContent>
+                  <HoverCardContent>{officer.desc}</HoverCardContent>
                 </HoverCard>
               )}
               <p>
@@ -301,23 +307,25 @@ export default function About() {
               key={index}
             >
               {officer.desc == "" ? (
-                <img
+                <Image
                   src={officer.img}
                   alt=""
+                  width={500}
+                  height={500}
                   className="w-40 h-40 object-cover mb-4 rounded-2xl"
                 />
               ) : (
                 <HoverCard>
                   <HoverCardTrigger>
-                    <img
+                    <Image
                       src={officer.img}
                       alt=""
+                      width={500}
+                      height={500}
                       className="w-40 h-40 object-cover mb-4 rounded-2xl cursor-pointer"
                     />
                   </HoverCardTrigger>
-                  <HoverCardContent
-                    dangerouslySetInnerHTML={{ __html: officer.desc }}
-                  ></HoverCardContent>
+                  <HoverCardContent>{officer.desc}</HoverCardContent>
                 </HoverCard>
               )}
               <p>
@@ -356,23 +364,25 @@ export default function About() {
               key={index}
             >
               {officer.desc == "" ? (
-                <img
+                <Image
                   src={officer.img}
                   alt=""
+                  width={500}
+                  height={500}
                   className="w-40 h-40 object-cover mb-4 rounded-2xl"
                 />
               ) : (
                 <HoverCard>
                   <HoverCardTrigger>
-                    <img
+                    <Image
                       src={officer.img}
                       alt=""
+                      width={500}
+                      height={500}
                       className="w-40 h-40 object-cover mb-4 rounded-2xl cursor-pointer"
                     />
                   </HoverCardTrigger>
-                  <HoverCardContent
-                    dangerouslySetInnerHTML={{ __html: officer.desc }}
-                  ></HoverCardContent>
+                  <HoverCardContent>{officer.desc}</HoverCardContent>
                 </HoverCard>
               )}
               <p>
