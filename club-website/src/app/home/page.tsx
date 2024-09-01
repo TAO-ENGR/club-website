@@ -6,6 +6,7 @@ import { Calendar } from "@/components/ui/calendar";
 import Announcements from "@/components/announcements";
 import Upcomings from "@/components/upcomings";
 import React from "react";
+import HomeOfficers from "./subsections/home-officers";
 
 export default function Home() {
   const [date, setDate] = React.useState<Date | undefined>(new Date());
@@ -124,6 +125,8 @@ export default function Home() {
           </a>
         </div>
       </div>
+
+      <HomeOfficers />
 
       <div className="flex flex-col md:flex-row bg-white py-32 w-full">
         <div className="md:pr-32">
