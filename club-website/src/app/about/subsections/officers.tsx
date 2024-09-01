@@ -1,5 +1,5 @@
 import { poppins } from "../../fonts";
-import about from "./about.module.css";
+import about from "../about.module.css";
 import { OfficerType } from "@/lib/types";
 import Image from "next/image";
 import contentData from "../../../../public/officers/all.json";
