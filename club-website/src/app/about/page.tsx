@@ -50,7 +50,11 @@ export default function About() {
         </p>
       </div>
       <div className={`text-left bg p-8 lg:p-24`}>
-        <h1 className="font-bold text-4xl mb-8" style={poppins.style}>
+        <h1
+          id="impact"
+          className="font-bold text-6xl mb-10"
+          style={poppins.style}
+        >
           IMPACT
         </h1>
         <p className="Inter text-md">
