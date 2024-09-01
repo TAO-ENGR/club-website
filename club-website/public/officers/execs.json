@@ -1,0 +1,63 @@
+[
+  {
+    "firstName": "Ryan",
+    "lastName": "Kabir",
+    "position": "President / Co-Founder",
+    "major": "Computer Science & Electrical Engineering",
+    "img": "/officer_imgs/Ryan Kabir.jpg",
+    "linkedIn": "https://www.linkedin.com/in/ryankbr",
+    "desc": "Hi! I'm Ryan, I founded TAO with Casey Pei and Lily Tang in 2022, and am currently Co-Presidents with Casey. In my free time, I like to watch tech, food, and lifestyle vlog videos, and I like to play Valorant & Genshin now and then. I'm also a Software Engineering Intern at Microsoft!"
+  },
+  {
+    "firstName": "Casey",
+    "lastName": "Pei",
+    "position": "President / Co-Founder",
+    "major": "Computer Science",
+    "img": "/officer_imgs/Casey Pei.png",
+    "linkedIn": "https://linkedin/in/caseypei",
+    "desc": "(she/her) My name is Casey and one of the co-founders of TAO. We made this club with the intention of helping students through their first year of engineering and we hope we continue to do better and better! In my free time I make useless updates to my personal website, draw, and watch video essays on Youtube :)"
+  },
+  {
+    "firstName": "Andrew",
+    "lastName": "Tan",
+    "position": "Content Chair",
+    "major": "Biomedical Engineering",
+    "img": "/officer_imgs/Andrew Tan.jpg",
+    "linkedIn": "",
+    "desc": ""
+  },
+  {
+    "firstName": "Summer",
+    "lastName": "Wong",
+    "position": "Server and Bot Chair, Interim Treasury VP",
+    "major": "Computer Science",
+    "img": "/officer_imgs/Summer Wong.jpg",
+    "linkedIn": "https://www.linkedin.com/in/summerrwong",
+    "desc": "Howdy, I'm Summer, class of '26. I am the Server and Bot Junior Chair and a PT for ENGR 102 and PHYS 216. I am passionate about software development and user interaction. I am an enjoyer of music, star gazing, and doing spontaneous activities with friends. "
+  },
+  {
+    "firstName": "Anthony",
+    "lastName": "Pham",
+    "position": "Server and Bot Chair",
+    "major": "Multidisciplinary Engineering",
+    "img": "/officer_imgs/Anthony Pham.jpeg",
+    "linkedIn": "https://www.linkedin.com/in/anthony-ha-pham/",
+    "desc": "Howdy! I am a MXET major, class of 2025, from Katy, Texas, and I am the server chair for TAO! Outside of academics, I really love gaming, coding, and hanging out with friends!"
+  },
+  {
+    "firstName": "Samuel",
+    "lastName": "Bush",
+    "position": "Vice President of Senate",
+    "major": "Computer Engineering",
+    "img": "/officer_imgs/Samuel Bush.jpeg",
+    "linkedIn": "https://www.linkedin.com/in/samuelkbush/"
+  },
+  {
+    "firstName": "Andrew",
+    "lastName": "Zheng",
+    "position": "Web Chair",
+    "major": "Computer Science",
+    "img": "/officer_imgs/Andrew Zheng.jpeg",
+    "linkedIn": "https://www.linkedin.com/in/andrew--zheng/"
+  }
+]
