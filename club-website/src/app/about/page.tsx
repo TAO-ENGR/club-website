@@ -3,7 +3,8 @@ import about from "./about.module.css";
 import Link from "next/link";
 import { OfficerType } from "@/lib/types";
 import Image from "next/image";
-import contentData from "../../../public/officers/content.json";
+import contentData from "../../../public/officers/all.json";
+import officerData from "../../../public/officers/content.json";
 import webData from "../../../public/officers/web.json";
 import serverData from "../../../public/officers/server.json";
 import socialData from "../../../public/officers/social.json";
@@ -17,6 +18,7 @@ import {
 
 export default function About() {
   const execs: OfficerType[] = execData;
+  const officers: OfficerType[] = officerData;
   const content: OfficerType[] = contentData;
   const web: OfficerType[] = webData;
   const server: OfficerType[] = serverData;
