@@ -13,7 +13,7 @@
     "lastName": "Pei",
     "position": "President / Co-Founder",
     "major": "Computer Science",
-    "img": "/officer_imgs/Casey Pei.png",
+    "img": "/officer_imgs/Casey Pei.jpg",
     "linkedIn": "https://linkedin/in/caseypei",
     "desc": "(she/her) My name is Casey and one of the co-founders of TAO. We made this club with the intention of helping students through their first year of engineering and we hope we continue to do better and better! In my free time I make useless updates to my personal website, draw, and watch video essays on Youtube :)"
   },
@@ -22,7 +22,7 @@
     "lastName": "Bush",
     "position": "Vice President of Senate",
     "major": "Computer Engineering",
-    "img": "/officer_imgs/Samuel Bush.jpeg",
+    "img": "/officer_imgs/Samuel Bush.jpg",
     "linkedIn": "https://www.linkedin.com/in/samuelkbush/"
   },
   {
@@ -48,7 +48,7 @@
     "lastName": "Pham",
     "position": "Server and Bot Chair",
     "major": "Multidisciplinary Engineering",
-    "img": "/officer_imgs/Anthony Pham.jpeg",
+    "img": "/officer_imgs/Anthony Pham.jpg",
     "linkedIn": "https://www.linkedin.com/in/anthony-ha-pham/",
     "desc": "Howdy! I am a MXET major, class of 2025, from Katy, Texas, and I am the server chair for TAO! Outside of academics, I really love gaming, coding, and hanging out with friends!"
   },
@@ -57,7 +57,7 @@
     "lastName": "Zheng",
     "position": "Web Chair",
     "major": "Computer Science",
-    "img": "/officer_imgs/Andrew Zheng.jpeg",
+    "img": "/officer_imgs/Andrew Zheng.jpg",
     "linkedIn": "https://www.linkedin.com/in/andrew--zheng/"
   }
 ]
