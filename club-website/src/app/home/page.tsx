@@ -105,7 +105,7 @@ export default function Home() {
           <h2 className="lg:text-4xl md:text-3xl text-2xl pb-10">discord 👋</h2>
 
           <p className="lg:text-xl md:text-lg font-light">
-            Don't have a discord? Visit{" "}
+            Don&apost have a discord? Visit{" "}
             <a
               href="https://www.discord.com"
               target="_blank"
