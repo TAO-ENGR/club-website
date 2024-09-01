@@ -31,7 +31,7 @@ const MATERIAL_HUBS: MaterialHub[] = [
     ),
     link: "https://www.youtube.com/@engrtao",
     description:
-      "TAO's YouTube channel (TAO-ENGR) -- including basic videos as well as recordings of exam reviews.",
+      "TAO's YouTube channel (TAO-ENGR) -- including basic videos as well as recordings of exam reviews."
   },
   {
     title: "Our Google Drive",
@@ -45,9 +45,10 @@ const MATERIAL_HUBS: MaterialHub[] = [
         className="w-full"
       ></Image>
     ),
-    link: "https://drive.google.com/drive/folders/128TePaIK-zwts9vzNhZfj3_mJ3IH_L9d?usp=sharing",
+    link:
+      "https://drive.google.com/drive/folders/128TePaIK-zwts9vzNhZfj3_mJ3IH_L9d?usp=sharing",
     description:
-      "Access TAO's shared resources including review materials and practice problems on tx.ag/taodrive.",
+      "Access TAO's shared resources including review materials and practice problems on tx.ag/taodrive."
   },
   {
     title: "Our Github",
@@ -63,8 +64,8 @@ const MATERIAL_HUBS: MaterialHub[] = [
     ),
     link: "https://github.com/TAO-ENGR",
     description:
-      "TAO's Github (TAO-ENGR) -- including projects and example code for certain programming concepts.",
-  },
+      "TAO's Github (TAO-ENGR) -- including projects and example code for certain programming concepts."
+  }
 ];
 
 const DELAY = 3500;
@@ -83,10 +84,10 @@ export default function Resources() {
     resetTimeout();
     timeoutRef.current = setTimeout(
       () =>
-        setIndex((prevIndex) =>
-          prevIndex === MATERIAL_HUBS.length - 1 ? 0 : prevIndex + 1,
+        setIndex(prevIndex =>
+          prevIndex === MATERIAL_HUBS.length - 1 ? 0 : prevIndex + 1
         ),
-      DELAY,
+      DELAY
     );
 
     return () => {
@@ -129,7 +130,10 @@ export default function Resources() {
           </h3>
 
           <div className="pl-8 lg:pl-24 pb-12 lg:pb-[3.1rem] w-fit">
-            <ArrowButton link="https://drive.google.com/drive/u/4/folders/1Z0DnRWiczanfWoSsFcsjrseWeGW1YDEE">
+            <ArrowButton
+              link="https://drive.google.com/drive/u/4/folders/1Z0DnRWiczanfWoSsFcsjrseWeGW1YDEE"
+              external={true}
+            >
               <>view drive materials</>
             </ArrowButton>
           </div>
@@ -170,7 +174,9 @@ export default function Resources() {
               {MATERIAL_HUBS.map((material_hub, idx) => (
                 <div
                   key={idx}
-                  className={`hover:cursor-pointer hover:opacity-70 duration-500 flex gap-4 ${index === idx ? " opacity-100" : "opacity-50"}`}
+                  className={`hover:cursor-pointer hover:opacity-70 duration-500 flex gap-4 ${
+                    index === idx ? " opacity-100" : "opacity-50"
+                  }`}
                   onClick={() => {
                     setIndex(idx);
                   }}

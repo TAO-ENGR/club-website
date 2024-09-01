@@ -7,11 +7,11 @@ export type EventType = {
 };
 
 export type OfficerType = {
-  img: string;
   firstName: string;
   lastName: string;
   position: string;
   major: string;
+  img: string;
   linkedIn?: string;
   desc?: string;
 };

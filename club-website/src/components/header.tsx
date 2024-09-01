@@ -11,7 +11,7 @@ import {
   NavigationMenuLink,
   NavigationMenuList,
   NavigationMenuTrigger,
-  NavigationMenuViewport,
+  NavigationMenuViewport
 } from "@/components/ui/navigation-menu";
 
 export default function Header() {
@@ -55,5 +55,3 @@ export default function Header() {
     </div>
   );
 }
-
-//link TAO logo to resources page.. no home page yet sadge

@@ -1,20 +1,22 @@
 "use client";
 
+import React from "react";
+import Image from "next/image";
 import { poppins } from "./fonts";
 import { Badge } from "@/components/ui/badge";
 import { Calendar } from "@/components/ui/calendar";
 import Announcements from "@/components/announcements";
 import Upcomings from "@/components/upcomings";
-import React from "react";
+import HomeOfficers from "./_subsections/home-officers";
+import Blurb from "./_subsections/blurb";
 import ArrowButton from "@/components/arrowButton";
-import IntroText from "@/components/introText/introText";
 
 export default function Home() {
   const [date, setDate] = React.useState<Date | undefined>(new Date());
   return (
     <main className="flex min-h-screen flex-col items-center justify-between px-8 lg:px-24 gap-12">
       <div className="py-32">
-        <IntroText />
+        <Blurb />
       </div>
       <div className="flex flex-col gap-4">
         <h1 className="text-4xl font-bold uppercase" style={poppins.style}>
@@ -58,8 +60,8 @@ export default function Home() {
               </a>
             </div>
             <div>
-              <ArrowButton link="/announcements">
-                <>See all announcements</>
+              <ArrowButton link={"/announcements"}>
+                <>see all announcements</>
               </ArrowButton>
             </div>
           </div>
@@ -73,8 +75,8 @@ export default function Home() {
               className="rounded-md border w-full h-full"
             />
             <div>
-              <ArrowButton link="/calendar">
-                <>See all upcoming events</>
+              <ArrowButton link={"/calendar"}>
+                <>see all upcoming events</>
               </ArrowButton>
             </div>
           </div>
@@ -86,6 +88,83 @@ export default function Home() {
               <Upcomings />
             </div>
           </div>
+        </div>
+      </div>
+
+      <div className="w-full">
+        <h1 className="text-4xl font-bold pt-11 pb-7">CREATING CHANGE</h1>
+
+        <p className="text-xl pb-7">
+          We have already <s>improved exam and assignment scores</s> fostered a
+          community.
+        </p>
+
+        <div className="flex flex-col md:flex-row">
+          <div className="bg-maroon flex-auto w-72 border-2 p-6 pb-8 text-white">
+            <p className="text-xl mb-2">⬜ Total hours</p>
+            <p className="text-6xl">919.40</p>
+          </div>
+          <div className="bg-gray-100 flex-auto w-72 border-2 p-6 pb-8">
+            <p className="text-xl mb-2">⬜ Unique members</p>
+            <p className="text-6xl">673</p>
+          </div>
+          <div className="bg-gray-100 flex-auto w-72 border-2 p-6 pb-8">
+            <p className="text-xl mb-2">⬜ Unique channels</p>
+            <p className="text-6xl">15</p>
+          </div>
+        </div>
+
+        <div className="pt-7 pb-40 w-fit">
+          <ArrowButton link={"/about/#impact"}>
+            <>see more of our impact</>
+          </ArrowButton>
+        </div>
+      </div>
+
+      <HomeOfficers />
+
+      <div className="flex flex-col md:flex-row bg-white py-32 w-full">
+        <div className="md:pr-32">
+          <h1 className="lg:text-6xl md:text-5xl text-4xl font-extrabold pb-5">
+            WHAT ARE YOU
+          </h1>
+          <h1 className="lg:text-6xl md:text-5xl text-4xl font-extrabold pb-10">
+            WAITING FOR ?!
+          </h1>
+
+          <h2 className="lg:text-4xl md:text-3xl text-2xl pb-2">
+            Come say hi on our
+          </h2>
+          <h2 className="lg:text-4xl md:text-3xl text-2xl pb-10">discord 👋</h2>
+
+          <p className="lg:text-xl md:text-lg font-light">
+            Don&apost have a discord? Visit{" "}
+            <a
+              href="https://www.discord.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <u>discord.com</u>
+            </a>{" "}
+            to
+          </p>
+          <p className="lg:text-xl md:text-lg font-light">download :&#41;</p>
+        </div>
+
+        <div className="flex-auto lg:items-center flex justify-center items-center">
+          <a
+            href="https://www.tx.ag/taoserver"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image
+              src="/what_are_you_waiting_for.png"
+              className="flex-initial"
+              width={320}
+              height={280}
+              alt="red discord button with cursor"
+            ></Image>
+          </a>
         </div>
       </div>
     </main>
