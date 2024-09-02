@@ -8,9 +8,12 @@ import { Badge } from "@/components/ui/badge";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between px-8 lg:px-24 gap-12">
-      <div className="flex flex-col gap-12">
-        <h1 className="text-4xl font-bold uppercase" style={poppins.style}>
+    <main className="flex min-h-screen flex-col items-center justify-between px-8 md:px-8 lg:px-24 gap-12">
+      <div className="flex flex-col gap-8">
+        <h1
+          className="text-3xl lg:text-4xl font-bold uppercase"
+          style={poppins.style}
+        >
           ANNOUNCEMENT
         </h1>
         <div className="">
@@ -196,7 +199,7 @@ export default function Home() {
                   Professor role
                 </Badge>
               </li>
-              <li className="flex gap-2">
+              <li className="flex flex-col lg:flex-row gap-2">
                 <div>
                   <Badge className="bg-blue-400 whitespace-nowrap -translate-y-[0.5px]">
                     Staff role
@@ -208,7 +211,7 @@ export default function Home() {
             <p>&nbsp;</p>
             <h3>
               🆕<strong> </strong>
-              <span>
+              <span className="">
                 <strong>If you&apos;re new to Discord</strong> check out this{" "}
                 <a
                   href="https://support.discord.com/hc/en-us/articles/360045138571-Beginner-s-Guide-to-Discord"
@@ -293,21 +296,23 @@ export default function Home() {
                 me, you will eventually need Discord!)
               </em>
             </p>
-            <p>
-              <strong className="flex gap-2 items-center">
-                <ImLinkedin className="text-blue-600" />
-                Discord:{" "}
-                <a
-                  className="text-gray-600"
-                  title="Link"
-                  href="https://www.linkedin.com/company/engr-tao/"
-                  target="_blank"
-                  rel="noopener"
-                >
-                  linkedin.com/company/engr-tao
-                </a>
-              </strong>
-            </p>
+            <strong>
+            <div className="flex flex-col lg:flex-row gap-2 lg:items-center">
+    <div className="flex items-center gap-2">
+      <ImLinkedin className="text-blue-600" />
+      LinkedIn:{" "}
+    </div>
+    <a
+      className="text-gray-600"
+      title="Link"
+      href="https://www.linkedin.com/company/engr-tao/"
+      target="_blank"
+      rel="noopener"
+    >
+      linkedin.com/company/engr-tao
+    </a>
+  </div>
+            </strong>
             <p>
               <em>
                 Feel free to connect with the TAO leadership and engage with our
