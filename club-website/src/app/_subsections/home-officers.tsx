@@ -25,7 +25,7 @@ export default function HomeOfficers() {
     <div className={`w-[100vw] text-left bg p-8 lg:p-24 ${home["bg-maroon"]}`}>
       <div className="flex flex-col lg:flex-row gap-4 lg:gap-8 lg:items-center mb-10">
         <h1
-          className={`font-bold text-6xl ${home["text-light-gray"]}`}
+          className={`font-bold text-5xl ${home["text-light-gray"]}`}
           style={poppins.style}
         >
           OFFICERS

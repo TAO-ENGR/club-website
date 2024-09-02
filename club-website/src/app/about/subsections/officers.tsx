@@ -24,7 +24,7 @@ const Officers: React.FC = () => {
 
   return (
     <div className={`text-left bg p-8 lg:p-24 ${about["bg-light-gray"]}`}>
-      <h1 className="font-bold text-4xl mb-8" style={poppins.style}>
+      <h1 className="font-bold md:text-4xl text-3xl mb-8" style={poppins.style}>
         OFFICERS
       </h1>
       <div className="flex flex-wrap items-start justify-center gap-12 mb-12">
