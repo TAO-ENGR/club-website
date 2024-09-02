@@ -42,8 +42,8 @@ const ResourcesBanner: React.FC = () => {
       <Image
         src="/featured_content-transparent.png"
         alt="Featured content"
-        width={500}
-        height={500}
+        width={600}
+        height={600}
         className=""
       ></Image>
     </div>
