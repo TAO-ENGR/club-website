@@ -1,6 +1,5 @@
 import React from "react";
 
-import ArrowButton from "@/components/arrowButton";
 import HomeOfficers from "./_subsections/home-officers";
 import Blurb from "./_subsections/blurb";
 import WhatAreYouWaitingFor from "./_subsections/what-are-you-waiting-for";
