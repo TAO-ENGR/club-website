@@ -58,7 +58,8 @@ export default function Home() {
             <hr className="bg-gray-400 h-[2px] my-6" />
             <p>
               <span className="text-lg">
-                <strong className="flex gap-2 items-center">
+                <strong className="flex flex-col md:flex-row gap-2 md:items-center">
+                  <div>
                   <Image
                     src={"/announcements/anya-this.png"}
                     width={50}
@@ -67,6 +68,7 @@ export default function Home() {
                     className="inline"
                   />
                   Join Here:{" "}
+                  </div>
                   <a
                     title="Link"
                     href="http://tx.ag/taoserver"
@@ -297,7 +299,7 @@ export default function Home() {
               </em>
             </p>
             <strong>
-              <div className="flex flex-col lg:flex-row gap-2 lg:items-center">
+              <div className="flex flex-col md:flex-row gap-2 md:items-center">
                 <div className="flex items-center gap-2">
                   <ImLinkedin className="text-blue-600" />
                   LinkedIn:{" "}
@@ -343,7 +345,7 @@ export default function Home() {
             </p>
             <p>
             <strong>
-              <div className="flex flex-col lg:flex-row gap-2 lg:items-center">
+              <div className="flex flex-col md:flex-row gap-2 md:items-center">
                 <div className="flex items-center gap-2">
                     <BsYoutube className="text-red-700" />
                     YouTube:{" "}
