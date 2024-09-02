@@ -15,53 +15,51 @@ const Blurb: React.FC = () => {
     >
       <div className="flex gap-4">
         <p>
-        <span className="animate-[float-up_0.7s_linear]">An{" "}</span>
-        <span className="animate-[float-up_0.9s_linear] font-bold">
-          engineering student organization{" "}
-        </span>
-        <span className="animate-[float-up_1.2s_linear]">of </span>
+          <span className="animate-[float-up_0.7s_linear]">An </span>
+          <span className="animate-[float-up_0.9s_linear] font-bold">
+            engineering student organization{" "}
+          </span>
+          <span className="animate-[float-up_1.2s_linear]">of </span>
         </p>
       </div>
       <div className="flex gap-4">
         <p>
-        <span
-          className={`animate-[float-up_1.5s_linear] ${styles["strike"]} ${styles["strike-1"]}`}
-          aria-label="striked through peer teachers"
-        >
-          peer teachers,
-        </span>
-        <span>
-          {" "}
-        </span>
-        <span
-          className={`animate-[float-up_1.6s_linear] ${styles["strike"]} ${styles["strike-2"]}`}
-          aria-label="striked through professors"
-        >
-          professors,
-        </span>
-        <span>
-          {" "}
-        </span>
-        <span
-          className={`animate-[float-up_1.7s_linear] ${styles["strike"]} ${styles["strike-3"]}`}
-          aria-label="striked through upperclassmen"
-        >
-          upperclassmen,
-        </span>
+          <span
+            className={`animate-[float-up_1.5s_linear] ${styles["strike"]} ${styles["strike-1"]}`}
+            aria-label="striked through peer teachers"
+          >
+            peer teachers,
+          </span>
+          <span> </span>
+          <span
+            className={`animate-[float-up_1.6s_linear] ${styles["strike"]} ${styles["strike-2"]}`}
+            aria-label="striked through professors"
+          >
+            professors,
+          </span>
+          <span> </span>
+          <span
+            className={`animate-[float-up_1.7s_linear] ${styles["strike"]} ${styles["strike-3"]}`}
+            aria-label="striked through upperclassmen"
+          >
+            upperclassmen,
+          </span>
         </p>
       </div>
       <p>
-      <span className="animate-[float-up-delay_2s_linear] font-bold">
-        anyone passionate about helping others
-      </span>
+        <span className="animate-[float-up-delay_2s_linear] font-bold">
+          anyone passionate about helping others
+        </span>
       </p>
       <div className="flex gap-4">
         <p>
-        <span className="animate-[float-up-delay_2.5s_linear]">through{" "}</span>
-        <span className="animate-[float-up-delay_3s_linear]">Texas A&M&apos;s{" "}</span>
-        <span className="animate-[float-up-delay_3.4s_linear]">
-          first-year engineering courses.
-        </span>
+          <span className="animate-[float-up-delay_2.5s_linear]">through </span>
+          <span className="animate-[float-up-delay_3s_linear]">
+            Texas A&M&apos;s{" "}
+          </span>
+          <span className="animate-[float-up-delay_3.4s_linear]">
+            first-year engineering courses.
+          </span>
         </p>
       </div>
       <div className="pt-4 text-3xl text-gray-400 flex gap-4">

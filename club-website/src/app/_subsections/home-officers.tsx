@@ -3,7 +3,7 @@ import {
   CarouselContent,
   CarouselItem,
   CarouselNext,
-  CarouselPrevious
+  CarouselPrevious,
 } from "@/components/ui/carousel";
 import { OfficerType } from "@/lib/types";
 import { poppins } from "../fonts";
@@ -14,7 +14,7 @@ import execData from "../../../public/officers/execs.json";
 import {
   HoverCard,
   HoverCardContent,
-  HoverCardTrigger
+  HoverCardTrigger,
 } from "@/components/ui/hover-card";
 import ArrowButton from "@/components/arrowButton";
 
@@ -143,7 +143,7 @@ export default function HomeOfficers() {
             </CarouselItem>
           ))}
         </CarouselContent>
-        <CarouselPrevious className="mx-16 lg:mx-0"/>
+        <CarouselPrevious className="mx-16 lg:mx-0" />
         <CarouselNext className="mx-20 lg:mx-0" />
       </Carousel>
     </div>
