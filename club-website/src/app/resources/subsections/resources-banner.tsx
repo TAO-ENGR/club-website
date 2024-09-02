@@ -7,7 +7,7 @@ const ResourcesBanner: React.FC = () => {
     <div className="bg-maroon w-full md:h-[23.5rem] flex justify-between overflow-hidden">
       <div>
         <h2
-          className="text-slate-50 lg:text-6xl md:text-5xl text-4xl font-bold px-8 lg:px-24 pt-10
+          className="text-slate-50 lg:text-6xl md:text-5xl text-4xl font-bold px-8 lg:px-24 pt-8
           pb-3 lg:pb-5 order-2 uppercase"
         >
           Featured
