@@ -151,7 +151,6 @@ export default function Home() {
                 <Badge className="bg-sky-500 -translate-y-[0.5px]">
                   PT roles for the class(es) you help teach
                 </Badge>{" "}
-                (if applicable, this is for lab coordinators)
               </li>
             </ul>
             <p>&nbsp;</p>
@@ -198,9 +197,11 @@ export default function Home() {
                 </Badge>
               </li>
               <li className="flex gap-2">
-                <Badge className="bg-blue-400 -translate-y-[0.5px]">
-                  Staff role
-                </Badge>{" "}
+                <div>
+                  <Badge className="bg-blue-400 whitespace-nowrap -translate-y-[0.5px]">
+                    Staff role
+                  </Badge>
+                </div>{" "}
                 (if applicable, this is for lab coordinators)
               </li>
             </ul>
