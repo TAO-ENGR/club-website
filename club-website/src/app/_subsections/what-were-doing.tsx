@@ -18,13 +18,13 @@ const WhatWereDoing: React.FC = () => {
           WHAT WE&apos;RE DOING
         </h1>
         <div className=" flex flex-col lg:flex-row gap-8">
-          <div className="flex flex-col lg:w-1/3 gap-2">
+          <div className="flex flex-col lg:w-2/5 gap-2">
             <h2 className="text-2xl font-bold style={poppins.style}">
               Announcements
             </h2>
             <Announcements />
           </div>
-          <div className="flex flex-col lg:w-2/3 gap-4">
+          <div className="flex flex-col lg:w-3/5 gap-4">
             <div className="bg-[#d9d9d9] p-4 rounded-xl">
               <p className="text-xl font-bold">📢 Howdy everyone!</p>
               <p>
