@@ -1,18 +1,18 @@
 "use client";
+
+import React from "react";
 import { poppins } from "../fonts";
 import { Badge } from "@/components/ui/badge";
-import Image from "next/image";
 import { Calendar } from "@/components/ui/calendar";
 import Announcements from "@/components/announcements";
 import Upcomings from "@/components/upcomings";
-import React from "react";
-import axios from "axios";
+import ArrowButton from "@/components/arrowButton";
 
-export default function Home() {
+const WhatWereDoing: React.FC = () => {
   const [date, setDate] = React.useState<Date | undefined>(new Date());
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between px-8 lg:px-24 gap-12">
+    <>
       <div className="flex flex-col gap-4">
         <h1 className="text-4xl font-bold uppercase" style={poppins.style}>
           WHAT WE&apos;RE DOING
@@ -55,12 +55,9 @@ export default function Home() {
               </a>
             </div>
             <div>
-              <a href="/announcements">
-                <Badge className="bg-[#364967] gap-2 hover:gap-6 duration-200 hover:bg-[#364967] ">
-                  <p className="text-xl">See all announcements</p>
-                  <p>-{">"}</p>
-                </Badge>
-              </a>
+              <ArrowButton link={"/announcements"}>
+                <>see all announcements</>
+              </ArrowButton>
             </div>
           </div>
         </div>
@@ -73,12 +70,9 @@ export default function Home() {
               className="rounded-md border w-full h-full"
             />
             <div>
-              <a href="/calendar">
-                <Badge className="bg-[#364967] gap-2 hover:gap-6 duration-200 hover:bg-[#364967] ">
-                  <p className="text-xl">See all upcoming events</p>
-                  <p>-{">"}</p>
-                </Badge>
-              </a>
+              <ArrowButton link={"/calendar"}>
+                <>see all upcoming events</>
+              </ArrowButton>
             </div>
           </div>
           <div className="flex flex-col gap-2 lg:w-2/3">
@@ -91,6 +85,8 @@ export default function Home() {
           </div>
         </div>
       </div>
-    </main>
+    </>
   );
-}
+};
+
+export default WhatWereDoing;

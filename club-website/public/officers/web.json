@@ -1,0 +1,65 @@
+[
+  {
+    "firstName": "Claire",
+    "lastName": "Wu",
+    "position": "Web Officer",
+    "major": "General Engineering",
+    "img": "/officer_imgs/Claire Wu.jpg",
+    "linkedIn": "https://www.linkedin.com/in/you-claire-wu?trk=contact-info",
+    "desc": ""
+  },
+  {
+    "firstName": "Larissa",
+    "lastName": "Kim",
+    "position": "Web Officer",
+    "major": "Computer Science",
+    "img": "/officer_imgs/Larissa Kim.jpg",
+    "linkedIn": "https://www.linkedin.com/in/kimlarissa/",
+    "desc": "CPSC '27<br/>cat lover<br/>i play val, league, and occasionally r6<br/>i love drawing"
+  },
+  {
+    "firstName": "Tristan-Lee",
+    "lastName": "Aujong",
+    "position": "Web Officer",
+    "major": "Computer Science",
+    "img": "/officer_imgs/Tristan Aujong.jpg",
+    "linkedIn": "https://www.linkedin.com/in/tristan-lee-aujong-447362290",
+    "desc": "I love cars"
+  },
+  {
+    "firstName": "Sophia",
+    "lastName": "Phu",
+    "position": "Web Officer",
+    "major": "Computer Engineering",
+    "img": "/officer_imgs/Sophia Phu.jpg",
+    "linkedIn": "https://www.linkedin.com/in/sophiaphu",
+    "desc": ""
+  },
+  {
+    "firstName": "Eric",
+    "lastName": "Liu",
+    "position": "Web Officer",
+    "major": "Computer Science",
+    "img": "/officer_imgs/Eric Liu.jpeg",
+    "linkedIn": "https://www.linkedin.com/in/eric-liu-b75550220/",
+    "desc": "Howdy! I'm Eric and I'm a web officer here at TAO. Besides CS, I'm really into English (literature courses go crazy), and I'm also a sports reporter at the Battalion."
+  },
+  {
+    "firstName": "Ashley",
+    "lastName": "Zhang",
+    "position": "Web Officer",
+    "major": "Computer Science",
+    "img": "/officer_imgs/Ashley Zhang.jpg",
+    "linkedIn": "https://www.linkedin.com/in/ashley-j-zhang/",
+    "desc": "Hi! I'm Ashley. I love programming, fashion, my dog Cici, chess, and shoegaze music. This summer I've been playing a LOT of Realm of the Mad God."
+  },
+  {
+    "firstName": "Siddarth",
+    "lastName": "Kotthur",
+    "position": "Web Officer",
+    "major": "Computer Science",
+    "img": "/officer_imgs/Siddarth Kotthur.jpg",
+    "linkedIn": "https://www.linkedin.com/in/siddarthkot/",
+    "desc": ""
+  }
+]

@@ -1,0 +1,72 @@
+@keyframes strike {
+  0% {
+    width: 0;
+  }
+  80% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+.strike {
+  position: relative;
+}
+
+.strike-1::after {
+  content: " ";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 3.5px;
+  background: black;
+  animation-name: strike;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-duration: 1.2s;
+}
+
+.strike-2::after {
+  content: " ";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 3.5px;
+  background: black;
+  animation-name: strike;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-duration: 1.6s;
+}
+
+.strike-3::after {
+  content: " ";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 3.5px;
+  background: black;
+  animation-name: strike;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-duration: 2s;
+}
+
+.hover-raise span:hover {
+  transform: translateY(-3px);
+  transition: all 0.25s ease-out;
+  cursor: default;
+}
+
+.hover-raise a:hover {
+  transform: translateY(-2px);
+  transition: all 0.25s ease-out;
+  color: black;
+}
