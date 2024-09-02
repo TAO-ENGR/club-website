@@ -260,8 +260,8 @@ export default function Home() {
               <strong className="flex gap-2 items-center">
                 <FaGlobe className="text-sky-400" />
                 Website:{" "}
-                <a href="http://taoengr.tech/" target="_blank" rel="noopener">
-                  taoengr.tech
+                <a href="http://engrtao.tech/" target="_blank" rel="noopener">
+                  engrtao.tech
                 </a>
               </strong>
             </p>
