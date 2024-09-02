@@ -297,21 +297,21 @@ export default function Home() {
               </em>
             </p>
             <strong>
-            <div className="flex flex-col lg:flex-row gap-2 lg:items-center">
-    <div className="flex items-center gap-2">
-      <ImLinkedin className="text-blue-600" />
-      LinkedIn:{" "}
-    </div>
-    <a
-      className="text-gray-600"
-      title="Link"
-      href="https://www.linkedin.com/company/engr-tao/"
-      target="_blank"
-      rel="noopener"
-    >
-      linkedin.com/company/engr-tao
-    </a>
-  </div>
+              <div className="flex flex-col lg:flex-row gap-2 lg:items-center">
+                <div className="flex items-center gap-2">
+                  <ImLinkedin className="text-blue-600" />
+                  LinkedIn:{" "}
+                </div>
+                <a
+                  className="text-gray-600"
+                  title="Link"
+                  href="https://www.linkedin.com/company/engr-tao/"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  linkedin.com/company/engr-tao
+                </a>
+              </div>
             </strong>
             <p>
               <em>
@@ -342,18 +342,22 @@ export default function Home() {
               </em>
             </p>
             <p>
-              <strong className="flex gap-2 items-center">
-                <BsYoutube className="text-red-700" />
-                YouTube:{" "}
-                <a
-                  className="text-gray-600"
-                  title="Link"
-                  href="https://www.youtube.com/@engrtao"
-                  target="_blank"
-                  rel="noopener"
-                >
-                  youtube.com/@engrtao
-                </a>
+            <strong>
+              <div className="flex flex-col lg:flex-row gap-2 lg:items-center">
+                <div className="flex items-center gap-2">
+                    <BsYoutube className="text-red-700" />
+                    YouTube:{" "}
+                  </div>
+                  <a
+                    className="text-gray-600"
+                    title="Link"
+                    href="https://www.youtube.com/@engrtao"
+                    target="_blank"
+                    rel="noopener"
+                  >
+                    youtube.com/@engrtao
+                  </a>
+                </div>
               </strong>
             </p>
             <p>
