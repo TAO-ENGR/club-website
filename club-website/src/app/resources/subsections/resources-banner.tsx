@@ -44,7 +44,7 @@ const ResourcesBanner: React.FC = () => {
         alt="Featured content"
         width={600}
         height={600}
-        className=""
+        className="object-cover h-full w-auto"
       ></Image>
     </div>
   );
