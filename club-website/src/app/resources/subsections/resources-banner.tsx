@@ -29,7 +29,7 @@ const ResourcesBanner: React.FC = () => {
           EXAM MATERIALS
         </h3>
 
-        <div className="pl-8 lg:pl-24 pb-12 lg:pb-[3.1rem] w-fit">
+        <div className="pl-8 lg:pl-24 pb-8 lg:pb-[3.1rem] w-fit">
           <ArrowButton
             link="https://drive.google.com/drive/u/4/folders/1Z0DnRWiczanfWoSsFcsjrseWeGW1YDEE"
             external={true}
@@ -44,7 +44,7 @@ const ResourcesBanner: React.FC = () => {
         alt="Featured content"
         width={600}
         height={600}
-        className="object-cover h-full w-auto"
+        className=""
       ></Image>
     </div>
   );
