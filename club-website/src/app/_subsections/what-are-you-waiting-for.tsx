@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const WhatAreYouWaitingFor: React.FC = () => {
   return (
-    <div className="flex flex-col md:flex-row bg-white py-32 w-full">
+    <div className="flex flex-col md:flex-row bg-white py-8 md:py-16 lg:py-32 w-full">
       <div className="md:pr-32">
         <h1 className="lg:text-6xl md:text-5xl text-4xl font-extrabold pb-0 md:pb-5">
           WHAT ARE YOU
@@ -12,7 +12,7 @@ const WhatAreYouWaitingFor: React.FC = () => {
           WAITING FOR ?!
         </h1>
 
-        <h2 className="lg:text-4xl md:text-3xl text-2xl pb-2">
+        <h2 className="lg:text-4xl md:text-3xl text-2xl pb-0 md:pb-2">
           Come say hi on our
         </h2>
         <h2 className="lg:text-4xl md:text-3xl text-2xl pb-10">discord 👋</h2>
@@ -31,7 +31,7 @@ const WhatAreYouWaitingFor: React.FC = () => {
         <p className="lg:text-xl md:text-lg font-light">download :&#41;</p>
       </div>
 
-      <div className="flex-auto lg:items-center flex justify-center items-center">
+      <div className="flex-auto lg:items-center flex lg:justify-center">
         <a
           href="https://www.tx.ag/taoserver"
           target="_blank"

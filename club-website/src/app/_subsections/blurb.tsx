@@ -58,7 +58,7 @@ const Blurb: React.FC = () => {
       <div className="flex gap-4">
         <p>
         <span className="animate-[float-up-delay_2.5s_linear]">through{" "}</span>
-        <span className="animate-[float-up-delay_3s_linear]">Texas A&M’s{" "}</span>
+        <span className="animate-[float-up-delay_3s_linear]">Texas A&M&apos;s{" "}</span>
         <span className="animate-[float-up-delay_3.4s_linear]">
           first-year engineering courses.
         </span>
