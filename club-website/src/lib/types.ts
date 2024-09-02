@@ -1,9 +1,9 @@
 export type EventType = {
-  date: any;
-  startTime: any;
-  endTime: any;
-  title: String;
-  desc: any;
+  date: string;
+  startTime?: string;
+  endTime?: string;
+  title: string;
+  desc?: React.ReactNode;
 };
 
 export type OfficerType = {
