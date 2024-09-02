@@ -7,7 +7,7 @@ const Impact: React.FC = () => {
     <div className={`text-left bg p-8 lg:p-24`}>
       <h1
         id="impact"
-        className="font-bold text-6xl mb-10"
+        className="font-bold md:text-4xl text-3xl mb-10"
         style={poppins.style}
       >
         IMPACT

@@ -3,7 +3,7 @@ import {
   CarouselContent,
   CarouselItem,
   CarouselNext,
-  CarouselPrevious
+  CarouselPrevious,
 } from "@/components/ui/carousel";
 import { OfficerType } from "@/lib/types";
 import { poppins } from "../fonts";
@@ -14,7 +14,7 @@ import execData from "../../../public/officers/execs.json";
 import {
   HoverCard,
   HoverCardContent,
-  HoverCardTrigger
+  HoverCardTrigger,
 } from "@/components/ui/hover-card";
 import ArrowButton from "@/components/arrowButton";
 
@@ -22,10 +22,10 @@ export default function HomeOfficers() {
   const execs: OfficerType[] = execData;
   const officers: OfficerType[] = officerData;
   return (
-    <div className={`w-[100vw] text-left bg p-16 ${home["bg-maroon"]}`}>
-      <div className="flex gap-10 items-center mb-10">
+    <div className={`w-[100vw] text-left bg p-8 lg:p-24 ${home["bg-maroon"]}`}>
+      <div className="flex flex-col lg:flex-row gap-4 lg:gap-8 lg:items-center mb-10">
         <h1
-          className={`font-bold text-6xl ${home["text-light-gray"]}`}
+          className={`font-bold text-5xl ${home["text-light-gray"]}`}
           style={poppins.style}
         >
           OFFICERS
@@ -37,10 +37,10 @@ export default function HomeOfficers() {
         </div>
       </div>
 
-      <Carousel>
+      <Carousel className=" px-8 lg:px-0">
         <CarouselContent>
           {execs.map((exec, index) => (
-            <CarouselItem className="basis-1/4" key={index}>
+            <CarouselItem className="md:basis-1/2 lg:basis-1/4" key={index}>
               <div className="flex flex-col items-center justify-center text-center w-56">
                 {exec.desc == "" ? (
                   <Image
@@ -92,8 +92,8 @@ export default function HomeOfficers() {
           ))}
 
           {officers.map((officer, index) => (
-            <CarouselItem className="basis-1/4" key={index}>
-              <div className="flex flex-col items-center justify-center text-center w-44">
+            <CarouselItem className="md:basis-1/2 lg:basis-1/4" key={index}>
+              <div className="flex flex-col items-center justify-center text-center w-56">
                 {officer.desc == "" ? (
                   <Image
                     src={officer.img}
@@ -143,8 +143,8 @@ export default function HomeOfficers() {
             </CarouselItem>
           ))}
         </CarouselContent>
-        <CarouselPrevious />
-        <CarouselNext />
+        <CarouselPrevious className="mx-16 lg:mx-0" />
+        <CarouselNext className="mx-20 lg:mx-0" />
       </Carousel>
     </div>
   );

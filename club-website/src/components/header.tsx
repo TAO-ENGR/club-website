@@ -16,7 +16,7 @@ import {
 
 export default function Header() {
   return (
-    <div className="flex justify-between p-6" id="logo_address">
+    <div className="flex justify-between p-8 lg:px-24" id="logo_address">
       <Link href="/">
         <Image
           id="logo"
@@ -24,10 +24,11 @@ export default function Header() {
           alt=""
           width={160}
           height={80}
+          className="w-[100px] lg:w-[160px]"
         ></Image>
       </Link>
 
-      <div className="flex gap-6">
+      <div className="flex gap-0 lg:gap-6 ">
         <NavigationMenu>
           <NavigationMenuList>
             <NavigationMenuItem>
