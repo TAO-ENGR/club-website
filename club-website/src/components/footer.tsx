@@ -91,17 +91,21 @@ export default function Footer() {
       <div className="md:row-start-2 md:col-start-3" id="resources">
         <p>
           <b>
-            <Link href="/" className="hover:text-maroon">
+            <Link href="/resources" className="hover:text-maroon">
               Resources
             </Link>
           </b>
           <br />
           {/* <Link href="/">ENGR 102</Link><br/> */}
-          <Link href="/" className="hover:text-maroon">
+          <Link href="/resources" className="hover:text-maroon">
+            ENGR 102
+          </Link>
+          <br />
+          <Link href="/resources" className="hover:text-maroon">
             ENGR 216
           </Link>
           <br />
-          <Link href="/" className="hover:text-maroon">
+          <Link href="/resources" className="hover:text-maroon">
             Miscellaneous
           </Link>
           <br />-
@@ -111,7 +115,7 @@ export default function Footer() {
       <div id="landing">
         <p>
           <b>
-            <Link href="/home" className="hover:text-maroon">
+            <Link href="/" className="hover:text-maroon">
               Landing
             </Link>
           </b>
