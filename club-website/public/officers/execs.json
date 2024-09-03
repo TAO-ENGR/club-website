@@ -59,5 +59,14 @@
     "major": "Computer Science",
     "img": "/officer_imgs/Andrew Zheng.jpg",
     "linkedIn": "https://www.linkedin.com/in/andrew--zheng/"
+  },
+  {
+    "firstName": "Dr. Niki",
+    "lastName": "Ritchey",
+    "position": "TAO Advisor",
+    "major": "",
+    "img": "/officer_imgs/Niki Ritchey.jpg",
+    "linkedIn": "",
+    "desc": ""
   }
 ]
