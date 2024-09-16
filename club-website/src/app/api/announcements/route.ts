@@ -1,5 +1,6 @@
 export async function GET() {
-    const res = await fetch(`${process.env.DISCORD_API_ROUTE}/channels/${process.env.TAO_CHANNEL_ID}/messages`, {
+
+    const res = await fetch(`${process.env.DISCORD_API_ROUTE}/channels/${process.env.TAO_CHANNEL_ID}/messages?limit=5`, {
         headers: {
             Authorization: `Bot ${process.env.DISCORD_BOT_TOKEN}`
         }
@@ -7,12 +8,12 @@ export async function GET() {
     const data = await res.json();
     let msgs: any[] = []
 
-    await Promise.all(data.map(async (msg: any) => {
+    await Promise.all(data.map(async (msg: any, index: number) => {
         const new_msg = await replace(msg.content);
-        msgs.push({'date': get_date(msg.timestamp), 'title': new_msg});
+        msgs[index] = { 'date': get_date(msg.timestamp), 'title': new_msg };
     }));
 
-    return Response.json(msgs);
+    return Response.json(msgs.sort());
 }
 
 async function get_channel_name(id: string) {
@@ -55,6 +56,8 @@ async function replace(msg: string) {
     const channelPattern = /<#[0-9]+>/g;
     const userPattern = /<@[0-9]+>/g;
     const rolePattern = /<@&[0-9]+>/g;
+    const emotePattern = /<(:[^:]+:)[0-9]+>/g;
+
 
     const channelMatches = msg.match(channelPattern);
     if (channelMatches) {
@@ -79,6 +82,8 @@ async function replace(msg: string) {
             msg = msg.replace(match, `@${await get_role(roleId)}`);
         }
     }
+
+    msg = msg.replace(emotePattern, '$1');
 
     return msg;
 }
