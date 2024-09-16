@@ -4,7 +4,7 @@ import ArrowButton from "@/components/arrowButton";
 const CreatingChange: React.FC = () => {
   return (
     <div className="w-full">
-      <h1 className="text-4xl font-bold pt-11 pb-7">CREATING CHANGE</h1>
+      <h1 className="text-4xl font-bold pt-4 md:pt-8 pb-8">CREATING CHANGE</h1>
 
       <p className="text-xl pb-7">
         We have already <s>improved exam and assignment scores</s> fostered a
@@ -26,7 +26,7 @@ const CreatingChange: React.FC = () => {
         </div>
       </div>
 
-      <div className="pt-7 pb-40 w-fit">
+      <div className="pt-7 pb-8 md:pb-16 lg:pb-40 w-fit">
         <ArrowButton link={"/about/#impact"}>
           <>see more of our impact</>
         </ArrowButton>

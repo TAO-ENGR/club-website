@@ -43,7 +43,7 @@ const LINKS = [
 
 export default function Footer() {
   return (
-    <footer className="items-start justify-between lg:text-base md:text-md text-sm grid grid-rows-2 md:grid-cols-5 grid-cols-2 gap-8 lg:p-24 lg:ps-32 lg:pe-32 md:p-16 md:ps-16 md:pe-16 p-8 ps-12 pe-12">
+    <footer className="items-start justify-between lg:text-base md:text-md text-sm grid grid-rows-2 md:grid-cols-5 grid-cols-2 gap-8 lg:p-24 lg:ps-24 lg:pe-24 md:p-8 md:ps-8 md:pe-16 p-8 ps-8 pe-8">
       <div
         className="row-start-3 md:row-start-1 col-start-1 col-span-2"
         id="logo"
@@ -91,17 +91,21 @@ export default function Footer() {
       <div className="md:row-start-2 md:col-start-3" id="resources">
         <p>
           <b>
-            <Link href="/" className="hover:text-maroon">
+            <Link href="/resources" className="hover:text-maroon">
               Resources
             </Link>
           </b>
           <br />
           {/* <Link href="/">ENGR 102</Link><br/> */}
-          <Link href="/" className="hover:text-maroon">
+          <Link href="/resources" className="hover:text-maroon">
+            ENGR 102
+          </Link>
+          <br />
+          <Link href="/resources" className="hover:text-maroon">
             ENGR 216
           </Link>
           <br />
-          <Link href="/" className="hover:text-maroon">
+          <Link href="/resources" className="hover:text-maroon">
             Miscellaneous
           </Link>
           <br />-
@@ -111,7 +115,7 @@ export default function Footer() {
       <div id="landing">
         <p>
           <b>
-            <Link href="/home" className="hover:text-maroon">
+            <Link href="/" className="hover:text-maroon">
               Landing
             </Link>
           </b>

@@ -7,7 +7,7 @@ const ResourcesBanner: React.FC = () => {
     <div className="bg-maroon w-full md:h-[23.5rem] flex justify-between overflow-hidden">
       <div>
         <h2
-          className="text-slate-50 lg:text-6xl md:text-5xl text-4xl font-bold px-8 lg:px-24 pt-10
+          className="text-slate-50 lg:text-6xl md:text-5xl text-4xl font-bold px-8 lg:px-24 pt-8
           pb-3 lg:pb-5 order-2 uppercase"
         >
           Featured
@@ -29,7 +29,7 @@ const ResourcesBanner: React.FC = () => {
           EXAM MATERIALS
         </h3>
 
-        <div className="pl-8 lg:pl-24 pb-12 lg:pb-[3.1rem] w-fit">
+        <div className="pl-8 lg:pl-24 pb-8 lg:pb-[3.1rem] w-fit">
           <ArrowButton
             link="https://drive.google.com/drive/u/4/folders/1Z0DnRWiczanfWoSsFcsjrseWeGW1YDEE"
             external={true}
@@ -42,8 +42,8 @@ const ResourcesBanner: React.FC = () => {
       <Image
         src="/featured_content-transparent.png"
         alt="Featured content"
-        width={500}
-        height={500}
+        width={600}
+        height={600}
         className=""
       ></Image>
     </div>

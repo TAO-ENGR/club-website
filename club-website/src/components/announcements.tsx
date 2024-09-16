@@ -5,6 +5,7 @@ import axios from "axios";
 interface Announcement {
   date: string;
   title: string;
+  link: string;
 }
 
 const Announcements: React.FC = () => {
@@ -37,6 +38,7 @@ const Announcements: React.FC = () => {
           key={index}
           date={announcement.date}
           title={announcement.title.slice(0, 200) + "..."}
+          link={announcement.link}
         />
       ))}
     </div>

@@ -5,7 +5,7 @@ import about from "../about.module.css";
 const Membership: React.FC = () => {
   return (
     <div className={`text-left bg p-8 lg:p-24 ${about["bg-light-gray"]}`}>
-      <h1 className="font-bold text-4xl mb-8" style={poppins.style}>
+      <h1 className="font-bold md:text-4xl text-3xl mb-8" style={poppins.style}>
         MEMBERSHIP
       </h1>
       <p className="Inter text-md">

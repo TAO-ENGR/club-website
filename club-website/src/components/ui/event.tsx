@@ -13,7 +13,8 @@ export default function Event({
         <span className="inline-block mr-2 text-4xl">📚</span>
         <div className="text-sm">
           <div className="font-bold text-gray-800">
-            {date + " // " + startTime + " - " + endTime}
+            {date && date}
+            {(startTime && endTime) && " // " + startTime + " - " + endTime}
           </div>
         </div>
       </div>
