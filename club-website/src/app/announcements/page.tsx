@@ -60,14 +60,14 @@ export default function Home() {
               <span className="text-lg">
                 <strong className="flex flex-col md:flex-row gap-2 md:items-center">
                   <div>
-                  <Image
-                    src={"/announcements/anya-this.png"}
-                    width={50}
-                    height={50}
-                    alt={"emoji of anya pointing"}
-                    className="inline"
-                  />
-                  Join Here:{" "}
+                    <Image
+                      src={"/announcements/anya-this.png"}
+                      width={50}
+                      height={50}
+                      alt={"emoji of anya pointing"}
+                      className="inline"
+                    />
+                    Join Here:{" "}
                   </div>
                   <a
                     title="Link"
@@ -344,9 +344,9 @@ export default function Home() {
               </em>
             </p>
             <p>
-            <strong>
-              <div className="flex flex-col md:flex-row gap-2 md:items-center">
-                <div className="flex items-center gap-2">
+              <strong>
+                <div className="flex flex-col md:flex-row gap-2 md:items-center">
+                  <div className="flex items-center gap-2">
                     <BsYoutube className="text-red-700" />
                     YouTube:{" "}
                   </div>

@@ -9,7 +9,7 @@ interface AnnouncementProps {
 const Announcement: React.FC<AnnouncementProps> = ({ date, title, link }) => {
   return (
     <a>
-      <div className="bg-[#F6F6F6] p-4 rounded-xl hover:-translate-y-2 duration-200">
+      <div className="bg-[#F6F6F6] p-4 rounded-xl hover:-translate-y-2 duration-200 break-words">
         <p className="text-gray-600">{date}</p>
         <p>{title}</p>
         <a
