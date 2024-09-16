@@ -5,6 +5,12 @@
 .text-light-gray {
     color: #f8f8f8;
 }
+
+.text-maroon {
+    color: #5A0000;
+}
+
+
 .bg-bluegray {
     background-color: #384c64;
 }
