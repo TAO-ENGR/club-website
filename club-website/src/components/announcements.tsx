@@ -12,10 +12,7 @@ const Announcements: React.FC = () => {
 
   const fetchAnnouncements = async () => {
     try {
-      console.log(process.env.NEXT_PUBLIC_DOMAIN);
-      const res = await axios.get(
-        `${process.env.NEXT_PUBLIC_DOMAIN}/api/announcements`,
-      );
+      const res = await axios.get("/api/announcements");
 
       if (res.status === 200) {
         const a: Announcement[] = res.data;
