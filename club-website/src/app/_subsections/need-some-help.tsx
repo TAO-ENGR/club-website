@@ -5,32 +5,33 @@ import home from "./home.module.css";
 const NeedHelp: React.FC = () => {
     return (
 
-        <div >
-            <h1 className={`font-bold text-5xl`} style={poppins.style}>
-                NEED SOME HELP?
-            </h1>
+        <div className="w-full">
+            <div>
+                <h1 className="text-4xl font-bold pt-4 md:pt-8 pb-8">NEED SOME HELP?</h1>
+            </div>
 
-            <div className="flex flex-col font-bold">
-                <h2 className={`font-bold text-5xl ${home["text-maroon"]}`}>
+            <div className="flex flex-cols font-bold">
+                <h2 className={`font-bold text-xl ${home["text-maroon"]}`}>
                     TOPICS COVERED:
                 </h2>
-                <h2 className={home["text-maroon"]}>
-                    PYTHON BASICS
-                    VARIABLES
-                    CONTROL STRUCTURES
-                    LOOPS
-                    STATISTICS
-                    ETHICS
-                    PARTICLE STATICS
-                    COLLISIONS
-                    RIGID BODIES
-                    ANGULAR MOMENTUM
-                    HARMONIC MOTION
+                
+                <p className={`text-xl ${home["text-maroon"]}`}>
+                    PYTHON BASICS<br />
+                    VARIABLES<br />
+                    CONTROL STRUCTURES<br />
+                    LOOPS<br />
+                    STATISTICS<br />
+                    ETHICS<br />
+                    PARTICLE STATICS<br />
+                    COLLISIONS<br />
+                    RIGID BODIES<br />
+                    ANGULAR MOMENTUM<br />
+                    HARMONIC MOTION<br />
                     AND MORE!
-                </h2>
+                </p>
             </div>
             
-        /</div>
+        </div>
 
 
 
