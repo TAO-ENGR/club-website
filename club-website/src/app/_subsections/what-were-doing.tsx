@@ -13,7 +13,7 @@ const WhatWereDoing: React.FC = () => {
 
   return (
     <>
-      <div className="flex flex-col gap-4">
+      <div className="w-full flex flex-col gap-4">
         <h1 className="text-4xl font-bold uppercase" style={poppins.style}>
           WHAT WE&apos;RE DOING
         </h1>
