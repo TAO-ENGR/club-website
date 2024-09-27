@@ -24,7 +24,7 @@ export default function Fall24reviews() {
             className="text-[#DC5F00] md:text-4xl text-3xl text-left font-bold items-start mx-8 lg:mx-24"
             style={caveatBrush.style}
           >
-            ENGR 102 DOESN’T HAVE TO BE SCARY...
+            ENGR 102 DOESN&apos;T HAVE TO BE SCARY...
           </h1>
           <h1
             className=" text-white md:text-2xl text-xl text-left font-bold items-start  mx-8 lg:mx-24"
@@ -93,8 +93,14 @@ export default function Fall24reviews() {
                   <div className="flex justify-between px-4 pt-4 pb-2 text-white">
                     <p className=" ">5:00 PM - 9:00 PM</p>
                     <div className="flex gap-2">
-                    <p> ZACH 241,</p>
-                    <p className=" ">Zoom (link)</p>
+                      <p> ZACH 241, Discord,</p>
+                      <a
+                        className=" hover:underline "
+                        href="https://tamu.zoom.us/j/8082111008?pwd=L4eTb7xvKsO6fhvRkgwNVHEW85aIjk.1"
+                        target="_blank"
+                      >
+                        Zoom (link)
+                      </a>
                     </div>
                   </div>
                   <div className="flex justify-between px-4 pb-4 text-white">
@@ -118,7 +124,16 @@ export default function Fall24reviews() {
                   <div className=" bg-[#B43F3F] items-start mx-8 lg:mx-24 rounded-lg">
                     <div className="flex justify-between px-4 pt-4 pb-2 text-white">
                       <p className=" ">2:00 PM - 5:00 PM</p>
-                      <p className=" ">Zoom (link)</p>
+                      <div className="flex gap-2">
+                        <p> Discord,</p>
+                        <a
+                        className=" hover:underline "
+                        href="https://tamu.zoom.us/j/8082111008?pwd=L4eTb7xvKsO6fhvRkgwNVHEW85aIjk.1"
+                        target="_blank"
+                      >
+                        Zoom (link)
+                      </a>
+                      </div>
                     </div>
                     <div className="flex justify-between px-4 pb-4 text-white">
                       <p className=" ">
@@ -133,14 +148,12 @@ export default function Fall24reviews() {
                     <div className="flex justify-between px-4 pt-4 pb-2 text-white">
                       <p className=" ">3:00 PM - 5:00 PM</p>
                       <div className="flex gap-2">
-                    <p> BLOC 113,</p>
-                    <p className=" ">Zoom (link)</p>
-                    </div>
+                        <p> BLOC 113,</p>
+                        <a className="hover:underline" href="https://tamu.zoom.us/j/98961656870" target="_blank">Zoom (link)</a>
+                      </div>
                     </div>
                     <div className="flex justify-between px-4 pb-4 text-white">
-                      <p className=" ">
-                        Hosted by TAs Brook and Neeraj
-                      </p>
+                      <p className=" ">Hosted by TAs Brook and Neeraj</p>
                       <p className=" ">Everything</p>
                     </div>
                   </div>
@@ -150,14 +163,12 @@ export default function Fall24reviews() {
                     <div className="flex justify-between px-4 pt-4 pb-2 text-white">
                       <p className=" ">6:00 PM - 10:00 PM</p>
                       <div className="flex gap-2">
-                      <p> Twitch (link),</p>
-                    <p className=" ">Zoom (link)</p>
-                    </div>
+                        <a className="hover:underline" href = "https://www.twitch.tv/aricepanda" target="_blank"> Twitch (link),</a>
+                        <p className=" ">Zoom (link)</p>
+                      </div>
                     </div>
                     <div className="flex justify-between px-4 pb-4 text-white">
-                      <p className=" ">
-                        Hosted by TA Anthony and Dr. Ritchey
-                      </p>
+                      <p className=" ">Hosted by TA Anthony and Dr. Ritchey</p>
                       <p className=" ">Loops, lists, branching</p>
                     </div>
                   </div>
@@ -175,8 +186,17 @@ export default function Fall24reviews() {
                 <div className="flex flex-col">
                   <div className=" bg-[#B43F3F] items-start mx-8 lg:mx-24 rounded-lg">
                     <div className="flex justify-between px-4 pt-4 pb-2 text-white">
-                      <p className=" ">7:00 PM - 9:00 PM</p>
-                      <p className=" ">Zoom (link)</p>
+                      <p className=" ">1:00 PM - 5:00 PM</p>
+                      <div className="flex gap-2">
+                        <p> Discord,</p>
+                        <a
+                        className=" hover:underline "
+                        href="https://tamu.zoom.us/j/8082111008?pwd=L4eTb7xvKsO6fhvRkgwNVHEW85aIjk.1"
+                        target="_blank"
+                      >
+                        Zoom (link)
+                      </a>
+                      </div>
                     </div>
                     <div className="flex justify-between px-4 pb-4 text-white">
                       <p className=" ">
@@ -189,12 +209,21 @@ export default function Fall24reviews() {
                 <div className="flex flex-col">
                   <div className=" bg-[#B43F3F] items-start mx-8 lg:mx-24 rounded-lg">
                     <div className="flex justify-between px-4 pt-4 pb-2 text-white">
-                      <p className=" ">7:00 PM - 9:00 PM</p>
-                      <p className=" ">Zoom (link)</p>
+                      <p className=" ">3:00 PM - 5:00 PM</p>
+                      <div className="flex gap-2">
+                        <p> BLOC 113,</p>
+                        <a
+                        className=" hover:underline "
+                        href="https://tamu.zoom.us/j/98961656870"
+                        target="_blank"
+                      >
+                        Zoom (link)
+                      </a>
+                      </div>
                     </div>
                     <div className="flex justify-between px-4 pb-4 text-white">
                       <p className=" ">
-                        Hosted by TAs Christina, Jett, and Alejandro
+                        Hosted by TAs Samuel, Namatra, Ethan, and Brook
                       </p>
                       <p className=" ">Everything</p>
                     </div>
@@ -203,14 +232,15 @@ export default function Fall24reviews() {
                 <div className="flex flex-col">
                   <div className=" bg-[#B43F3F] items-start mx-8 lg:mx-24 rounded-lg">
                     <div className="flex justify-between px-4 pt-4 pb-2 text-white">
-                      <p className=" ">7:00 PM - 9:00 PM</p>
-                      <p className=" ">Zoom (link)</p>
+                      <p className=" ">6:00 PM - 10:00 PM</p>
+                      <div className="flex gap-2">
+                        <a className="hover:underline" href = "https://www.twitch.tv/aricepanda" target="_blank"> Twitch (link),</a>
+                        <p className=" ">Zoom (link)</p>
+                      </div>
                     </div>
                     <div className="flex justify-between px-4 pb-4 text-white">
-                      <p className=" ">
-                        Hosted by TAs Christina, Jett, and Alejandro
-                      </p>
-                      <p className=" ">Everything</p>
+                      <p className=" ">Hosted by TA Anthony and Dr. Ritchey</p>
+                      <p className=" ">Practice Problems</p>
                     </div>
                   </div>
                 </div>
@@ -227,12 +257,39 @@ export default function Fall24reviews() {
                 <div className="flex flex-col">
                   <div className=" bg-[#B43F3F] items-start mx-8 lg:mx-24 rounded-lg">
                     <div className="flex justify-between px-4 pt-4 pb-2 text-white">
-                      <p className=" ">7:00 PM - 9:00 PM</p>
-                      <p className=" ">Zoom (link)</p>
+                      <p className=" ">5:00 PM - 6:00 PM</p>
+                      <a
+                        className=" hover:underline "
+                        href="https://tamu.zoom.us/j/6043623916?pwd=ZVpjNW9iUm9WTmlWNTdCRnNNZFRBQT09"
+                        target="_blank"
+                      >
+                        Zoom (link)
+                      </a>
+                    </div>
+                    <div className="flex justify-between px-4 pb-4 text-white">
+                      <p className=" ">Hosted by TAs Alex and Anthony</p>
+                      <p className=" ">Everything</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="flex flex-col">
+                  <div className=" bg-[#B43F3F] items-start mx-8 lg:mx-24 rounded-lg">
+                    <div className="flex justify-between px-4 pt-4 pb-2 text-white">
+                      <p className=" ">5:30 PM - 9:30 PM</p>
+                      <div className="flex gap-2">
+                        <p> Discord,</p>
+                        <a
+                        className=" hover:underline "
+                        href="https://tamu.zoom.us/j/8082111008?pwd=L4eTb7xvKsO6fhvRkgwNVHEW85aIjk.1"
+                        target="_blank"
+                      >
+                        Zoom (link)
+                      </a>
+                      </div>
                     </div>
                     <div className="flex justify-between px-4 pb-4 text-white">
                       <p className=" ">
-                        Hosted by TAs Christina, Jett, and Alejandro
+                        Hosted by TAs Christina, Jett, Larwence, and Yahir
                       </p>
                       <p className=" ">Everything</p>
                     </div>
@@ -241,26 +298,12 @@ export default function Fall24reviews() {
                 <div className="flex flex-col">
                   <div className=" bg-[#B43F3F] items-start mx-8 lg:mx-24 rounded-lg">
                     <div className="flex justify-between px-4 pt-4 pb-2 text-white">
-                      <p className=" ">7:00 PM - 9:00 PM</p>
-                      <p className=" ">Zoom (link)</p>
+                      <p className=" ">7:30 PM - 9:30 PM</p>
+                      <p className=" ">ZACH 444</p>
                     </div>
                     <div className="flex justify-between px-4 pb-4 text-white">
                       <p className=" ">
-                        Hosted by TAs Christina, Jett, and Alejandro
-                      </p>
-                      <p className=" ">Everything</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="flex flex-col">
-                  <div className=" bg-[#B43F3F] items-start mx-8 lg:mx-24 rounded-lg">
-                    <div className="flex justify-between px-4 pt-4 pb-2 text-white">
-                      <p className=" ">7:00 PM - 9:00 PM</p>
-                      <p className=" ">Zoom (link)</p>
-                    </div>
-                    <div className="flex justify-between px-4 pb-4 text-white">
-                      <p className=" ">
-                        Hosted by TAs Christina, Jett, and Alejandro
+                        Hosted by TAs Benjamin, Siddhi, Tam, and Alejandro
                       </p>
                       <p className=" ">Everything</p>
                     </div>
@@ -279,26 +322,24 @@ export default function Fall24reviews() {
                 <div className="flex flex-col">
                   <div className=" bg-[#B43F3F] items-start mx-8 lg:mx-24 rounded-lg">
                     <div className="flex justify-between px-4 pt-4 pb-2 text-white">
-                      <p className=" ">7:00 PM - 9:00 PM</p>
-                      <p className=" ">Zoom (link)</p>
+                      <p className=" ">6:45 PM - 8:45 PM</p>
+                      <p className=" ">Twitch (link)</p>
                     </div>
                     <div className="flex justify-between px-4 pb-4 text-white">
-                      <p className=" ">
-                        Hosted by TAs Christina, Jett, and Alejandro
-                      </p>
-                      <p className=" ">Everything</p>
+                      <p className=" ">Hosted by TAs Hao and Andrew</p>
+                      <p className=" ">Everything (no practice problems)</p>
                     </div>
                   </div>
                 </div>
                 <div className="flex flex-col">
                   <div className=" bg-[#B43F3F] items-start mx-8 lg:mx-24 rounded-lg">
                     <div className="flex justify-between px-4 pt-4 pb-2 text-white">
-                      <p className=" ">7:00 PM - 9:00 PM</p>
-                      <p className=" ">Zoom (link)</p>
+                      <p className=" ">7:30 PM - 9:30 PM</p>
+                      <p className=" ">ZACH 244</p>
                     </div>
                     <div className="flex justify-between px-4 pb-4 text-white">
                       <p className=" ">
-                        Hosted by TAs Christina, Jett, and Alejandro
+                        Hosted by TAs Benjamin, Siddhi, Tam, and Alejandro
                       </p>
                       <p className=" ">Everything</p>
                     </div>
