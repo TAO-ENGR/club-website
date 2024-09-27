@@ -5,7 +5,7 @@ export default function Fall24reviews() {
     <main className="bg-[#DC5F00] flex min-h-screen flex-col ">
       <div className="flex flex-col gap-12">
         <h1
-          className=" text-white md:text-5xl text-3xl text-left font-bold items-start mt-8 md:mt-16 mx-8 lg:mx-24"
+          className=" text-white md:text-5xl text-3xl text-left font-bold items-start mt-8 mx-8 lg:mx-24"
           style={caveatBrush.style}
         >
           TAO MIDTERM REVIEWS
@@ -51,14 +51,14 @@ export default function Fall24reviews() {
               <div className="flex flex-col">
                 <div className=" bg-[#B43F3F] items-start mx-8 lg:mx-24 rounded-lg">
                   <div className="flex justify-between px-4 pt-4 pb-2 text-white">
-                    <p >7:00 PM - 11:00 PM</p>
-                    <p >Twitch</p>
+                    <p>7:00 PM - 11:00 PM</p>
+                    <p>Twitch</p>
                   </div>
                   <div className="flex justify-between px-4 pb-4 text-white">
                     <p className=" ">Hosted by TAs Casper and Tam</p>
                     <p className=" ">Everything</p>
                   </div>
-                  </div>
+                </div>
               </div>
             </div>
             <div>
@@ -78,8 +78,8 @@ export default function Fall24reviews() {
                     <p className=" ">Hosted by TAs Mark and Thuc</p>
                     <p className=" ">Loops, lists, and practice problems</p>
                   </div>
-                  </div>
                 </div>
+              </div>
             </div>
             <div>
               <p
@@ -88,18 +88,23 @@ export default function Fall24reviews() {
               >
                 FRIDAY SEPTEMBER 27
               </p>
-                <div className="flex flex-col">
+              <div className="flex flex-col">
                 <div className=" bg-[#B43F3F] items-start mx-8 lg:mx-24 rounded-lg">
                   <div className="flex justify-between px-4 pt-4 pb-2 text-white">
-                    <p className=" ">7:00 PM - 9:00 PM</p>
+                    <p className=" ">5:00 PM - 9:00 PM</p>
+                    <div className="flex gap-2">
+                    <p> ZACH 241,</p>
                     <p className=" ">Zoom (link)</p>
+                    </div>
                   </div>
                   <div className="flex justify-between px-4 pb-4 text-white">
-                    <p className=" ">Hosted by TAs Christina, Jett, and Alejandro</p>
+                    <p className=" ">
+                      Hosted by TAs Christina, Jett, and Alejandro
+                    </p>
                     <p className=" ">Everything</p>
                   </div>
                 </div>
-                </div>
+              </div>
             </div>
             <div>
               <p
@@ -108,25 +113,195 @@ export default function Fall24reviews() {
               >
                 SATURDAY SEPTEMBER 28
               </p>
-              <div className=" flex flex-col gap-4">
-                <div className=" bg-[#B43F3F] items-start mx-8 lg:mx-24 rounded-lg">
-                  <div className="flex justify-between px-4 pt-4 pb-2 text-white">
-                    <p className=" ">7:00 PM - 9:00 PM</p>
-                    <p className=" ">Zoom (link)</p>
-                  </div>
-                  <div className="flex justify-between px-4 pb-4 text-white">
-                    <p className=" ">Hosted by TAs Christina, Jett, and Alejandro</p>
-                    <p className=" ">Everything</p>
+              <div className="flex flex-col gap-4">
+                <div className="flex flex-col">
+                  <div className=" bg-[#B43F3F] items-start mx-8 lg:mx-24 rounded-lg">
+                    <div className="flex justify-between px-4 pt-4 pb-2 text-white">
+                      <p className=" ">2:00 PM - 5:00 PM</p>
+                      <p className=" ">Zoom (link)</p>
+                    </div>
+                    <div className="flex justify-between px-4 pb-4 text-white">
+                      <p className=" ">
+                        Hosted by TAs Christina, Jett, and Alejandro
+                      </p>
+                      <p className=" ">Everything</p>
+                    </div>
                   </div>
                 </div>
-                <div className="flex flex-col bg-[#B43F3F] items-start mx-8 lg:mx-24 rounded-lg">
-                  <div className="flex justify-between px-4 pt-4 pb-2 text-white">
-                    <p className=" ">7:00 PM - 9:00 PM</p>
+                <div className="flex flex-col">
+                  <div className=" bg-[#B43F3F] items-start mx-8 lg:mx-24 rounded-lg">
+                    <div className="flex justify-between px-4 pt-4 pb-2 text-white">
+                      <p className=" ">3:00 PM - 5:00 PM</p>
+                      <div className="flex gap-2">
+                    <p> BLOC 113,</p>
                     <p className=" ">Zoom (link)</p>
+                    </div>
+                    </div>
+                    <div className="flex justify-between px-4 pb-4 text-white">
+                      <p className=" ">
+                        Hosted by TAs Brook and Neeraj
+                      </p>
+                      <p className=" ">Everything</p>
+                    </div>
                   </div>
-                  <div className="flex justify-between px-4 pb-4 text-white">
-                    <p className=" ">Hosted by TAs Christina, Jett, and Alejandro</p>
-                    <p className=" ">Everything</p>
+                </div>
+                <div className="flex flex-col">
+                  <div className=" bg-[#B43F3F] items-start mx-8 lg:mx-24 rounded-lg">
+                    <div className="flex justify-between px-4 pt-4 pb-2 text-white">
+                      <p className=" ">6:00 PM - 10:00 PM</p>
+                      <div className="flex gap-2">
+                      <p> Twitch (link),</p>
+                    <p className=" ">Zoom (link)</p>
+                    </div>
+                    </div>
+                    <div className="flex justify-between px-4 pb-4 text-white">
+                      <p className=" ">
+                        Hosted by TA Anthony and Dr. Ritchey
+                      </p>
+                      <p className=" ">Loops, lists, branching</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <p
+                className="text-white md:text-2xl text-xl text-left font-bold items-start mx-8 lg:mx-24 mb-2"
+                style={caveatBrush.style}
+              >
+                SUNDAY SEPTEMBER 29
+              </p>
+              <div className="flex flex-col gap-4">
+                <div className="flex flex-col">
+                  <div className=" bg-[#B43F3F] items-start mx-8 lg:mx-24 rounded-lg">
+                    <div className="flex justify-between px-4 pt-4 pb-2 text-white">
+                      <p className=" ">7:00 PM - 9:00 PM</p>
+                      <p className=" ">Zoom (link)</p>
+                    </div>
+                    <div className="flex justify-between px-4 pb-4 text-white">
+                      <p className=" ">
+                        Hosted by TAs Christina, Jett, and Alejandro
+                      </p>
+                      <p className=" ">Everything</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="flex flex-col">
+                  <div className=" bg-[#B43F3F] items-start mx-8 lg:mx-24 rounded-lg">
+                    <div className="flex justify-between px-4 pt-4 pb-2 text-white">
+                      <p className=" ">7:00 PM - 9:00 PM</p>
+                      <p className=" ">Zoom (link)</p>
+                    </div>
+                    <div className="flex justify-between px-4 pb-4 text-white">
+                      <p className=" ">
+                        Hosted by TAs Christina, Jett, and Alejandro
+                      </p>
+                      <p className=" ">Everything</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="flex flex-col">
+                  <div className=" bg-[#B43F3F] items-start mx-8 lg:mx-24 rounded-lg">
+                    <div className="flex justify-between px-4 pt-4 pb-2 text-white">
+                      <p className=" ">7:00 PM - 9:00 PM</p>
+                      <p className=" ">Zoom (link)</p>
+                    </div>
+                    <div className="flex justify-between px-4 pb-4 text-white">
+                      <p className=" ">
+                        Hosted by TAs Christina, Jett, and Alejandro
+                      </p>
+                      <p className=" ">Everything</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <p
+                className="text-white md:text-2xl text-xl text-left font-bold items-start mx-8 lg:mx-24 mb-2"
+                style={caveatBrush.style}
+              >
+                MONDAY SEPTEMBER 30
+              </p>
+              <div className="flex flex-col gap-4">
+                <div className="flex flex-col">
+                  <div className=" bg-[#B43F3F] items-start mx-8 lg:mx-24 rounded-lg">
+                    <div className="flex justify-between px-4 pt-4 pb-2 text-white">
+                      <p className=" ">7:00 PM - 9:00 PM</p>
+                      <p className=" ">Zoom (link)</p>
+                    </div>
+                    <div className="flex justify-between px-4 pb-4 text-white">
+                      <p className=" ">
+                        Hosted by TAs Christina, Jett, and Alejandro
+                      </p>
+                      <p className=" ">Everything</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="flex flex-col">
+                  <div className=" bg-[#B43F3F] items-start mx-8 lg:mx-24 rounded-lg">
+                    <div className="flex justify-between px-4 pt-4 pb-2 text-white">
+                      <p className=" ">7:00 PM - 9:00 PM</p>
+                      <p className=" ">Zoom (link)</p>
+                    </div>
+                    <div className="flex justify-between px-4 pb-4 text-white">
+                      <p className=" ">
+                        Hosted by TAs Christina, Jett, and Alejandro
+                      </p>
+                      <p className=" ">Everything</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="flex flex-col">
+                  <div className=" bg-[#B43F3F] items-start mx-8 lg:mx-24 rounded-lg">
+                    <div className="flex justify-between px-4 pt-4 pb-2 text-white">
+                      <p className=" ">7:00 PM - 9:00 PM</p>
+                      <p className=" ">Zoom (link)</p>
+                    </div>
+                    <div className="flex justify-between px-4 pb-4 text-white">
+                      <p className=" ">
+                        Hosted by TAs Christina, Jett, and Alejandro
+                      </p>
+                      <p className=" ">Everything</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <p
+                className="text-white md:text-2xl text-xl text-left font-bold items-start mx-8 lg:mx-24 mb-2"
+                style={caveatBrush.style}
+              >
+                TUESDAY OCTOBER 1
+              </p>
+              <div className="flex flex-col gap-4">
+                <div className="flex flex-col">
+                  <div className=" bg-[#B43F3F] items-start mx-8 lg:mx-24 rounded-lg">
+                    <div className="flex justify-between px-4 pt-4 pb-2 text-white">
+                      <p className=" ">7:00 PM - 9:00 PM</p>
+                      <p className=" ">Zoom (link)</p>
+                    </div>
+                    <div className="flex justify-between px-4 pb-4 text-white">
+                      <p className=" ">
+                        Hosted by TAs Christina, Jett, and Alejandro
+                      </p>
+                      <p className=" ">Everything</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="flex flex-col">
+                  <div className=" bg-[#B43F3F] items-start mx-8 lg:mx-24 rounded-lg">
+                    <div className="flex justify-between px-4 pt-4 pb-2 text-white">
+                      <p className=" ">7:00 PM - 9:00 PM</p>
+                      <p className=" ">Zoom (link)</p>
+                    </div>
+                    <div className="flex justify-between px-4 pb-4 text-white">
+                      <p className=" ">
+                        Hosted by TAs Christina, Jett, and Alejandro
+                      </p>
+                      <p className=" ">Everything</p>
+                    </div>
                   </div>
                 </div>
               </div>
