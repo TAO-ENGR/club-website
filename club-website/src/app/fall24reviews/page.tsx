@@ -56,11 +56,11 @@ export default function Fall24reviews() {
               </p>
               <div className="flex flex-col">
                 <div className=" bg-[#B43F3F] items-start mx-8 lg:mx-24 rounded-lg">
-                  <div className="flex justify-between px-4 pt-4 pb-2 text-white">
+                  <div className="flex flex-col md:flex-row md:justify-between px-4 pt-4 pb-2 text-white">
                     <p>7:00 PM - 11:00 PM</p>
                     <p>Twitch</p>
                   </div>
-                  <div className="flex justify-between px-4 pb-4 text-white">
+                  <div className="flex flex-col md:flex-row md:justify-between px-4 pb-4 text-white">
                     <p className=" ">Hosted by TAs Casper and Tam</p>
                     <p className=" ">Everything</p>
                   </div>
@@ -76,11 +76,11 @@ export default function Fall24reviews() {
               </p>
               <div className="flex flex-col">
                 <div className=" bg-[#B43F3F] items-start mx-8 lg:mx-24 rounded-lg">
-                  <div className="flex justify-between px-4 pt-4 pb-2 text-white">
+                  <div className="flex flex-col md:flex-row md:justify-between  px-4 pt-4 pb-2 text-white">
                     <p className=" ">7:00 PM - 9:00 PM</p>
                     <p className=" ">ILCB 226</p>
                   </div>
-                  <div className="flex justify-between px-4 pb-4 text-white">
+                  <div className="flex flex-col md:flex-row md:justify-between  px-4 pb-4 text-white">
                     <p className=" ">Hosted by TAs Mark and Thuc</p>
                     <p className=" ">Loops, lists, and practice problems</p>
                   </div>
@@ -96,7 +96,7 @@ export default function Fall24reviews() {
               </p>
               <div className="flex flex-col">
                 <div className=" bg-[#B43F3F] items-start mx-8 lg:mx-24 rounded-lg">
-                  <div className="flex justify-between px-4 pt-4 pb-2 text-white">
+                  <div className="flex flex-col md:flex-row md:justify-between  px-4 pt-4 pb-2 text-white">
                     <p className=" ">5:00 PM - 9:00 PM</p>
                     <div className="flex gap-2">
                       <p> ZACH 241, Discord,</p>
@@ -109,7 +109,7 @@ export default function Fall24reviews() {
                       </a>
                     </div>
                   </div>
-                  <div className="flex justify-between px-4 pb-4 text-white">
+                  <div className="flex flex-col md:flex-row md:justify-between  px-4 pb-4 text-white">
                     <p className=" ">
                       Hosted by TAs Christina, Jett, and Alejandro
                     </p>
@@ -128,7 +128,7 @@ export default function Fall24reviews() {
               <div className="flex flex-col gap-4">
                 <div className="flex flex-col">
                   <div className=" bg-[#B43F3F] items-start mx-8 lg:mx-24 rounded-lg">
-                    <div className="flex justify-between px-4 pt-4 pb-2 text-white">
+                    <div className="flex flex-col md:flex-row md:justify-between  px-4 pt-4 pb-2 text-white">
                       <p className=" ">2:00 PM - 5:00 PM</p>
                       <div className="flex gap-2">
                         <p> Discord,</p>
@@ -141,7 +141,7 @@ export default function Fall24reviews() {
                         </a>
                       </div>
                     </div>
-                    <div className="flex justify-between px-4 pb-4 text-white">
+                    <div className="flex flex-col md:flex-row md:justify-between  px-4 pb-4 text-white">
                       <p className=" ">
                         Hosted by TAs Christina, Jett, and Alejandro
                       </p>
@@ -151,7 +151,7 @@ export default function Fall24reviews() {
                 </div>
                 <div className="flex flex-col">
                   <div className=" bg-[#B43F3F] items-start mx-8 lg:mx-24 rounded-lg">
-                    <div className="flex justify-between px-4 pt-4 pb-2 text-white">
+                    <div className="flex flex-col md:flex-row md:justify-between  px-4 pt-4 pb-2 text-white">
                       <p className=" ">3:00 PM - 5:00 PM</p>
                       <div className="flex gap-2">
                         <p> BLOC 113,</p>
@@ -164,7 +164,7 @@ export default function Fall24reviews() {
                         </a>
                       </div>
                     </div>
-                    <div className="flex justify-between px-4 pb-4 text-white">
+                    <div className="flex flex-col md:flex-row md:justify-between  px-4 pb-4 text-white">
                       <p className=" ">Hosted by TAs Brook and Neeraj</p>
                       <p className=" ">Everything</p>
                     </div>
@@ -172,7 +172,7 @@ export default function Fall24reviews() {
                 </div>
                 <div className="flex flex-col">
                   <div className=" bg-[#B43F3F] items-start mx-8 lg:mx-24 rounded-lg">
-                    <div className="flex justify-between px-4 pt-4 pb-2 text-white">
+                    <div className="flex flex-col md:flex-row md:justify-between px-4 pt-4 pb-2 text-white">
                       <p className=" ">6:00 PM - 10:00 PM</p>
                       <div className="flex gap-2">
                         <a
@@ -186,7 +186,7 @@ export default function Fall24reviews() {
                         <p className=" ">Zoom (link)</p>
                       </div>
                     </div>
-                    <div className="flex justify-between px-4 pb-4 text-white">
+                    <div className="flex flex-col md:flex-row md:justify-between  px-4 pb-4 text-white">
                       <p className=" ">Hosted by TA Anthony and Dr. Ritchey</p>
                       <p className=" ">Loops, lists, branching</p>
                     </div>
@@ -204,7 +204,7 @@ export default function Fall24reviews() {
               <div className="flex flex-col gap-4">
                 <div className="flex flex-col">
                   <div className=" bg-[#B43F3F] items-start mx-8 lg:mx-24 rounded-lg">
-                    <div className="flex justify-between px-4 pt-4 pb-2 text-white">
+                    <div className="flex flex-col md:flex-row md:justify-between  px-4 pt-4 pb-2 text-white">
                       <p className=" ">1:00 PM - 5:00 PM</p>
                       <div className="flex gap-2">
                         <p> Discord,</p>
@@ -217,7 +217,7 @@ export default function Fall24reviews() {
                         </a>
                       </div>
                     </div>
-                    <div className="flex justify-between px-4 pb-4 text-white">
+                    <div className="flex flex-col md:flex-row md:justify-between px-4 pb-4 text-white">
                       <p className=" ">
                         Hosted by TAs Christina, Jett, and Alejandro
                       </p>
@@ -227,7 +227,7 @@ export default function Fall24reviews() {
                 </div>
                 <div className="flex flex-col">
                   <div className=" bg-[#B43F3F] items-start mx-8 lg:mx-24 rounded-lg">
-                    <div className="flex justify-between px-4 pt-4 pb-2 text-white">
+                    <div className="flex flex-col md:flex-row md:justify-between px-4 pt-4 pb-2 text-white">
                       <p className=" ">3:00 PM - 5:00 PM</p>
                       <div className="flex gap-2">
                         <p> BLOC 113,</p>
@@ -240,7 +240,7 @@ export default function Fall24reviews() {
                         </a>
                       </div>
                     </div>
-                    <div className="flex justify-between px-4 pb-4 text-white">
+                    <div className="flex flex-col md:flex-row md:justify-between px-4 pb-4 text-white">
                       <p className=" ">
                         Hosted by TAs Samuel, Namatra, Ethan, and Brook
                       </p>
@@ -250,7 +250,7 @@ export default function Fall24reviews() {
                 </div>
                 <div className="flex flex-col">
                   <div className=" bg-[#B43F3F] items-start mx-8 lg:mx-24 rounded-lg">
-                    <div className="flex justify-between px-4 pt-4 pb-2 text-white">
+                    <div className="flex flex-col md:flex-row md:justify-between px-4 pt-4 pb-2 text-white">
                       <p className=" ">6:00 PM - 10:00 PM</p>
                       <div className="flex gap-2">
                         <a
@@ -264,7 +264,7 @@ export default function Fall24reviews() {
                         <p className=" ">Zoom (link)</p>
                       </div>
                     </div>
-                    <div className="flex justify-between px-4 pb-4 text-white">
+                    <div className="flex flex-col md:flex-row md:justify-between px-4 pb-4 text-white">
                       <p className=" ">Hosted by TA Anthony and Dr. Ritchey</p>
                       <p className=" ">Practice Problems</p>
                     </div>
@@ -282,7 +282,7 @@ export default function Fall24reviews() {
               <div className="flex flex-col gap-4">
                 <div className="flex flex-col">
                   <div className=" bg-[#B43F3F] items-start mx-8 lg:mx-24 rounded-lg">
-                    <div className="flex justify-between px-4 pt-4 pb-2 text-white">
+                    <div className="flex flex-col md:flex-row md:justify-between px-4 pt-4 pb-2 text-white">
                       <p className=" ">5:00 PM - 6:00 PM</p>
                       <a
                         className=" hover:underline "
@@ -292,7 +292,7 @@ export default function Fall24reviews() {
                         Zoom (link)
                       </a>
                     </div>
-                    <div className="flex justify-between px-4 pb-4 text-white">
+                    <div className="flex flex-col md:flex-row md:justify-between px-4 pb-4 text-white">
                       <p className=" ">Hosted by TAs Alex and Anthony</p>
                       <p className=" ">Everything</p>
                     </div>
@@ -300,7 +300,7 @@ export default function Fall24reviews() {
                 </div>
                 <div className="flex flex-col">
                   <div className=" bg-[#B43F3F] items-start mx-8 lg:mx-24 rounded-lg">
-                    <div className="flex justify-between px-4 pt-4 pb-2 text-white">
+                    <div className="flex flex-col md:flex-row md:justify-between px-4 pt-4 pb-2 text-white">
                       <p className=" ">5:30 PM - 9:30 PM</p>
                       <div className="flex gap-2">
                         <p> Discord,</p>
@@ -313,7 +313,7 @@ export default function Fall24reviews() {
                         </a>
                       </div>
                     </div>
-                    <div className="flex justify-between px-4 pb-4 text-white">
+                    <div className="flex flex-col md:flex-row md:justify-between px-4 pb-4 text-white">
                       <p className=" ">
                         Hosted by TAs Christina, Jett, Larwence, and Yahir
                       </p>
@@ -323,11 +323,11 @@ export default function Fall24reviews() {
                 </div>
                 <div className="flex flex-col">
                   <div className=" bg-[#B43F3F] items-start mx-8 lg:mx-24 rounded-lg">
-                    <div className="flex justify-between px-4 pt-4 pb-2 text-white">
+                    <div className="flex flex-col md:flex-row md:justify-between px-4 pt-4 pb-2 text-white">
                       <p className=" ">7:30 PM - 9:30 PM</p>
                       <p className=" ">ZACH 444</p>
                     </div>
-                    <div className="flex justify-between px-4 pb-4 text-white">
+                    <div className="flex flex-col md:flex-row md:justify-between px-4 pb-4 text-white">
                       <p className=" ">
                         Hosted by TAs Benjamin, Siddhi, Tam, and Alejandro
                       </p>
@@ -347,11 +347,11 @@ export default function Fall24reviews() {
               <div className="flex flex-col gap-4">
                 <div className="flex flex-col">
                   <div className=" bg-[#B43F3F] items-start mx-8 lg:mx-24 rounded-lg">
-                    <div className="flex justify-between px-4 pt-4 pb-2 text-white">
+                    <div className="flex flex-col md:flex-row md:justify-between px-4 pt-4 pb-2 text-white">
                       <p className=" ">6:45 PM - 8:45 PM</p>
                       <p className=" ">Twitch (link)</p>
                     </div>
-                    <div className="flex justify-between px-4 pb-4 text-white">
+                    <div className="flex flex-col md:flex-row md:justify-between px-4 pb-4 text-white">
                       <p className=" ">Hosted by TAs Hao and Andrew</p>
                       <p className=" ">Everything (no practice problems)</p>
                     </div>
@@ -359,11 +359,11 @@ export default function Fall24reviews() {
                 </div>
                 <div className="flex flex-col">
                   <div className=" bg-[#B43F3F] items-start mx-8 lg:mx-24 rounded-lg">
-                    <div className="flex justify-between px-4 pt-4 pb-2 text-white">
+                    <div className="flex flex-col md:flex-row md:justify-between px-4 pt-4 pb-2 text-white">
                       <p className=" ">7:30 PM - 9:30 PM</p>
                       <p className=" ">ZACH 244</p>
                     </div>
-                    <div className="flex justify-between px-4 pb-4 text-white">
+                    <div className="flex flex-col md:flex-row md:justify-between px-4 pb-4 text-white">
                       <p className=" ">
                         Hosted by TAs Benjamin, Siddhi, Tam, and Alejandro
                       </p>
