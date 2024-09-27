@@ -6,8 +6,10 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import Fall24ReviewsLayout from "@/components/layout";
 export default function Fall24reviews() {
   return (
+    <Fall24ReviewsLayout>
     <main className="bg-[#DC5F00] flex min-h-screen flex-col ">
       <div className="flex flex-col gap-12">
         <h1
@@ -405,5 +407,6 @@ export default function Fall24reviews() {
         </div>
       </div>
     </main>
+    </Fall24ReviewsLayout>
   );
 }
