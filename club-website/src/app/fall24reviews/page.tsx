@@ -1,5 +1,11 @@
 import { poppins, caveatBrush } from "../fonts";
 import Image from "next/image";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
 export default function Fall24reviews() {
   return (
     <main className="bg-[#DC5F00] flex min-h-screen flex-col ">
@@ -127,12 +133,12 @@ export default function Fall24reviews() {
                       <div className="flex gap-2">
                         <p> Discord,</p>
                         <a
-                        className=" hover:underline "
-                        href="https://tamu.zoom.us/j/8082111008?pwd=L4eTb7xvKsO6fhvRkgwNVHEW85aIjk.1"
-                        target="_blank"
-                      >
-                        Zoom (link)
-                      </a>
+                          className=" hover:underline "
+                          href="https://tamu.zoom.us/j/8082111008?pwd=L4eTb7xvKsO6fhvRkgwNVHEW85aIjk.1"
+                          target="_blank"
+                        >
+                          Zoom (link)
+                        </a>
                       </div>
                     </div>
                     <div className="flex justify-between px-4 pb-4 text-white">
@@ -149,7 +155,13 @@ export default function Fall24reviews() {
                       <p className=" ">3:00 PM - 5:00 PM</p>
                       <div className="flex gap-2">
                         <p> BLOC 113,</p>
-                        <a className="hover:underline" href="https://tamu.zoom.us/j/98961656870" target="_blank">Zoom (link)</a>
+                        <a
+                          className="hover:underline"
+                          href="https://tamu.zoom.us/j/98961656870"
+                          target="_blank"
+                        >
+                          Zoom (link)
+                        </a>
                       </div>
                     </div>
                     <div className="flex justify-between px-4 pb-4 text-white">
@@ -163,7 +175,14 @@ export default function Fall24reviews() {
                     <div className="flex justify-between px-4 pt-4 pb-2 text-white">
                       <p className=" ">6:00 PM - 10:00 PM</p>
                       <div className="flex gap-2">
-                        <a className="hover:underline" href = "https://www.twitch.tv/aricepanda" target="_blank"> Twitch (link),</a>
+                        <a
+                          className="hover:underline"
+                          href="https://www.twitch.tv/aricepanda"
+                          target="_blank"
+                        >
+                          {" "}
+                          Twitch (link),
+                        </a>
                         <p className=" ">Zoom (link)</p>
                       </div>
                     </div>
@@ -190,12 +209,12 @@ export default function Fall24reviews() {
                       <div className="flex gap-2">
                         <p> Discord,</p>
                         <a
-                        className=" hover:underline "
-                        href="https://tamu.zoom.us/j/8082111008?pwd=L4eTb7xvKsO6fhvRkgwNVHEW85aIjk.1"
-                        target="_blank"
-                      >
-                        Zoom (link)
-                      </a>
+                          className=" hover:underline "
+                          href="https://tamu.zoom.us/j/8082111008?pwd=L4eTb7xvKsO6fhvRkgwNVHEW85aIjk.1"
+                          target="_blank"
+                        >
+                          Zoom (link)
+                        </a>
                       </div>
                     </div>
                     <div className="flex justify-between px-4 pb-4 text-white">
@@ -213,12 +232,12 @@ export default function Fall24reviews() {
                       <div className="flex gap-2">
                         <p> BLOC 113,</p>
                         <a
-                        className=" hover:underline "
-                        href="https://tamu.zoom.us/j/98961656870"
-                        target="_blank"
-                      >
-                        Zoom (link)
-                      </a>
+                          className=" hover:underline "
+                          href="https://tamu.zoom.us/j/98961656870"
+                          target="_blank"
+                        >
+                          Zoom (link)
+                        </a>
                       </div>
                     </div>
                     <div className="flex justify-between px-4 pb-4 text-white">
@@ -234,7 +253,14 @@ export default function Fall24reviews() {
                     <div className="flex justify-between px-4 pt-4 pb-2 text-white">
                       <p className=" ">6:00 PM - 10:00 PM</p>
                       <div className="flex gap-2">
-                        <a className="hover:underline" href = "https://www.twitch.tv/aricepanda" target="_blank"> Twitch (link),</a>
+                        <a
+                          className="hover:underline"
+                          href="https://www.twitch.tv/aricepanda"
+                          target="_blank"
+                        >
+                          {" "}
+                          Twitch (link),
+                        </a>
                         <p className=" ">Zoom (link)</p>
                       </div>
                     </div>
@@ -279,12 +305,12 @@ export default function Fall24reviews() {
                       <div className="flex gap-2">
                         <p> Discord,</p>
                         <a
-                        className=" hover:underline "
-                        href="https://tamu.zoom.us/j/8082111008?pwd=L4eTb7xvKsO6fhvRkgwNVHEW85aIjk.1"
-                        target="_blank"
-                      >
-                        Zoom (link)
-                      </a>
+                          className=" hover:underline "
+                          href="https://tamu.zoom.us/j/8082111008?pwd=L4eTb7xvKsO6fhvRkgwNVHEW85aIjk.1"
+                          target="_blank"
+                        >
+                          Zoom (link)
+                        </a>
                       </div>
                     </div>
                     <div className="flex justify-between px-4 pb-4 text-white">
@@ -346,6 +372,34 @@ export default function Fall24reviews() {
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+          <div>
+            <h1
+              className="text-white md:text-4xl text-3xl text-left font-bold items-start mx-8 mt-12 lg:mx-24 mb-2"
+              style={caveatBrush.style}
+            >
+              QUICK LINKS
+            </h1>
+            <div className="bg-[#821131] mx-8 lg:mx-24 mb-8 rounded-lg">
+            <Accordion type="single" collapsible className=" p-4">
+              <AccordionItem value="item-1">
+                <AccordionTrigger className="text-white">Google Drive</AccordionTrigger>
+                <AccordionContent className="text-white">
+                <a href="https://tx.ag/taoreviewdrive" target = "_blank">
+                https://tx.ag/taoreviewdrive
+                </a>
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="item-2">
+                <AccordionTrigger className="text-white">Youtube</AccordionTrigger>
+                <AccordionContent className="text-white">
+                    <a href="https://www.youtube.com/@ENGRTAO" target = "_blank">
+                    https://www.youtube.com/@ENGRTAO
+                </a>
+                </AccordionContent>
+              </AccordionItem>
+            </Accordion>
             </div>
           </div>
         </div>
