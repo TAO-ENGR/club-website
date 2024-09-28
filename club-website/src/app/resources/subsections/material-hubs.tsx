@@ -46,7 +46,7 @@ const MATERIAL_HUBS: MaterialHub[] = [
       ></Image>
     ),
     link:
-      "https://drive.google.com/drive/folders/128TePaIK-zwts9vzNhZfj3_mJ3IH_L9d?usp=sharing",
+      "https://tx.ag/taoreviewdrive",
     description:
       "Access TAO's shared resources including review materials and practice problems on tx.ag/taodrive."
   },
