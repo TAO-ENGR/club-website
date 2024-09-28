@@ -10,7 +10,7 @@ import Fall24ReviewsLayout from "@/components/layout";
 export default function Fall24reviews() {
   return (
     <Fall24ReviewsLayout>
-    <main className="bg-[#DC5F00] flex min-h-screen flex-col ">
+    <main className="bg-[#DC5F00] flex min-h-screen flex-col mt-24 lg:mt-28">
       <div className="flex flex-col gap-12">
         <h1
           className=" text-white md:text-5xl text-3xl text-left font-bold items-start mt-8 mx-8 lg:mx-24"

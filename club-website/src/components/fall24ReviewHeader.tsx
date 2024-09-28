@@ -16,7 +16,7 @@ import {
 
 export default function Fall24ReviewsHeader() {
   return (
-    <div className="flex justify-between p-8 lg:px-24 bg-[#DC5F00]" id="logo_address">
+    <header className="absolute top-0 left-0 right-0 flex justify-between p-8 lg:px-24 bg-[#DC5F00] z-40" id="logo_address">
       <Link href="/">
         <Image
           id="logo"
@@ -53,6 +53,6 @@ export default function Fall24ReviewsHeader() {
           </NavigationMenuList>
         </NavigationMenu>
       </div>
-    </div>
+    </header>
   );
 }

@@ -8,7 +8,7 @@ import { Badge } from "@/components/ui/badge";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between px-8 md:px-8 lg:px-24 gap-12">
+    <main className="flex min-h-screen flex-col items-center justify-between px-8 md:px-8 lg:px-24 gap-12 mt-24 lg:mt-32">
       <div className="flex flex-col gap-8">
         <h1
           className="text-3xl lg:text-4xl font-bold uppercase"

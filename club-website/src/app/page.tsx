@@ -8,7 +8,7 @@ import CreatingChange from "./_subsections/creating-change";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between px-8 lg:px-24 gap-12">
+    <main className="flex min-h-screen flex-col items-center justify-between px-8 lg:px-24 gap-12 mt-24 lg:mt-32">
       <Blurb />
 
       <WhatWereDoing />

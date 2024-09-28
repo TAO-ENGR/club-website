@@ -11,7 +11,7 @@ export default function CalendarPage() {
   const events: EventType[] = eventData;
 
   return (
-    <div className="w-full px-8 lg:px-24  my-8">
+    <div className="w-full px-8 lg:px-24  my-8 mt-24 lg:mt-32">
       <h1
         className="text-4xl font-bold text-left mb-8 bold"
         style={ poppins.style}

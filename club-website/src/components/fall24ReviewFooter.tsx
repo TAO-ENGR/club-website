@@ -50,7 +50,7 @@ export default function Fall24ReviewsFooter() {
       >
         <Image
           id="logo"
-          src="/lightLogo.png"
+          src="/darkLogo.png"
           width={604}
           height={234}
           alt="glorious TAO logo :D"

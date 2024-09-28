@@ -11,12 +11,12 @@ import {
   NavigationMenuLink,
   NavigationMenuList,
   NavigationMenuTrigger,
-  NavigationMenuViewport,
+  NavigationMenuViewport
 } from "@/components/ui/navigation-menu";
 
 export default function Header() {
   return (
-    <div className="flex justify-between p-8 lg:px-24" id="logo_address">
+    <header className="absolute top-0 left-0 right-0 flex justify-between p-8 lg:px-24 z-30" id="logo_address">
       <Link href="/">
         <Image
           id="logo"
@@ -28,28 +28,31 @@ export default function Header() {
         ></Image>
       </Link>
 
-      {/* Combine all navigation items into a single NavigationMenu */}
-      <NavigationMenu>
-        <NavigationMenuList>
-          {/* RESOURCES Link */}
-          <NavigationMenuItem>
-            <Link href="/resources" legacyBehavior passHref>
-              <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                RESOURCES
-              </NavigationMenuLink>
-            </Link>
-          </NavigationMenuItem>
+      <div className="flex gap-0 lg:gap-6 ">
+        <NavigationMenu>
+          <NavigationMenuList>
+            <NavigationMenuItem>
+              <Link href="/resources" legacyBehavior passHref>
+                <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                  RESOURCES
+                </NavigationMenuLink>
+              </Link>
+            </NavigationMenuItem>
+          </NavigationMenuList>
+        </NavigationMenu>
 
-          {/* ABOUT Link */}
-          <NavigationMenuItem>
-            <Link href="/about" legacyBehavior passHref>
-              <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                ABOUT
-              </NavigationMenuLink>
-            </Link>
-          </NavigationMenuItem>
-        </NavigationMenuList>
-      </NavigationMenu>
-    </div>
+        <NavigationMenu>
+          <NavigationMenuList>
+            <NavigationMenuItem>
+              <Link href="/about" legacyBehavior passHref>
+                <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                  ABOUT
+                </NavigationMenuLink>
+              </Link>
+            </NavigationMenuItem>
+          </NavigationMenuList>
+        </NavigationMenu>
+      </div>
+    </header>
   );
 }
