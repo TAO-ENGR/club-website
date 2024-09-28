@@ -11,7 +11,7 @@ import {
   NavigationMenuLink,
   NavigationMenuList,
   NavigationMenuTrigger,
-  NavigationMenuViewport
+  NavigationMenuViewport,
 } from "@/components/ui/navigation-menu";
 
 export default function Header() {
@@ -28,31 +28,28 @@ export default function Header() {
         ></Image>
       </Link>
 
-      <div className="flex gap-0 lg:gap-6 ">
-        <NavigationMenu>
-          <NavigationMenuList>
-            <NavigationMenuItem>
-              <Link href="/resources" legacyBehavior passHref>
-                <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                  RESOURCES
-                </NavigationMenuLink>
-              </Link>
-            </NavigationMenuItem>
-          </NavigationMenuList>
-        </NavigationMenu>
+      {/* Combine all navigation items into a single NavigationMenu */}
+      <NavigationMenu>
+        <NavigationMenuList>
+          {/* RESOURCES Link */}
+          <NavigationMenuItem>
+            <Link href="/resources" legacyBehavior passHref>
+              <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                RESOURCES
+              </NavigationMenuLink>
+            </Link>
+          </NavigationMenuItem>
 
-        <NavigationMenu>
-          <NavigationMenuList>
-            <NavigationMenuItem>
-              <Link href="/about" legacyBehavior passHref>
-                <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                  ABOUT
-                </NavigationMenuLink>
-              </Link>
-            </NavigationMenuItem>
-          </NavigationMenuList>
-        </NavigationMenu>
-      </div>
+          {/* ABOUT Link */}
+          <NavigationMenuItem>
+            <Link href="/about" legacyBehavior passHref>
+              <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                ABOUT
+              </NavigationMenuLink>
+            </Link>
+          </NavigationMenuItem>
+        </NavigationMenuList>
+      </NavigationMenu>
     </div>
   );
 }
