@@ -20,21 +20,20 @@ const ResourcesBanner: React.FC = () => {
           className="text-gray-400 lg:text-[1.2rem] lg:line-height-[1.75rem] md:text-l font-bold px-8 lg:px-24 pt-9
           pb-0"
         >
-          SPRING 2023 ENGR 216 FINAL
+          FALL 2024 ENGR 102
         </h3>
         <h3
           className="text-gray-400 lg:text-[1.2rem] lg:line-height-[1.75rem] d:text-l font-bold px-8 lg:px-24  pt-0
           pb-8"
         >
-          EXAM MATERIALS
+          MIDTERM REVIEW INFORMATION
         </h3>
 
         <div className="pl-8 lg:pl-24 pb-8 lg:pb-[3.1rem] w-fit">
           <ArrowButton
-            link="https://drive.google.com/drive/u/4/folders/1Z0DnRWiczanfWoSsFcsjrseWeGW1YDEE"
-            external={true}
+            link="/fall24reviews"
           >
-            <>view drive materials</>
+            <>view review information</>
           </ArrowButton>
         </div>
       </div>
