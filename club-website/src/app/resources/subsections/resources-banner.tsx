@@ -30,9 +30,7 @@ const ResourcesBanner: React.FC = () => {
         </h3>
 
         <div className="pl-8 lg:pl-24 pb-8 lg:pb-[3.1rem] w-fit">
-          <ArrowButton
-            link="/reviews/winter24"
-          >
+          <ArrowButton link="/reviews/fall24/exam2">
             <>view review information</>
           </ArrowButton>
         </div>
