@@ -7,7 +7,9 @@ import particleSettings from "./snowflake-particles.json"
 import WinterReviewCard from "@/components/review-card";
 import { useEffect, useMemo, useState } from "react";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
+import { FaGoogleDrive, FaYoutube } from "react-icons/fa";
 import { loadSlim } from "@tsparticles/slim";
+import Link from "next/link";
 
 export default function Winter24Reviews() {
   const [init, setInit] = useState<boolean>(false)
@@ -38,6 +40,22 @@ export default function Winter24Reviews() {
           <p className="font-light md:text-lg opacity-50">We&apos;ll be holding review sessions from
             November 16th to November 25th.</p>
         </div>
+
+        <section className="mt-10">
+        <h2 className="font-bold text-4xl mb-2">Quick Links</h2>
+        <div className="flex flex-wrap gap-x-4 gap-y-2">
+          <Link href="https://tx.ag/taoreviewdrive" className="transition-colors bg-[#CDE9FF] hover:bg-[#d8eeff] shadow-sm flex items-center text-[#5E80FF] px-4 py-2 gap-x-2 rounded-md">
+            <FaGoogleDrive />
+            Google Drive
+          </Link>
+
+          <Link href="https://www.youtube.com/@ENGRTAO" className="transition-colors bg-[#CDE9FF] hover:bg-[#d8eeff] shadow-sm flex items-center text-[#5E80FF] px-4 py-2 gap-x-2 rounded-md">
+            <FaYoutube />
+            YouTube
+          </Link>
+        </div>
+
+        </section>
 
         <section className="mt-10">
           <h2 className="font-bold text-4xl mb-2">Schedule</h2>
