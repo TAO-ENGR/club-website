@@ -1,6 +1,6 @@
 "use client";
 
-import { poppins } from "../../fonts";
+import { poppins } from "../../../fonts";
 import Winter24ReviewsLayout from "@/components/winter-layout";
 import reviewData from "./review-info.json";
 import WinterReviewCard from "@/components/review-card";
