@@ -1,4 +1,4 @@
-import { poppins, caveatBrush } from "@/app/fonts";
+import { caveatBrush } from "@/app/fonts";
 import Image from "next/image";
 import {
   Accordion,
