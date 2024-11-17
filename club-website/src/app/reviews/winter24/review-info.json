@@ -1,50 +1,159 @@
 [
     {
-        "date": "Saturday, November 16",
+        "date": "Tuesday, November 12",
         "events": [
             {
-                "name": "Loops, Lists, and Branching",
-                "time": "3:50 PM - 5:10 PM",
-                "people": "Lorem Ipsum, Example Person, Sample Text",
+                "name": "Exam 1 Content and Containers, Functions/Scope, Debugging",
+                "time": "6:30 PM - 10:30 PM",
+                "people": "Christina Shu, Jett Sioson, Lawrence Wong, Yahir Ruiz Verver",
                 "links": [
-                    {"type": "ZACH 495", "url": ""},
-                    {"type": "Discord", "url": "URL HERE"},
-                    {"type": "Zoom", "url": "URL HERE"}
-                ]
-            },
-            {
-                "name": "Loops, Lists, and Branching",
-                "time": "3:50 PM - 5:10 PM",
-                "people": "Lorem Ipsum, Example Person, Sample Text",
-                "links": [
-                    {"type": "ZACH 495", "url": ""},
-                    {"type": "Twitch", "url": "URL HERE"},
-                    {"type": "Twitch", "url": "URL HERE"}
-                ]
-            },
-            {
-                "name": "Loops, Lists, and Branching",
-                "time": "3:50 PM - 5:10 PM",
-                "people": "Lorem Ipsum, Example Person, Sample Text",
-                "links": [
-                    {"type": "ZACH 495", "url": ""},
-                    {"type": "Discord", "url": "URL HERE"},
-                    {"type": "Zoom", "url": "URL HERE"}
+                    {"type": "Zoom", "url": "https://tamu.zoom.us/j/8082111008"}
                 ]
             }
         ]
     },
     {
-        "date": "Sunday, November 17",
+        "date": "Wednesday, November 13",
         "events": [
             {
-                "name": "Loops, Lists, and Branching",
-                "time": "3:50 PM - 5:10 PM",
-                "people": "Lorem Ipsum, Example Person, Sample Text",
+                "name": "Comprehensive",
+                "time": "6:00 PM - 10:00 PM",
+                "people": "Christina Shu, Jett Sioson, Lawrence Wong, Yahir Ruiz Verver",
                 "links": [
-                    {"type": "ZACH 495", "url": ""},
-                    {"type": "Discord", "url": "URL HERE"},
-                    {"type": "Zoom", "url": "URL HERE"}
+                    {"type": "BLOC 135", "url": ""},
+                    {"type": "Zoom", "url": "https://tamu.zoom.us/j/8082111008"}
+                ]
+            }
+        ]
+    },
+    {
+        "date": "Thursday, November 14",
+        "events": [
+            {
+                "name": "Loops, Branching, Containers, and Debugging",
+                "time": "5:30 PM - 8:30 PM",
+                "people": "Huy Reach, Quy Lam Phan, Matthew Hill",
+                "links": [
+                    {"type": "WEB 049", "url": ""},
+                    {"type": "Zoom", "url": "https://tamu.zoom.us/j/93372487942"}
+                ]
+            }
+        ]
+    },
+    {
+        "date": "Friday, November 15",
+        "events": [
+            {
+                "name": "Comprehensive (No Plotting)",
+                "time": "4:00 PM - 7:30 PM",
+                "people": "Steven Mao, Matthew Wang",
+                "links": [
+                    {"type": "ZACH 282M", "url": ""},
+                    {"type": "Zoom", "url": "https://tamu.zoom.us/j/8482627588"}
+                ]
+            },
+            {
+                "name": "Loops, Branching, Containers, and Debugging",
+                "time": "5:30 PM - 8:30 PM",
+                "people": "Huy Reach, Quy Lam Phan, Matthew Hill",
+                "links": [
+                    {"type": "RICH 106", "url": ""},
+                    {"type": "Zoom", "url": "https://tamu.zoom.us/j/93372487942"}
+                ]
+            },
+            {
+                "name": "Files (I/O and Writing)",
+                "time": "7:00 PM - 9:00 PM",
+                "people": "Mark Gonzalez, Truc Dinh",
+                "links": [
+                    {"type": "BLOC 166", "url": ""},
+                    {"type": "Zoom", "url": "https://tamu.zoom.us/j/9341514347"}
+                ]
+            }
+        ]
+    },
+    {
+        "date": "Saturday, November 16",
+        "events": [
+            {
+                "name": "Comprehensive",
+                "time": "1:00 PM - 4:00 PM",
+                "people": "Brook Asnake, Neeraj Gogate",
+                "links": [
+                    {"type": "ILCB 233", "url": ""},
+                    {"type": "Zoom", "url": "https://tamu.zoom.us/j/6626122572?omn=93486937716"}
+                ]
+            },
+            {
+                "name": "Comprehensive (No Practice Problems)",
+                "time": "1:00 PM - 3:00 PM",
+                "people": "Obinna Nwakwue, Hao Zheng, Fady Seha",
+                "links": [
+                    {"type": "Twitch", "url": "http://twitch.tv/baconsizzle1738"}
+                ]
+            }
+        ]
+    },
+    {
+        "date": "Monday, November 18",
+        "events": [
+            {
+                "name": "Variables, Loops, and Practice",
+                "time": "6:00 PM - 8:00 PM",
+                "people": "Bethany Tran, Sean Park",
+                "links": [
+                    {"type": "ZACH 240", "url": ""},
+                    {"type": "Zoom", "url": "link"}
+                ]
+            },
+            {
+                "name": "Comprehensive (Includes Plotting)",
+                "time": "6:30 PM - 10:30 PM",
+                "people": "Christina Shu, Jett Sioson, Lawrence Wong, Yahir Ruiz Verver",
+                "links": [
+                    {"type": "ZACH (TBA)", "url": ""},
+                    {"type": "Zoom", "url": "https://tamu.zoom.us/j/95083689760?pwd=Dbs35nALmbiIukYCbSxN1al0F1WACE.1"}
+                ]
+            },
+            {
+                "name": "Comprehensive",
+                "time": "7:30 PM - 9:30 PM",
+                "people": "Ben Kumar, Siddhi Bavare, Alejandro Laverde, Tam Phan",
+                "links": [
+                    {"type": "ZACH 340", "url": ""},
+                    {"type": "Zoom", "url": "https://tamu.zoom.us/j/7584077763"}
+                ]
+            }
+        ]
+    },
+    {
+        "date": "Tuesday, November 19",
+        "events": [
+            {
+                "name": "Comprehensive",
+                "time": "TBA",
+                "people": "Christina Shu, Jett Sioson, Lawrence Wong, Yahir Ruiz Verver",
+                "links": [
+                    {"type": "ZACH (TBA)", "url": ""},
+                    {"type": "Zoom", "url": "https://tamu.zoom.us/j/8082111008"}
+                ]
+            },
+            {
+                "name": "Comprehensive",
+                "time": "7:00 PM - 9:30 PM",
+                "people": "Anthony Pham, Seshadithya Saravanan, Andrew Zheng, Melissa Ordonez Watt",
+                "links": [
+                    {"type": "ZACH 353", "url": ""},
+                    {"type": "Zoom", "url": ""}
+                ]
+            },
+            {
+                "name": "Comprehensive",
+                "time": "8:00 PM - 9:00 PM",
+                "people": "Bethany Tran, Sean Park",
+                "links": [
+                    {"type": "ZACH 244", "url": ""},
+                    {"type": "Zoom", "url": "https://tamu.zoom.us/j/99369403644?pwd=3zRrEQkyFfuefbmoa4jQ8zSBnjUitC.1"}
                 ]
             }
         ]
