@@ -30,27 +30,31 @@ function getIcon(type: string) {
 
 export default function WinterReviewCard({ review }: { review: Review }) {
 
-    return <div style={inter.style} className="bg-[#CDE9FF] shadow-sm flex justify-between text-[#5E80FF] p-2 w-[600px]">
-        <div>
-            <h4 className="font-semibold text-3xl">{review.name}</h4>
+    return <div style={inter.style} className="bg-[#CDE9FF] shadow-sm flex justify-between text-[#5E80FF] p-2 w-full md:w-[600px]">
+        <div className="w-3/5 md:w-auto">
+            <h4 className="font-semibold text-xl md:text-3xl">{review.name}</h4>
 
             <div className="font-light mt-2 opacity-75">
-                <div className="flex">
-                    <Clock className="mr-2" />
-                    <p>{review.time}</p>
+                <div className="flex items-center">
+                    <div className="mr-2">
+                        <Clock className="w-4 h-4 md:w-5 md:h-5" />
+                    </div>
+                    <p className="text-sm sm:text-base truncate">{review.time}</p>
                 </div>
-                <div className="flex">
-                    <User className="mr-2" />
-                    <p>{review.people}</p>
+                <div className="flex items-center">
+                <div className="mr-2">
+                        <User className="w-4 h-4 md:w-5 md:h-5" />
+                    </div>
+                    <p className="text-sm sm:text-base truncate">{review.people}</p>
                 </div>
             </div>
         </div>
 
         <div className="flex font-light text-sm flex-col justify-between space-y-2">
             {review.links.map((link, index) => (
-                <Link href={link.url} key={index} className="flex gap-x-2 justify-center items-center bg-[#bcd9ff] px-4 py-1 rounded-md shadow-md hover:cursor-pointer">
+                <Link href={link.url} key={index} className="flex gap-x-2 justify-center items-center bg-[#bcd9ff] px-2 sm:px-4 py-1 rounded-md shadow-md hover:cursor-pointer">
                     {getIcon(link.type)}
-                    {link.type}
+                    <span className="sm:text-sm truncate md:text-base">{link.type}</span>
                 </Link>
             ))}
         </div>
