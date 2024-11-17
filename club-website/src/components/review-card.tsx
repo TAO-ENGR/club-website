@@ -38,7 +38,7 @@ export default function WinterReviewCard({ review }: { review: Review }) {
       style={inter.style}
       className="bg-[#CDE9FF] shadow-sm flex justify-between text-[#5E80FF] p-4 gap-4 rounded-md w-full md:w-[720px]"
     >
-      <div className="w-3/5 md:w-9/12">
+      <div className="w-3/5 md:w-3/4">
         <h4 className="font-semibold text-xl md:text-3xl">{review.name}</h4>
 
         <div className="font-light mt-2 opacity-75">
@@ -52,7 +52,7 @@ export default function WinterReviewCard({ review }: { review: Review }) {
             <div className="mr-2">
               <User className="w-4 h-4 md:w-5 md:h-5" />
             </div>
-            <p className="text-sm sm:text-base truncate max-w-full border border-black">{review.people}</p>
+            <p className="text-sm sm:text-base truncate max-w-full">{review.people}</p>
           </div>
         </div>
       </div>
