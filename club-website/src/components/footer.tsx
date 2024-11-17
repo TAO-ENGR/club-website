@@ -43,7 +43,7 @@ const LINKS = [
 
 export default function Footer() {
   return (
-    <footer className="items-start justify-between lg:text-base md:text-md text-sm grid grid-rows-2 md:grid-cols-5 grid-cols-2 gap-8 lg:p-24 lg:ps-24 lg:pe-24 md:p-8 md:ps-8 md:pe-16 p-8 ps-8 pe-8">
+    <footer className="w-full items-start justify-between lg:text-base md:text-md text-sm grid grid-rows-2 md:grid-cols-5 grid-cols-2 gap-8 lg:p-24 lg:ps-24 lg:pe-24 md:p-8 md:ps-8 md:pe-16 p-8 ps-8 pe-8">
       <div
         className="row-start-3 md:row-start-1 col-start-1 col-span-2"
         id="logo"
