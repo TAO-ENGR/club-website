@@ -36,10 +36,10 @@ export default function WinterReviewCard({ review }: { review: Review }) {
   return (
     <div
       style={inter.style}
-      className="bg-[#CDE9FF] shadow-sm flex justify-between text-[#5E80FF] p-4 gap-4 rounded-md w-full md:w-[720px]"
+      className="bg-[#CDE9FF] shadow-sm flex justify-between text-[#5E80FF] p-4 gap-4 rounded-md w-full md:w-[600px]"
     >
-      <div className="w-3/5 md:w-3/4">
-        <h4 className="font-semibold text-xl md:text-3xl">{review.name}</h4>
+      <div className="w-3/5 md:w-8/12">
+        <h4 className="font-semibold text-xl md:text-2xl">{review.name}</h4>
 
         <div className="font-light mt-2 opacity-75">
           <div className="flex items-center">
