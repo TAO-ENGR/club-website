@@ -3,13 +3,55 @@
 import { poppins } from "../../fonts";
 import Winter24ReviewsLayout from "@/components/winter-layout";
 import reviewData from "./review-info.json"
-import particleSettings from "./snowflake-particles.json"
 import WinterReviewCard from "@/components/review-card";
 import { useEffect, useMemo, useState } from "react";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { FaGoogleDrive, FaYoutube } from "react-icons/fa";
 import { loadSlim } from "@tsparticles/slim";
 import Link from "next/link";
+import { MoveDirection, OutMode } from "@tsparticles/engine";
+
+const particleConfig = {
+  background: {
+    color: {
+      value: "transparent"
+    }
+  },
+  fullScreen: false,
+  fpsLimit: 120,
+  particles: {
+    color: {
+      value: "#ffffff"
+    },
+    move: {
+      direction: MoveDirection.bottom,
+      enable: true,
+      outModes: {
+        default: OutMode.out
+      },
+      random: false,
+      speed: 2,
+      straight: false
+    },
+    number: {
+      density: {
+        enable: true
+      },
+      value: 200
+    },
+    opacity: {
+      value: 0.5
+    },
+    shape: {
+      type: "circle"
+    },
+    size: {
+      value: { min: 1, max: 5 },
+      random: true
+    }
+  }
+};
+
 
 export default function Winter24Reviews() {
   const [init, setInit] = useState<boolean>(false)
@@ -23,7 +65,7 @@ export default function Winter24Reviews() {
   }, []);
 
   const options = useMemo(
-    () => particleSettings,
+    () => particleConfig,
     [],
   );
 
