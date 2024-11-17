@@ -52,7 +52,7 @@ export default function WinterReviewCard({ review }: { review: Review }) {
             <div className="mr-2">
               <User className="w-4 h-4 md:w-5 md:h-5" />
             </div>
-            <p className="text-sm sm:text-base truncate">{review.people}</p>
+            <p className="text-sm sm:text-base truncate max-w-full border border-black">{review.people}</p>
           </div>
         </div>
       </div>

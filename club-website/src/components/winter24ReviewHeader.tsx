@@ -33,7 +33,7 @@ export default function Winter24ReviewsHeader() {
           <NavigationMenuList>
             <NavigationMenuItem>
               <Link href="/resources" legacyBehavior passHref className="" >
-                <NavigationMenuLink className={navigationMenuTriggerStyle()} >
+                <NavigationMenuLink className={navigationMenuTriggerStyle() + " hover:bg-white/25 active:bg-white/50"} >
                   RESOURCES
                 </NavigationMenuLink>
               </Link>
@@ -45,7 +45,7 @@ export default function Winter24ReviewsHeader() {
           <NavigationMenuList>
             <NavigationMenuItem>
               <Link href="/about" legacyBehavior passHref>
-                <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                <NavigationMenuLink className={navigationMenuTriggerStyle() + " hover:bg-white/25 active:bg-white/50"}>
                   ABOUT
                 </NavigationMenuLink>
               </Link>

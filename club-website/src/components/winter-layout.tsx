@@ -1,6 +1,6 @@
 import { Inter } from "next/font/google";
-import Fall24ReviewsFooter from "@/components/fall24ReviewFooter";
 import Winter24ReviewsHeader from "./winter24ReviewHeader";
+import Winter24ReviewsFooter from "./winter24ReviewFooter";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,7 +17,7 @@ export default function Winter24ReviewsLayout({
 
       {children}
 
-      <Fall24ReviewsFooter />
+      <Winter24ReviewsFooter />
     </div>
   );
 }
