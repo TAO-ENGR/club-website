@@ -26,12 +26,12 @@ const ResourcesBanner: React.FC = () => {
           className="text-gray-400 lg:text-[1.2rem] lg:line-height-[1.75rem] d:text-l font-bold px-8 lg:px-24  pt-0
           pb-8"
         >
-          MIDTERM REVIEW INFORMATION
+          FINAL REVIEW INFORMATION
         </h3>
 
         <div className="pl-8 lg:pl-24 pb-8 lg:pb-[3.1rem] w-fit">
           <ArrowButton
-            link="/fall24reviews"
+            link="/reviews/winter24"
           >
             <>view review information</>
           </ArrowButton>
