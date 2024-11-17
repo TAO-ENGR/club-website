@@ -1,4 +1,4 @@
-import { poppins, caveatBrush } from "../fonts";
+import { poppins, caveatBrush } from "../../fonts";
 import Image from "next/image";
 import {
   Accordion,
@@ -7,17 +7,18 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import Fall24ReviewsLayout from "@/components/layout";
-export default function Fall24reviews() {
+import Winter24ReviewsHeader from "@/components/winter24ReviewHeader";
+export default function Winter24Reviews() {
   return (
-    <Fall24ReviewsLayout>
     <main className="bg-[#DC5F00] flex min-h-screen flex-col mt-24 lg:mt-28">
       <div className="flex flex-col gap-12">
-        <h1
-          className=" text-white md:text-5xl text-3xl text-left font-bold items-start mt-8 mx-8 lg:mx-24"
-          style={caveatBrush.style}
-        >
-          TAO MIDTERM REVIEWS
+        <h2 className=" text-white md:text-5xl text-3xl text-left font-bold items-start mt-8 mx-8 lg:mx-24">
+          ENGR 102
+        </h2>
+        <h1 className=" text-white md:text-5xl text-3xl text-left font-bold items-start mt-8 mx-8 lg:mx-24">
+          Final Exam Review
         </h1>
+
         <Image
           src="/hauntedHouse.png"
           alt="Featured content"
@@ -384,29 +385,28 @@ export default function Fall24reviews() {
               QUICK LINKS
             </h1>
             <div className="bg-[#821131] mx-8 lg:mx-24 mb-8 rounded-lg">
-            <Accordion type="single" collapsible className=" p-4">
-              <AccordionItem value="item-1">
-                <AccordionTrigger className="text-white">Google Drive</AccordionTrigger>
-                <AccordionContent className="text-white">
-                <a href="https://tx.ag/taoreviewdrive" target = "_blank">
-                https://tx.ag/taoreviewdrive
-                </a>
-                </AccordionContent>
-              </AccordionItem>
-              <AccordionItem value="item-2">
-                <AccordionTrigger className="text-white">Youtube</AccordionTrigger>
-                <AccordionContent className="text-white">
-                    <a href="https://www.youtube.com/@ENGRTAO" target = "_blank">
-                    https://www.youtube.com/@ENGRTAO
-                </a>
-                </AccordionContent>
-              </AccordionItem>
-            </Accordion>
+              <Accordion type="single" collapsible className=" p-4">
+                <AccordionItem value="item-1">
+                  <AccordionTrigger className="text-white">Google Drive</AccordionTrigger>
+                  <AccordionContent className="text-white">
+                    <a href="https://tx.ag/taoreviewdrive" target="_blank">
+                      https://tx.ag/taoreviewdrive
+                    </a>
+                  </AccordionContent>
+                </AccordionItem>
+                <AccordionItem value="item-2">
+                  <AccordionTrigger className="text-white">Youtube</AccordionTrigger>
+                  <AccordionContent className="text-white">
+                    <a href="https://www.youtube.com/@ENGRTAO" target="_blank">
+                      https://www.youtube.com/@ENGRTAO
+                    </a>
+                  </AccordionContent>
+                </AccordionItem>
+              </Accordion>
             </div>
           </div>
         </div>
       </div>
     </main>
-    </Fall24ReviewsLayout>
   );
 }

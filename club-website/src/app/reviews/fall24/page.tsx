@@ -1,4 +1,4 @@
-import { poppins, caveatBrush } from "../fonts";
+import { poppins, caveatBrush } from "../../fonts";
 import Image from "next/image";
 import {
   Accordion,
@@ -7,7 +7,7 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import Fall24ReviewsLayout from "@/components/layout";
-export default function Winter24Reviews() {
+export default function Fall24reviews() {
   return (
     <Fall24ReviewsLayout>
     <main className="bg-[#DC5F00] flex min-h-screen flex-col mt-24 lg:mt-28">
