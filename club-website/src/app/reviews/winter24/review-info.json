@@ -1,0 +1,52 @@
+[
+    {
+        "date": "Saturday, November 16",
+        "events": [
+            {
+                "name": "Loops, Lists, and Branching",
+                "time": "3:50 PM - 5:10 PM",
+                "people": "Lorem Ipsum, Example Person, Sample Text",
+                "links": [
+                    {"type": "ZACH 495", "url": ""},
+                    {"type": "Discord", "url": "URL HERE"},
+                    {"type": "Zoom", "url": "URL HERE"}
+                ]
+            },
+            {
+                "name": "Loops, Lists, and Branching",
+                "time": "3:50 PM - 5:10 PM",
+                "people": "Lorem Ipsum, Example Person, Sample Text",
+                "links": [
+                    {"type": "ZACH 495", "url": ""},
+                    {"type": "Twitch", "url": "URL HERE"},
+                    {"type": "Twitch", "url": "URL HERE"}
+                ]
+            },
+            {
+                "name": "Loops, Lists, and Branching",
+                "time": "3:50 PM - 5:10 PM",
+                "people": "Lorem Ipsum, Example Person, Sample Text",
+                "links": [
+                    {"type": "ZACH 495", "url": ""},
+                    {"type": "Discord", "url": "URL HERE"},
+                    {"type": "Zoom", "url": "URL HERE"}
+                ]
+            }
+        ]
+    },
+    {
+        "date": "Sunday, November 17",
+        "events": [
+            {
+                "name": "Loops, Lists, and Branching",
+                "time": "3:50 PM - 5:10 PM",
+                "people": "Lorem Ipsum, Example Person, Sample Text",
+                "links": [
+                    {"type": "ZACH 495", "url": ""},
+                    {"type": "Discord", "url": "URL HERE"},
+                    {"type": "Zoom", "url": "URL HERE"}
+                ]
+            }
+        ]
+    }
+]
