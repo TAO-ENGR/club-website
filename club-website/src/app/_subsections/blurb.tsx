@@ -71,7 +71,7 @@ const Blurb: React.FC = () => {
           <FaDiscord className="animate-[float-up-delay_3s_linear]" />
         </a>
         <a
-          href="https://discord.gg/vvKtQHb3Ys"
+          href="mailto:taoengr@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -85,7 +85,7 @@ const Blurb: React.FC = () => {
           <ImLinkedin className="animate-[float-up-delay_3.4s_linear]" />
         </a>
         <a
-          href="https://discord.gg/vvKtQHb3Ys"
+          href="https://github.com/TAO-ENGR/club-website"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -99,7 +99,7 @@ const Blurb: React.FC = () => {
           <BsYoutube className="animate-[float-up-delay_3.8s_linear]" />
         </a>
         <a
-          href="https://maroonlink.tamu.edu/organization/tao"
+          href="https://getinvolved.tamu.edu/org/tao"
           target="_blank"
           rel="noopener noreferrer"
         >
