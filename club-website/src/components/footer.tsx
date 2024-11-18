@@ -1,3 +1,5 @@
+"use client"
+
 import Image from "next/image";
 import {
   RiDriveLine,
@@ -9,6 +11,9 @@ import {
   RiInstagramLine,
 } from "react-icons/ri";
 import Link from "next/link";
+import { cn } from "@/lib/utils";
+import { usePathname } from "next/navigation";
+import { customLayoutStyles } from "./custom-layout";
 
 const LINKS = [
   {
@@ -41,16 +46,21 @@ const LINKS = [
   },
 ];
 
-export default function Footer() {
+export default function Footer({ className }: {className?: string}) {
+
+  const pathname = usePathname();
+
   return (
-    <footer className="w-full items-start justify-between lg:text-base md:text-md text-sm grid grid-rows-2 md:grid-cols-5 grid-cols-2 gap-8 lg:p-24 lg:ps-24 lg:pe-24 md:p-8 md:ps-8 md:pe-16 p-8 ps-8 pe-8">
+    <footer className={cn(
+      "w-full items-start justify-between lg:text-base md:text-md text-sm grid grid-rows-2 md:grid-cols-5 grid-cols-2 gap-8 lg:p-24 lg:ps-24 lg:pe-24 md:p-8 md:ps-8 md:pe-16 p-8 ps-8 pe-8",
+      customLayoutStyles[pathname]?.footer || "")}>
       <div
         className="row-start-3 md:row-start-1 col-start-1 col-span-2"
         id="logo"
       >
         <Image
           id="logo"
-          src="/lightLogo.png"
+          src={customLayoutStyles[pathname]?.darkFooter ? "/darkLogo.png" : "/lightLogo.png"}
           width={604}
           height={234}
           alt="glorious TAO logo :D"
