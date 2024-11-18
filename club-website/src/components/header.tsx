@@ -1,4 +1,5 @@
 "use client";
+
 import * as React from "react";
 import Link from "next/link";
 import Image from "next/image";
@@ -13,14 +14,22 @@ import {
   NavigationMenuTrigger,
   NavigationMenuViewport
 } from "@/components/ui/navigation-menu";
+import { cn } from "@/lib/utils";
+import { usePathname } from "next/navigation";
+import { customLayoutStyles } from "./custom-layout";
 
 export default function Header() {
+
+  const pathname = usePathname();
+
   return (
-    <header className="absolute top-0 left-0 right-0 flex justify-between p-8 lg:px-24 z-30" id="logo_address">
+    <header className={cn(
+      "absolute top-0 left-0 right-0 flex justify-between p-8 lg:px-24 z-30",
+      customLayoutStyles[pathname]?.header || "")} id="logo_address">
       <Link href="/">
         <Image
           id="logo"
-          src="/lightLogo.png"
+          src={customLayoutStyles[pathname]?.darkHeader ? "/darkLogo.png" : "/lightLogo.png"}
           alt=""
           width={160}
           height={80}
