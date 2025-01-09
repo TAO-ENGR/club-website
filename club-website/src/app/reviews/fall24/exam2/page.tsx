@@ -1,7 +1,6 @@
 "use client";
 
 import { poppins } from "@/app/fonts";
-import Winter24ReviewsLayout from "@/components/winter-layout";
 import reviewData from "./review-info.json";
 import WinterReviewCard from "@/components/review-card";
 import { useEffect, useMemo, useState } from "react";
@@ -66,7 +65,7 @@ export default function Winter24Reviews() {
   const options = useMemo(() => particleConfig, []);
 
   return (
-    <Winter24ReviewsLayout>
+    <>
       {init ? (
         <Particles
           className="absolute w-full h-full pointer-events-none top-0 left-0"
@@ -127,6 +126,6 @@ export default function Winter24Reviews() {
           ))}
         </section>
       </main>
-    </Winter24ReviewsLayout>
+    </>
   );
 }
