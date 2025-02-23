@@ -75,7 +75,7 @@ export default function Footer({ className }: {className?: string}) {
           ZACH 420 - 125 Spence St, College Station, TX 77843, United States
           <br />
           <br />
-          2024 © ENGR TA Organization
+          2025 © ENGR TA Organization
         </p>
       </div>
 
