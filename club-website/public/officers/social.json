@@ -1,5 +1,13 @@
 [
   {
+    "firstName": "Laina",
+    "lastName": "Hoang",
+    "position": "Jr. Social Chair",
+    "major": "General Engineering",
+    "img": "/officer_imgs/Laina Hoang.jpg",
+    "linkedIn": ""
+  },
+  {
     "firstName": "Antony",
     "lastName": "Quach",
     "position": "Social Officer",
@@ -7,5 +15,38 @@
     "img": "/officer_imgs/Antony Quach.jpg",
     "linkedIn": "",
     "desc": "I like to draw, mainly muscles and anatomy, I also play tennis and go to the gym frequently"
+  },
+  {
+    "firstName": "Alex",
+    "lastName": "Gonce",
+    "position": "Officer / PT Training Team",
+    "major": "Computer Engineering",
+    "img": "/officer_imgs/Alex Gonce.jpg",
+    "linkedIn": "https://www.linkedin.com/in/alex-gonce/"
+  },
+  {
+    "firstName": "Owen",
+    "lastName": "Cai",
+    "position": "Social Officer",
+    "major": "",
+    "img": "/officer_imgs/default.jpg",
+    "linkedIn": ""
+  },
+  {
+    "firstName": "Ian",
+    "lastName": "Kong",
+    "position": "Social Officer",
+    "major": "",
+    "img": "/officer_imgs/default.jpg",
+    "linkedIn": ""
+  },
+  {
+    "firstName": "Jennie",
+    "lastName": "Nguyen",
+    "position": "Social Officer",
+    "major": "Electrical Engineering",
+    "img": "/officer_imgs/Jennie Nguyen.png",
+    "linkedIn": "https://www.linkedin.com/in/jennie-nguyen-a99286349/",
+    "desc": "In my free time I enjoy doing digital art and exploring new food places around town!"
   }
 ]

@@ -7,5 +7,13 @@
     "img": "/officer_imgs/Lawrence Wong.jpg",
     "linkedIn": "https://linkedin.com/in//lawrencewongg",
     "desc": "Howdy! I'm a Computer Science Major in the class of '26 and I'm looking to get a masters degree and specialize in ML. In my free time I enjoy sleeping."
+  },
+  {
+    "firstName": "Archer",
+    "lastName": "Simmons",
+    "position": "Server and Bot Officer",
+    "major": "Industry and Systems Engineering",
+    "img": "/officer_imgs/Archer Simmons.jpg",
+    "linkedIn": "https://www.linkedin.com/in/archer-simmons-0b653b148/"
   }
 ]

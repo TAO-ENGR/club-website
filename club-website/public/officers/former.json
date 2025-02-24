@@ -1,0 +1,20 @@
+[
+  {
+    "firstName": "Ryan",
+    "lastName": "Kabir",
+    "position": "Former President / Co-Founder",
+    "major": "Computer Science & Electrical Engineering",
+    "img": "/officer_imgs/Ryan Kabir.jpg",
+    "linkedIn": "https://www.linkedin.com/in/ryankbr",
+    "desc": "Hi! I'm Ryan, I founded TAO with Casey Pei and Lily Tang in 2022, and am currently Co-Presidents with Casey. In my free time, I like to watch tech, food, and lifestyle vlog videos, and I like to play Valorant & Genshin now and then. I'm also a Software Engineering Intern at Microsoft!"
+  },
+  {
+    "firstName": "Casey",
+    "lastName": "Pei",
+    "position": "Former President / Co-Founder",
+    "major": "Computer Science",
+    "img": "/officer_imgs/Casey Pei.jpg",
+    "linkedIn": "https://linkedin.com/in/caseypei",
+    "desc": "(she/her) My name is Casey and one of the co-founders of TAO. We made this club with the intention of helping students through their first year of engineering and we hope we continue to do better and better! In my free time I make useless updates to my personal website, draw, and watch video essays on Youtube :)"
+  }
+]
