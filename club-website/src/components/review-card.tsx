@@ -66,16 +66,18 @@ export default function ReviewCard({ review, buttonStyle, className }: ReviewCar
 
       <div className="flex font-light text-sm flex-col justify-center gap-2 space-y-2">
         {review.links.map((link, index) => (
-          <Link
+          <a
             href={link.url}
             key={index}
+            target="_blank"
+            rel="noreferrer noopener"
             className={cn("flex gap-x-2 justify-center items-center px-2 sm:px-4 py-1 rounded-md shadow-md hover:cursor-pointer", buttonStyle)}
           >
             {getIcon(link.type)}
             <span className="sm:text-sm truncate md:text-base">
               {link.type}
             </span>
-          </Link>
+          </a>
         ))}
       </div>
     </div>
