@@ -1,4 +1,4 @@
-import { Poppins, Caveat_Brush } from "next/font/google";
+import { Poppins, Caveat_Brush, Fredoka } from "next/font/google";
 
 export const poppins = Poppins({
   subsets: ["latin"],
@@ -8,4 +8,8 @@ export const poppins = Poppins({
 export const caveatBrush = Caveat_Brush({
   subsets: ["latin"],
   weight: ["400"],
+});
+
+export const fredoka = Fredoka({
+  subsets: ["latin"]
 });
