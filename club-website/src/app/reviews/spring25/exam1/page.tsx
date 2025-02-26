@@ -5,9 +5,7 @@ import reviewData from "./review-info.json";
 import { useEffect, useMemo, useState } from "react";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { FaGoogleDrive, FaYoutube } from "react-icons/fa";
-import Link from "next/link";
 import Image from "next/image";
-import { IShape, ISourceOptions, MoveDirection, Options, OutMode, RecursivePartial } from "@tsparticles/engine";
 import { cn } from "@/lib/utils";
 import ReviewCard from "@/components/review-card";
 import seedrandom from "seedrandom";
@@ -22,7 +20,7 @@ const cardColors = [
 ]
 
 function randomCardColor(dateIndex: number, index: number) {
-  const seed = dateIndex.toString() + index.toString();
+  const seed = dateIndex.toString() + "," + index.toString();
   const randomIndex = Math.floor(seedrandom(seed)() * cardColors.length);
   return cardColors[randomIndex];
 }
@@ -70,28 +68,30 @@ export default function Winter24Reviews() {
         </div>
 
         <div className="flex justify-center md:justify-start">
-          {pageLoaded && <Countdown date={new Date(Date.UTC(2025, 2, 1, 6, 0, 0, 0))}
+          {pageLoaded && <Countdown date={new Date('2025-03-04T21:00:00-06:00')}
                     renderer={ReviewCountdown} />}
         </div>
 
         <section className="mt-10">
           <h2 className={cn("font-semibold text-4xl mb-2", fredoka.className)}>Quick Links</h2>
           <div className="flex flex-wrap gap-x-4 gap-y-2">
-            <Link
+            <a
               href="https://tx.ag/taoreviewdrive"
+              target="_blank" rel="noreferrer noopener"
               className={cn("transition-all shadow-sm flex items-center text-white px-4 py-2 gap-x-2 rounded-md hover:brightness-90", randomCardColor(1, 1))}
             >
               <FaGoogleDrive />
               Google Drive
-            </Link>
+            </a>
 
-            <Link
+            <a
               href="https://www.youtube.com/@ENGRTAO"
+              target="_blank" rel="noreferrer noopener"
               className={cn("transition-all shadow-sm flex items-center text-white px-4 py-2 gap-x-2 rounded-md hover:brightness-90", randomCardColor(2, 2))}
             >
               <FaYoutube />
               YouTube
-            </Link>
+            </a>
           </div>
         </section>
 
