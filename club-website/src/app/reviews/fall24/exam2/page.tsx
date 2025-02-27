@@ -2,13 +2,13 @@
 
 import { poppins } from "@/app/fonts";
 import reviewData from "./review-info.json";
-import WinterReviewCard from "@/components/review-card";
 import { useEffect, useMemo, useState } from "react";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { FaGoogleDrive, FaYoutube } from "react-icons/fa";
 import { loadSlim } from "@tsparticles/slim";
 import Link from "next/link";
 import { MoveDirection, OutMode } from "@tsparticles/engine";
+import ReviewCard from "@/components/review-card";
 
 const particleConfig = {
   background: {
@@ -119,7 +119,7 @@ export default function Winter24Reviews() {
               </h3>
               <div className="flex flex-col md:flex-row md:flex-wrap justify-start gap-x-10 gap-y-2">
                 {date.events.map((event, index) => (
-                  <WinterReviewCard key={index} review={event} />
+                  <ReviewCard key={index} review={event} />
                 ))}
               </div>
             </div>

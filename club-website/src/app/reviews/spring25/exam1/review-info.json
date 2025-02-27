@@ -1,0 +1,49 @@
+[
+  {
+    "date": "February 28, 2025",
+    "events": [
+      {
+        "name": "Comprehensive",
+        "time": "6:00 PM - 8:00 PM",
+        "people": "Sarah Acosta, Melissa Ordonez Watt",
+        "links": [
+          { "type": "ZACH 311", "url": "https://aggiemap.tamu.edu/?bldg=0518" }
+        ]
+      },
+      {
+        "name": "Comprehensive",
+        "time": "TBD",
+        "people": "Alejandro Laverde",
+        "links": [
+          { "type": "Zoom", "url": "" }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "March 1, 2025",
+    "events": [
+      {
+        "name": "Comprehensive",
+        "time": "TBD",
+        "people": "Alejandro Laverde",
+        "links": [
+          { "type": "Zoom", "url": "" }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "March 2, 2025",
+    "events": [
+      {
+        "name": "Comprehensive",
+        "time": "TBD",
+        "people": "Alejandro Laverde",
+        "links": [
+          { "type": "Zoom", "url": "" }
+        ]
+      }
+    ]
+  }
+]

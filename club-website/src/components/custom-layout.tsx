@@ -15,4 +15,8 @@ export const customLayoutStyles: Record<string, CustomLayoutStyle> = {
         header: "bg-[#B3E8FF]",
         footer: "bg-gradient-to-b from-[#D9D9D9] to-[#fff8df]"
     },
+    "/reviews/spring25/exam1": {
+        header: "bg-[#FCF8E4]",
+        footer: "bg-[#F9C9AB]"
+    }
 }
