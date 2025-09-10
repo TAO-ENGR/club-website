@@ -28,17 +28,19 @@
     "firstName": "Owen",
     "lastName": "Cai",
     "position": "Social Officer",
-    "major": "",
-    "img": "/officer_imgs/default.jpg",
-    "linkedIn": ""
+    "major": "Computer Science",
+    "img": "/officer_imgs/Owen Cai.jpg",
+    "linkedIn": "https://billert.dev",
+    "desc": "I solve interesting problems by inputting runes into a magic stone"
   },
   {
     "firstName": "Ian",
     "lastName": "Kong",
     "position": "Social Officer",
-    "major": "",
-    "img": "/officer_imgs/default.jpg",
-    "linkedIn": ""
+    "major": "Industrial Engineering",
+    "img": "/officer_imgs/Ian Kong.jpg",
+    "linkedIn": "https://bento.me/iankong",
+    "desc": "Majoring in Industrial Engineering (ISEN) and a Social Officer of Engineering TAO. I love building Gunpla model kits and enjoy playing casual sports like pickleball and bowling, always feel free to contact me about anything regarding myself or TAO Social Branch inquires."
   },
   {
     "firstName": "Jennie",

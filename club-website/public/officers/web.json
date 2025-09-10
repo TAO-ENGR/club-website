@@ -30,10 +30,10 @@
     "firstName": "Daniel",
     "lastName": "Chen",
     "position": "Web Officer",
-    "major": "",
-    "img": "/officer_imgs/default.jpg",
-    "linkedIn": "",
-    "desc": ""
+    "major": "Computer Science",
+    "img": "/officer_imgs/Daniel Chen.png",
+    "linkedIn": "https://www.linkedin.com/in/daniel-chen-2a6762225/",
+    "desc": "Howdy, I'm a sophomore at Texas A&M studying computer science. In my free time, I enjoy going to the gym and playing board games."
   },
   {
     "firstName": "Leon",
@@ -57,9 +57,9 @@
     "firstName": "Sidney",
     "lastName": "Vu",
     "position": "Web Officer",
-    "major": "Computer Science",
-    "img": "/officer_imgs/default.jpg",
+    "major": "General Engineering",
+    "img": "/officer_imgs/Sidney Vu.jpg",
     "linkedIn": "",
-    "desc": ""
+    "desc": "Hellooo!"
   }
 ]

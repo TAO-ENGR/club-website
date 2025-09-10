@@ -22,17 +22,8 @@
     "lastName": "Tran",
     "position": "Content Officer",
     "major": "",
-    "img": "/officer_imgs/default.jpg",
-    "linkedIn": "",
-    "desc": ""
-  },
-  {
-    "firstName": "Christina",
-    "lastName": "Shu",
-    "position": "Content Officer",
-    "major": "",
-    "img": "/officer_imgs/default.jpg",
-    "linkedIn": "",
-    "desc": ""
+    "img": "/officer_imgs/Bethany Tran.png",
+    "linkedIn": "https://www.linkedin.com/in/bethany-tran-69671a247/",
+    "desc": "Hello! My name is Bethany and I am a sophomore Computer Engineering student who loves music and art!"
   }
 ]
