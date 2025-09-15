@@ -16,5 +16,21 @@
     "img": "/officer_imgs/Casey Pei.jpg",
     "linkedIn": "https://linkedin.com/in/caseypei",
     "desc": "(she/her) My name is Casey and one of the co-founders of TAO. We made this club with the intention of helping students through their first year of engineering and we hope we continue to do better and better! In my free time I make useless updates to my personal website, draw, and watch video essays on Youtube :)"
+  },
+  {
+    "firstName": "Christin",
+    "lastName": "Park",
+    "position": "Former Social Chair",
+    "major": "Electrical Engineering",
+    "img": "/officer_imgs/Christin Park.jpg",
+    "linkedIn": "https://www.linkedin.com/in/christin-park/"
+  },
+  {
+    "firstName": "Laina",
+    "lastName": "Hoang",
+    "position": "Former Jr. Social Chair",
+    "major": "Electronic Sys. Engr. Technology",
+    "img": "/officer_imgs/Laina Hoang.jpg",
+    "linkedIn": ""
   }
 ]
