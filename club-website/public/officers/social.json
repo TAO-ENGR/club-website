@@ -1,22 +1,5 @@
 [
   {
-    "firstName": "Laina",
-    "lastName": "Hoang",
-    "position": "Jr. Social Chair",
-    "major": "General Engineering",
-    "img": "/officer_imgs/Laina Hoang.jpg",
-    "linkedIn": ""
-  },
-  {
-    "firstName": "Antony",
-    "lastName": "Quach",
-    "position": "Social Officer",
-    "major": "Computer Engineer",
-    "img": "/officer_imgs/Antony Quach.jpg",
-    "linkedIn": "",
-    "desc": "I like to draw, mainly muscles and anatomy, I also play tennis and go to the gym frequently"
-  },
-  {
     "firstName": "Alex",
     "lastName": "Gonce",
     "position": "Officer / PT Training Team",
@@ -27,7 +10,7 @@
   {
     "firstName": "Owen",
     "lastName": "Cai",
-    "position": "Social Officer",
+    "position": "Web and Social Officer",
     "major": "Computer Science",
     "img": "/officer_imgs/Owen Cai.jpg",
     "linkedIn": "https://billert.dev",
@@ -45,7 +28,7 @@
   {
     "firstName": "Jennie",
     "lastName": "Nguyen",
-    "position": "Social Officer",
+    "position": "Web and Social Officer",
     "major": "Electrical Engineering",
     "img": "/officer_imgs/Jennie Nguyen.png",
     "linkedIn": "https://www.linkedin.com/in/jennie-nguyen-a99286349/",

@@ -53,22 +53,22 @@
     "desc": ""
   },
   {
+    "firstName": "Antony",
+    "lastName": "Quach",
+    "position": "Social Chair",
+    "major": "Computer Engineering",
+    "img": "/officer_imgs/Antony Quach.jpg",
+    "linkedIn": "",
+    "desc": "I like to draw, mainly muscles and anatomy, I also play tennis and go to the gym frequently"
+  },
+  {
     "firstName": "Summer",
     "lastName": "Wong",
-    "position": "Server and Bot Chair, Interim Treasury VP",
+    "position": "Server Chair",
     "major": "Computer Science",
     "img": "/officer_imgs/Summer Wong.jpg",
     "linkedIn": "https://www.linkedin.com/in/summerrwong",
     "desc": "Howdy, I'm Summer, class of '26. I am the Server and Bot Junior Chair and a PT for ENGR 102 and PHYS 216. I am passionate about software development and user interaction. I am an enjoyer of music, star gazing, and doing spontaneous activities with friends. "
-  },
-  {
-    "firstName": "Anthony",
-    "lastName": "Pham",
-    "position": "Server and Bot Chair",
-    "major": "Multidisciplinary Engineering",
-    "img": "/officer_imgs/Anthony Pham.jpg",
-    "linkedIn": "https://www.linkedin.com/in/anthony-ha-pham/",
-    "desc": "Howdy! I am a MXET major, class of 2025, from Katy, Texas, and I am the server chair for TAO! Outside of academics, I really love gaming, coding, and hanging out with friends!"
   },
   {
     "firstName": "Andrew",
@@ -78,14 +78,7 @@
     "img": "/officer_imgs/Andrew Zheng.jpg",
     "linkedIn": "https://www.linkedin.com/in/andrew--zheng/"
   },
-  {
-    "firstName": "Christin",
-    "lastName": "Park",
-    "position": "Social Chair",
-    "major": "Electrical Engineering",
-    "img": "/officer_imgs/Christin Park.jpg",
-    "linkedIn": "https://www.linkedin.com/in/christin-park/"
-  },
+
   {
     "firstName": "Dr. Niki",
     "lastName": "Ritchey",

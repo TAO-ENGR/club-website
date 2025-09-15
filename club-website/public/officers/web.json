@@ -12,7 +12,7 @@
     "firstName": "Claire",
     "lastName": "Wu",
     "position": "Web Officer",
-    "major": "General Engineering",
+    "major": "Computer Science",
     "img": "/officer_imgs/Claire Wu.jpg",
     "linkedIn": "https://www.linkedin.com/in/you-claire-wu?trk=contact-info",
     "desc": ""
@@ -36,15 +36,6 @@
     "desc": "Howdy, I'm a sophomore at Texas A&M studying computer science. In my free time, I enjoy going to the gym and playing board games."
   },
   {
-    "firstName": "Leon",
-    "lastName": "Nguyen",
-    "position": "Web Officer",
-    "major": "Computer Science and Statistics",
-    "img": "/officer_imgs/Leon Nguyen.jpg",
-    "linkedIn": "https://www.linkedin.com/in/leonlnguyen/",
-    "desc": "Howdy, my name is Leon. I love cats and playing TFT."
-  },
-  {
     "firstName": "Peter",
     "lastName": "Phan",
     "position": "Web Officer",
@@ -57,7 +48,7 @@
     "firstName": "Sidney",
     "lastName": "Vu",
     "position": "Web Officer",
-    "major": "General Engineering",
+    "major": "Computer Science",
     "img": "/officer_imgs/Sidney Vu.jpg",
     "linkedIn": "",
     "desc": "Hellooo!"
