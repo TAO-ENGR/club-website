@@ -9,7 +9,6 @@ import { OfficerType } from "@/lib/types";
 import { poppins } from "../fonts";
 import home from "./home.module.css";
 import Image from "next/image";
-import officerData from "../../../public/officers/all.json";
 import execData from "../../../public/officers/execs.json";
 import {
   HoverCard,
@@ -20,7 +19,7 @@ import ArrowButton from "@/components/arrowButton";
 
 export default function HomeOfficers() {
   const execs: OfficerType[] = execData;
-  const officers: OfficerType[] = officerData;
+  const officers: OfficerType[] = [];
   return (
     <div className={`w-[100vw] text-left bg p-8 lg:p-24 ${home["bg-maroon"]}`}>
       <div className="flex flex-col lg:flex-row gap-4 lg:gap-8 lg:items-center mb-10">

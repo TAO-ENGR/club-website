@@ -1,26 +1,44 @@
 [
   {
-    "firstName": "Ryan",
-    "lastName": "Kabir",
-    "position": "President / Co-Founder",
-    "major": "Computer Science & Electrical Engineering",
-    "img": "/officer_imgs/Ryan Kabir.jpg",
-    "linkedIn": "https://www.linkedin.com/in/ryankbr",
-    "desc": "Hi! I'm Ryan, I founded TAO with Casey Pei and Lily Tang in 2022, and am currently Co-Presidents with Casey. In my free time, I like to watch tech, food, and lifestyle vlog videos, and I like to play Valorant & Genshin now and then. I'm also a Software Engineering Intern at Microsoft!"
+    "firstName": "Sophia",
+    "lastName": "Phu",
+    "position": "President",
+    "major": "Computer Engineering",
+    "img": "/officer_imgs/Sophia Phu.jpg",
+    "linkedIn": "https://www.linkedin.com/in/sophiaphu",
+    "desc": "Hi I'm Sophia!! I'm a sophomore computer engineering student who loves programming, software development, violin, and TAO."
   },
   {
-    "firstName": "Casey",
-    "lastName": "Pei",
-    "position": "President / Co-Founder",
+    "firstName": "Ashley",
+    "lastName": "Zhang",
+    "position": "Jr. President",
     "major": "Computer Science",
-    "img": "/officer_imgs/Casey Pei.jpg",
-    "linkedIn": "https://linkedin.com/in/caseypei",
-    "desc": "(she/her) My name is Casey and one of the co-founders of TAO. We made this club with the intention of helping students through their first year of engineering and we hope we continue to do better and better! In my free time I make useless updates to my personal website, draw, and watch video essays on Youtube :)"
+    "img": "/officer_imgs/Ashley Zhang.jpg",
+    "linkedIn": "https://www.linkedin.com/in/ashley-j-zhang/",
+    "desc": "Hi! I'm Ashley. I love programming, fashion, my dog Cici, chess, and shoegaze music. This summer I've been playing a LOT of Realm of the Mad God."
+  },
+  {
+    "firstName": "Larissa",
+    "lastName": "Kim",
+    "position": "Vice President",
+    "major": "Computer Science",
+    "img": "/officer_imgs/Larissa Kim.jpg",
+    "linkedIn": "https://bento.me/larissak",
+    "desc": "Hi! I am an aspiring software developer and love to draw, play music, and pc games!"
+  },
+  {
+    "firstName": "Tristan-Lee",
+    "lastName": "Aujong",
+    "position": "Vice President",
+    "major": "Computer Science",
+    "img": "/officer_imgs/Tristan Aujong.jpg",
+    "linkedIn": "https://www.linkedin.com/in/tristan-lee-aujong/",
+    "desc": "If you like cars hmu, I drive a (slow) Civic Si"
   },
   {
     "firstName": "Samuel",
     "lastName": "Bush",
-    "position": "Vice President of Senate",
+    "position": "Vice President",
     "major": "Computer Engineering",
     "img": "/officer_imgs/Samuel Bush.jpg",
     "linkedIn": "https://www.linkedin.com/in/samuelkbush/"
@@ -59,6 +77,14 @@
     "major": "Computer Science",
     "img": "/officer_imgs/Andrew Zheng.jpg",
     "linkedIn": "https://www.linkedin.com/in/andrew--zheng/"
+  },
+  {
+    "firstName": "Christin",
+    "lastName": "Park",
+    "position": "Social Chair",
+    "major": "Electrical Engineering",
+    "img": "/officer_imgs/Christin Park.jpg",
+    "linkedIn": "https://www.linkedin.com/in/christin-park/"
   },
   {
     "firstName": "Dr. Niki",

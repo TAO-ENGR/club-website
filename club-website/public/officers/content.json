@@ -7,5 +7,23 @@
     "img": "/officer_imgs/Xiaoyan Zhou.jpeg",
     "linkedIn": "https://www.linkedin.com/in/xiaoyan-zhou-487092254/",
     "desc": ""
+  },
+  {
+    "firstName": "Anderson",
+    "lastName": "Loan",
+    "position": "Content Officer",
+    "major": "Electrical Engineering",
+    "img": "/officer_imgs/Anderson Loan.jpg",
+    "linkedIn": "https://www.linkedin.com/in/anderson-loan/",
+    "desc": "I'm from Houston TX I love hanging out with friends and watching horror movies"
+  },
+  {
+    "firstName": "Bethany",
+    "lastName": "Tran",
+    "position": "Content Officer",
+    "major": "",
+    "img": "/officer_imgs/Bethany Tran.png",
+    "linkedIn": "https://www.linkedin.com/in/bethany-tran-69671a247/",
+    "desc": "Hello! My name is Bethany and I am a sophomore Computer Engineering student who loves music and art!"
   }
 ]
