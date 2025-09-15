@@ -36,6 +36,15 @@
     "desc": "Howdy, I'm a sophomore at Texas A&M studying computer science. In my free time, I enjoy going to the gym and playing board games."
   },
   {
+    "firstName": "Leon",
+    "lastName": "Nguyen",
+    "position": "Web Officer",
+    "major": "Computer Science and Statistics",
+    "img": "/officer_imgs/Leon Nguyen.jpg",
+    "linkedIn": "https://www.linkedin.com/in/leonlnguyen/",
+    "desc": "Howdy, my name is Leon. I love cats and playing TFT."
+  },
+  {
     "firstName": "Peter",
     "lastName": "Phan",
     "position": "Web Officer",
