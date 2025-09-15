@@ -1,5 +1,14 @@
 [
   {
+    "firstName": "Anthony",
+    "lastName": "Pham",
+    "position": "Bot Branch Advisor",
+    "major": "Multidisciplinary Engineering",
+    "img": "/officer_imgs/Anthony Pham.jpg",
+    "linkedIn": "https://www.linkedin.com/in/anthony-ha-pham/",
+    "desc": "Howdy! I am a MXET major, class of 2025, from Katy, Texas, and I am the server chair for TAO! Outside of academics, I really love gaming, coding, and hanging out with friends!"
+  },
+  {
     "firstName": "Lawrence",
     "lastName": "Wong",
     "position": "Server and Bot Officer",
