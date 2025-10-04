@@ -1,0 +1,204 @@
+[
+  {
+    "date": "September 30, 2025",
+    "events": [
+      {
+        "name": "Practice Problems; Kahoot",
+        "time": "6:00 PM - 7:00 PM",
+        "people": "Aryav Sanjeev, Kaushik Nagarajan, Mirthvika Srinivasan, Amishi Negi",
+        "links": [
+          {
+            "type": "Recording",
+            "url": "https://drive.google.com/file/d/1MR1-p4WFV0UgzUUXPKC4Vmn7dh6bwHYs/view"
+          }
+        ]
+      },
+      {
+        "name": "Loops, Lists, and Practice Problems",
+        "time": "7:00 PM - 9:00 PM",
+        "people": "Ethan Vu, Justin Du, Truc Dinh, Aditya Jandhyala",
+        "links": [
+          {
+            "type": "Recording",
+            "url": "https://drive.google.com/file/u/2/d/1SCbodLzR7PsX80gNKcDLJjk2HTNEm-q8/view?usp=drive_link"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "October 2, 2025",
+    "events": [
+      {
+        "name": "Comprehensive",
+        "time": "6:00 PM - 8:00 PM",
+        "people": "Benjamin Kumar, Siddhi Bavare",
+        "links": [
+          {
+            "type": "ZACH 244",
+            "url": "https://aggiemap.tamu.edu/map/d?ref=howdy&BldgAbbrv=ZACH"
+          }
+        ]
+      },
+      {
+        "name": "Comprehensive",
+        "time": "6:00 PM - 8:00 PM",
+        "people": "Aryav Sanjeev, Kaushik Nagarajan, Mirthvika Srinivasan, Amishi Negi",
+        "links": [
+          {
+            "type": "HECC 203",
+            "url": "https://aggiemap.tamu.edu/map/d?ref=howdy&BldgAbbrv=HECC"
+          },
+          {
+            "type": "Recording",
+            "url": "https://drive.google.com/file/d/1urhc1cNKgCf-_PhwJ_LKTbaEV47XeC8v/view?usp=drive_link"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "October 3, 2025",
+    "events": [
+      {
+        "name": "Comprehensive",
+        "time": "6:00 PM - 8:00 PM",
+        "people": "Sawyer Nguyen, Lohendra Hariharan, Pranav Nair",
+        "links": [
+          {
+            "type": "ZACH 312",
+            "url": "https://aggiemap.tamu.edu/map/d?ref=howdy&BldgAbbrv=ILCB"
+          },
+          {
+            "type": "Zoom",
+            "url": "https://tamu.zoom.us/j/74928352144"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "October 4, 2025",
+    "events": [
+      {
+        "name": "Comprehensive",
+        "time": "8:00 PM - 10:00 PM",
+        "people": "Ryo Kato, Colin Xu, Efren Solis",
+        "links": [
+          {
+            "type": "WEB 232",
+            "url": "https://aggiemap.tamu.edu/map/d?ref=howdy&BldgAbbrv=WEB"
+          },
+          {
+            "type": "Zoom",
+            "url": "https://tamu.zoom.us/j/92957543193?pwd=mKLFsCESWS0nJYdeJokBJubRrsjbUx.1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "October 5, 2025",
+    "events": [
+      {
+        "name": "Comprehensive",
+        "time": "2:00 PM - 4:00 PM",
+        "people": "Roy Chen, Sawyer Nguyen, Levi Raber, Dunsin Komolafe",
+        "links": [
+          {
+            "type": "Zoom",
+            "url": "https://tamu.zoom.us/j/94855181164?pwd=g6i70llx2ebfgaUB3D83cVMIQ2y6ab.1"
+          }
+        ]
+      },
+      {
+        "name": "Comprehensive",
+        "time": "4:00 PM - 6:00 PM",
+        "people": "Nhat Khoa Ly, Faith Wong, Myka Yamada, Joyce You",
+        "links": [
+          {
+            "type": "ILCB 111",
+            "url": "https://aggiemap.tamu.edu/map/d?ref=howdy&BldgAbbrv=ILCB"
+          },
+          {
+            "type": "Zoom",
+            "url": "https://tamu.zoom.us/j/91500767405"
+          }
+        ]
+      },
+      {
+        "name": "Comprehensive",
+        "time": "8:00 PM - 10:00 PM",
+        "people": "Ryo Kato, Colin Xu, Efren Solis",
+        "links": [
+          {
+            "type": "WEB 232",
+            "url": "https://aggiemap.tamu.edu/map/d?ref=howdy&BldgAbbrv=WEB"
+          },
+          {
+            "type": "Zoom",
+            "url": "https://tamu.zoom.us/j/97002839193?pwd=fcHf7uGY4vGOSOsMawGMJK3W5RBnad.1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "October 6, 2025",
+    "events": [
+      {
+        "name": "Comprehensive",
+        "time": "7:00 PM - 8:00 PM",
+        "people": "Roy Chen, Sawyer Nguyen, Levi Raber, Dunsin Komolafe",
+        "links": [
+          {
+            "type": "PETR 120",
+            "url": "https://aggiemap.tamu.edu/map/d?ref=howdy&BldgAbbrv=PETR"
+          },
+          {
+            "type": "Zoom",
+            "url": "https://tamu.zoom.us/j/94855181164?pwd=g6i70llx2ebfgaUB3D83cVMIQ2y6ab.1"
+          }
+        ]
+      },
+      {
+        "name": "Loops and Lists",
+        "time": "6:00 PM - 8:00 PM",
+        "people": "Charles Cai, Joseph Chio, Isabella Guajardo",
+        "links": [
+          {
+            "type": "ZACH 212",
+            "url": "https://aggiemap.tamu.edu/map/d?ref=howdy&BldgAbbrv=ZACH"
+          }
+        ]
+      },
+      {
+        "name": "Loops, Lists, and Practice Problems",
+        "time": "6:00 PM - 8:00 PM",
+        "people": "Kinsley Reid, Mason Hou",
+        "links": [
+          {
+            "type": "In-Person (TBA)",
+            "url": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "October 7, 2025",
+    "events": [
+      {
+        "name": "Comprehensive",
+        "time": "12:00 PM - 4:00 PM",
+        "people": "Victoria Liu, Harshitha Sudhakar, Shlok Amin",
+        "links": [
+          {
+            "type": "Zoom",
+            "url": "https://tamu.zoom.us/j/92851334298"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,6 +1,6 @@
 import { Clock, User } from "lucide-react";
 import { Inter } from "next/font/google";
-import { FaDiscord, FaTwitch } from "react-icons/fa";
+import { FaDiscord, FaTwitch, FaVideo } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
 import { BiLogoZoom } from "react-icons/bi";
 import Link from "next/link";
@@ -28,6 +28,8 @@ function getIcon(type: string) {
       return <FaDiscord className="w-4 h-4" />;
     case "Zoom":
       return <BiLogoZoom className="w-4 h-4" />;
+    case "Recording":
+      return <FaVideo className="w-4 h-4" />;
     default:
       return <FaLocationDot className="w-4 h-4" />;
   }
@@ -35,15 +37,22 @@ function getIcon(type: string) {
 
 interface ReviewCardProps {
   review: Review;
-  className?: string,
-  buttonStyle?: string
+  className?: string;
+  buttonStyle?: string;
 }
 
-export default function ReviewCard({ review, buttonStyle, className }: ReviewCardProps) {
+export default function ReviewCard({
+  review,
+  buttonStyle,
+  className,
+}: ReviewCardProps) {
   return (
     <div
       style={inter.style}
-      className={cn("bg-[#CDE9FF] shadow-sm flex flex-col justify-between text-[#5E80FF] p-4 gap-4 rounded-md w-full md:w-[600px]", className)}
+      className={cn(
+        "bg-[#CDE9FF] shadow-sm flex flex-col justify-between text-[#5E80FF] p-4 gap-4 rounded-md w-full md:w-[600px]",
+        className,
+      )}
     >
       <div className="flex flex-col text-wrap">
         <h4 className="font-semibold md:text-xl">{review.name}</h4>
@@ -71,7 +80,10 @@ export default function ReviewCard({ review, buttonStyle, className }: ReviewCar
             key={index}
             target="_blank"
             rel="noreferrer noopener"
-            className={cn("flex gap-x-2 justify-center items-center px-2 sm:px-4 py-1 rounded-md shadow-md hover:cursor-pointer", buttonStyle)}
+            className={cn(
+              "flex gap-x-2 justify-center items-center px-2 sm:px-4 py-1 rounded-md shadow-md hover:cursor-pointer",
+              buttonStyle,
+            )}
           >
             {getIcon(link.type)}
             <span className="sm:text-sm truncate md:text-base">
