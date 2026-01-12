@@ -5,6 +5,7 @@ import Blurb from "./_subsections/blurb";
 import WhatAreYouWaitingFor from "./_subsections/what-are-you-waiting-for";
 import WhatWereDoing from "./_subsections/what-were-doing";
 import CreatingChange from "./_subsections/creating-change";
+import NeedHelp from "./_subsections/need-some-help";
 
 export default function Home() {
   return (
@@ -14,6 +15,8 @@ export default function Home() {
       <WhatWereDoing />
 
       <CreatingChange />
+
+      <NeedHelp />
 
       <HomeOfficers />
 
