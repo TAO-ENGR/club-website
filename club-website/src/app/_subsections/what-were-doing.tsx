@@ -2,14 +2,20 @@
 
 import React from "react";
 import { poppins } from "../fonts";
-import { Badge } from "@/components/ui/badge";
 import { Calendar } from "@/components/ui/calendar";
 import Announcements from "@/components/announcements";
 import Upcomings from "@/components/upcomings";
 import ArrowButton from "@/components/arrowButton";
+import eventData from "../../../public/events.json";
+import type { EventType } from "@/lib/types";
+import { buildEventCounts } from "@/lib/event-counts";
 
 const WhatWereDoing: React.FC = () => {
   const [date, setDate] = React.useState<Date | undefined>(new Date());
+  const eventCounts = React.useMemo(
+    () => buildEventCounts(eventData as EventType[]),
+    [],
+  );
 
   return (
     <>
@@ -79,6 +85,7 @@ const WhatWereDoing: React.FC = () => {
                 mode="single"
                 selected={date}
                 onSelect={setDate}
+                eventCounts={eventCounts}
                 className="rounded-md border w-full h-full"
               />
             </div>
