@@ -18,7 +18,7 @@ const CreatingChange: React.FC = () => {
         </div>
         <div className="bg-gray-100 flex-auto w-72 border-2 p-6 pb-8">
           <p className="text-xl mb-2">⬜ Unique members</p>
-          <p className="text-6xl">673</p>
+          <p className="text-6xl">5532</p>
         </div>
         <div className="bg-gray-100 flex-auto w-72 border-2 p-6 pb-8">
           <p className="text-xl mb-2">⬜ Unique channels</p>

@@ -19,6 +19,7 @@ function Calendar({
   classNames,
   defaultMonth,
   eventCounts,
+  fixedWeeks = true,
   month: controlledMonth,
   onDayClick,
   onMonthChange,
@@ -62,6 +63,7 @@ function Calendar({
   return (
     <DayPicker
       defaultMonth={defaultMonth}
+      fixedWeeks={fixedWeeks}
       month={displayMonth}
       onDayClick={handleDayClick}
       onMonthChange={handleMonthChange}
@@ -88,7 +90,7 @@ function Calendar({
         cell: "h-9 w-9 text-center flex-grow text-sm p-0 relative [&:has([aria-selected].day-range-end)]:rounded-r-md first:[&:has([aria-selected])]:rounded-l-md last:[&:has([aria-selected])]:rounded-r-md focus-within:relative focus-within:z-20",
         day: cn(
           buttonVariants({ variant: "ghost" }),
-          "relative h-9 w-9 p-0 font-normal aria-selected:opacity-100",
+          "relative h-9 w-9 p-0 font-normal transition-none aria-selected:opacity-100",
         ),
         day_range_end: "day-range-end",
         day_selected:
@@ -96,7 +98,7 @@ function Calendar({
         day_today:
           "bg-rose-700 text-white hover:bg-rose-700 hover:text-white aria-selected:bg-black aria-selected:text-white hover:aria-selected:bg-black hover:aria-selected:text-white focus:aria-selected:bg-black focus:aria-selected:text-white",
         day_outside:
-          "day-outside text-muted-foreground opacity-50 aria-selected:bg-accent/50 aria-selected:text-muted-foreground aria-selected:opacity-30",
+          "day-outside text-muted-foreground opacity-50 aria-selected:!bg-black/20 aria-selected:!text-foreground aria-selected:opacity-60",
         day_disabled: "text-muted-foreground opacity-50",
         day_range_middle:
           "aria-selected:bg-accent aria-selected:text-accent-foreground",
