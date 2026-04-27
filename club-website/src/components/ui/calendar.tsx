@@ -1,9 +1,9 @@
 "use client";
 
 import * as React from "react";
-import { format } from "date-fns";
+import { format, startOfMonth } from "date-fns";
 import { ChevronLeft, ChevronRight } from "lucide-react";
-import { DayPicker } from "react-day-picker";
+import { DayClickEventHandler, DayPicker } from "react-day-picker";
 
 import { cn } from "@/lib/utils";
 import { buttonVariants } from "@/components/ui/button";
@@ -17,13 +17,56 @@ export type CalendarProps = React.ComponentProps<typeof DayPicker> & {
 function Calendar({
   className,
   classNames,
+  defaultMonth,
   eventCounts,
+  month: controlledMonth,
+  onDayClick,
+  onMonthChange,
   showOutsideDays = true,
+  today,
   ...props
 }: CalendarProps) {
+  const [uncontrolledMonth, setUncontrolledMonth] = React.useState(
+    startOfMonth(controlledMonth ?? defaultMonth ?? today ?? new Date()),
+  );
+
+  React.useEffect(() => {
+    if (controlledMonth) {
+      setUncontrolledMonth(startOfMonth(controlledMonth));
+    }
+  }, [controlledMonth]);
+
+  const displayMonth = controlledMonth ?? uncontrolledMonth;
+
+  const handleMonthChange = React.useCallback(
+    (nextMonth: Date) => {
+      if (!controlledMonth) {
+        setUncontrolledMonth(startOfMonth(nextMonth));
+      }
+      onMonthChange?.(nextMonth);
+    },
+    [controlledMonth, onMonthChange],
+  );
+
+  const handleDayClick = React.useCallback<DayClickEventHandler>(
+    (day, modifiers, event) => {
+      if (modifiers.outside) {
+        handleMonthChange(day);
+      }
+
+      onDayClick?.(day, modifiers, event);
+    },
+    [handleMonthChange, onDayClick],
+  );
+
   return (
     <DayPicker
+      defaultMonth={defaultMonth}
+      month={displayMonth}
+      onDayClick={handleDayClick}
+      onMonthChange={handleMonthChange}
       showOutsideDays={showOutsideDays}
+      today={today}
       className={cn("p-3 w-full", className)}
       classNames={{
         months: "flex flex-col sm:flex-row space-y-4 sm:space-x-4 sm:space-y-0",

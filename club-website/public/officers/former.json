@@ -18,19 +18,21 @@
     "desc": "(she/her) My name is Casey and one of the co-founders of TAO. We made this club with the intention of helping students through their first year of engineering and we hope we continue to do better and better! In my free time I make useless updates to my personal website, draw, and watch video essays on Youtube :)"
   },
   {
-    "firstName": "Christin",
-    "lastName": "Park",
-    "position": "Former Social Chair",
-    "major": "Electrical Engineering",
-    "img": "/officer_imgs/Christin Park.jpg",
-    "linkedIn": "https://www.linkedin.com/in/christin-park/"
+    "firstName": "Sophia",
+    "lastName": "Phu",
+    "position": "Former President",
+    "major": "Computer Engineering",
+    "img": "/officer_imgs/Sophia Phu.jpg",
+    "linkedIn": "https://www.linkedin.com/in/sophiaphu",
+    "desc": "Hi I'm Sophia!! I'm a sophomore computer engineering student who loves programming, software development, violin, and TAO."
   },
   {
-    "firstName": "Laina",
-    "lastName": "Hoang",
-    "position": "Former Jr. Social Chair",
-    "major": "Electronic Sys. Engr. Technology",
-    "img": "/officer_imgs/Laina Hoang.jpg",
-    "linkedIn": ""
+    "firstName": "Ashley",
+    "lastName": "Zhang",
+    "position": "Former Co-President",
+    "major": "Computer Science",
+    "img": "/officer_imgs/Ashley Zhang.jpg",
+    "linkedIn": "https://www.linkedin.com/in/ashley-j-zhang/",
+    "desc": "Hi! I'm Ashley. I love programming, fashion, my dog Cici, chess, and shoegaze music. This summer I've been playing a LOT of Realm of the Mad God."
   }
 ]

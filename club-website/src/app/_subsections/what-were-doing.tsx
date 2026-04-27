@@ -97,7 +97,7 @@ const WhatWereDoing: React.FC = () => {
           </div>
           <div className="flex flex-col gap-2 lg:w-2/3">
             <h2 className="text-2xl font-bold style={poppins.style}">
-              Upcoming Events!
+              Upcoming Events
             </h2>
             <div>
               <Upcomings />
