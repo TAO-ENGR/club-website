@@ -15,10 +15,10 @@ const Officers: React.FC = () => {
   const former: OfficerType[] = formerOfficers;
 
   const officerArrays = [
+    webOfficers,
     contentOfficers,
     serverOfficers,
     socialOfficers,
-    webOfficers,
   ];
 
   officerArrays.forEach((array) => {
@@ -41,7 +41,7 @@ const Officers: React.FC = () => {
         ))}
       </div>
       <h1 className="font-bold md:text-4xl text-3xl mb-8" style={poppins.style}>
-        FORMER OFFICERS
+        FORMER PRESIDENTS
       </h1>
       <div className="flex flex-wrap items-start justify-center gap-12 mb-12">
         {former.map((officer, index) => (

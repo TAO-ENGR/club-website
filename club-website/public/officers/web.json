@@ -1,10 +1,19 @@
 [
   {
+    "firstName": "Peter",
+    "lastName": "Phan",
+    "position": "Web Chair",
+    "major": "Computer Science",
+    "img": "/officer_imgs/peter_phan.png",
+    "linkedIn": "https://www.linkedin.com/in/peterlphan/",
+    "desc": "Howdy! I'm Peter. I love to make music, play games, and learn about software development!"
+  },
+  {
     "firstName": "Leon",
     "lastName": "Nguyen",
     "position": "Web Officer",
     "major": "Computer Science and Statistics",
-    "img": "/officer_imgs/Leon Nguyen.jpg",
+    "img": "/officer_imgs/leon_nguyen.png",
     "linkedIn": "https://www.linkedin.com/in/leonlnguyen/",
     "desc": "Howdy, my name is Leon. I love cats and playing TFT."
   }
