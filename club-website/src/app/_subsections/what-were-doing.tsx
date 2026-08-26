@@ -73,7 +73,7 @@ const WhatWereDoing: React.FC = () => {
             </div>
             <div>
               <ArrowButton link={"/announcements"}>
-                <>View Announcement</>
+                View Announcement
               </ArrowButton>
             </div>
           </div>
