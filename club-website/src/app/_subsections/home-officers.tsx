@@ -36,10 +36,10 @@ export default function HomeOfficers() {
         <CarouselContent>
           {execs.map(officer => (
             <CarouselItem
-              className="md:basis-1/3 lg:basis-1/5"
+              className="basis-auto"
               key={officer.id}
             >
-              <div className="flex flex-col items-center justify-center text-center w-56">
+              <div className="flex flex-col items-center justify-center text-center w-80">
                 <Image
                   src={officer.image ?? "/officer_imgs/default.png"}
                   alt={`${officer.firstName} ${officer.lastName}`}

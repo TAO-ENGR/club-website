@@ -1,9 +1,6 @@
-"use client";
-
 import { Officer } from "@/data/officers";
-import { cn } from "@/lib/utils";
 import Image from "next/image";
-import { useEffect, useRef, useState } from "react";
+import { Linkedin } from "lucide-react";
 
 interface OfficerCardProps {
   officer: Officer;
@@ -11,76 +8,53 @@ interface OfficerCardProps {
 
 const OfficerCard = ({ officer }: OfficerCardProps) => {
   const image = officer.image ?? "/officer_imgs/default.png";
-  const descRef = useRef<HTMLDivElement>(null);
-  const [isOverflowing, setIsOverflowing] = useState(false);
-
-  useEffect(() => {
-    const element = descRef.current;
-    if (element) {
-      setIsOverflowing(element.scrollHeight > element.clientHeight);
-    }
-  }, [officer.bio]);
+  const fullName = `${officer.firstName} ${officer.lastName}`;
 
   return (
-    <div className="flex relative flex-col items-center justify-center text-center w-56">
-      {officer.linkedin ? (
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href={officer.linkedin}
-          className="w-40 h-40 group hover:cursor-pointer"
-        >
-          <Image
-            src={image}
-            alt={`${officer.firstName} ${officer.lastName}`}
-            width={500}
-            height={500}
-            className="w-40 h-40 object-cover rounded-2xl"
-          />
-          <div
-            ref={descRef}
-            className={`px-4 py-2 overflow-y-auto transition-opacity duration-200 opacity-0 group-hover:opacity-100 absolute top-0 text-xs rounded-2xl w-40 h-40 bg-black/60 text-white/80 flex ${
-              isOverflowing ? "items-start" : "items-center justify-center"
-            }`}
+    <article className="group flex w-[calc((100%-1.25rem)/2)] flex-col text-left md:w-[calc((100%-2.5rem)/3)] lg:w-[calc((100%-6rem)/7)]">
+      <div className="relative aspect-square shrink-0 overflow-hidden bg-maroon/10">
+        <Image
+          src={image}
+          alt={fullName}
+          width={450}
+          height={450}
+          className="h-full w-full object-cover transition-transform duration-200 ease-in-out group-hover:scale-105"
+        />
+        {officer.linkedin && (
+          <a
+            href={officer.linkedin}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label={`Visit ${fullName}'s profile`}
+            className="absolute bottom-2 right-2 inline-flex h-6 w-6 items-center justify-center rounded-full bg-white/90 text-maroon shadow-sm transition-colors hover:bg-white hover:text-darkMaroon focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-maroon"
           >
-            {officer.bio}
-          </div>
-        </a>
-      ) : (
-        <div
-          className={cn("w-40 h-40", officer.bio && "cursor-pointer group")}
-        >
-          <Image
-            src={image}
-            alt={`${officer.firstName} ${officer.lastName}`}
-            width={500}
-            height={500}
-            className="w-40 h-40 object-cover rounded-2xl"
-          />
-          {officer.bio && (
-            <div
-              ref={descRef}
-              className={`px-4 py-2 overflow-y-auto transition-opacity duration-200 opacity-0 group-hover:opacity-100 absolute top-0 text-xs rounded-2xl w-40 h-40 bg-black/60 text-white/80 flex ${
-                isOverflowing ? "items-start" : "items-center justify-center"
-              }`}
-            >
-              {officer.bio}
-            </div>
+            <Linkedin className="h-3 w-3" aria-hidden="true" />
+          </a>
+        )}
+      </div>
+
+      <div className="flex flex-1 flex-col pt-4">
+        <div>
+          <h2 className="text-base font-bold leading-tight text-weirdGray">
+            {fullName}
+          </h2>
+          <p className="mt-1 text-xs font-bold uppercase leading-tight tracking-[0.08em] text-maroon">
+            {officer.role}
+          </p>
+          {officer.major && (
+            <p className="mt-1 text-xs font-medium leading-tight text-slate-500">
+              {officer.major}
+            </p>
           )}
         </div>
-      )}
 
-      <div className="text-sm mt-2">
-        <p className="uppercase font-bold text-base">
-          <span>
-            {officer.firstName} {officer.lastName}
-          </span>
-        </p>
-
-        <p>{officer.role}</p>
-        <p>{officer.major}</p>
+        {officer.bio ? (
+          <p className="mt-2 text-xs leading-5 text-slate-600">
+            {officer.bio}
+          </p>
+        ) : null}
       </div>
-    </div>
+    </article>
   );
 };
 
