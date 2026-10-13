@@ -65,7 +65,7 @@ export const officers: Officer[] = [
     major: "Mechatronics",
     image: "/officer_imgs/gabrielle_idzi.png",
     linkedin: "https://www.linkedin.com/in/gabrielle-idzi-a69aa13a7/",
-    bio: "Howdy, I'm El - the Server and Bot Branch Chair with the major MXET '27 and minor EMSI. I like to write, read, and listen to different types of media and mess with anything electrical, mechanical, or software related.",
+    bio: "Howdy, I'm El - the Server/Bot Branch Chair with the major MXET '27 and minor EMSI. I like to write, read, and listen to different types of media.",
   },
   {
     id: "ian_kong",
@@ -77,7 +77,7 @@ export const officers: Officer[] = [
     major: "Industrial Engineering",
     image: "/officer_imgs/ian_kong.png",
     linkedin: "https://bento.me/iankong",
-    bio: "Majoring in Industrial Engineering (ISEN) and a Social Officer of Engineering TAO. I love building Gunpla model kits and enjoy playing casual sports like pickleball and bowling, always feel free to contact me about anything regarding myself or TAO Social Branch inquires.",
+    bio: "Majoring in Industrial Engineering and a Social Officer of TAO. I love building Gunpla model kits and enjoy playing casual sports like pickleball and bowling.",
   },
   {
     id: "andrew_zheng",
@@ -89,6 +89,7 @@ export const officers: Officer[] = [
     major: "Computer Science",
     image: "/officer_imgs/andrew_zheng.png",
     linkedin: "https://www.linkedin.com/in/andrew--zheng/",
+    bio: "I also love cats, and spend the days playing indie games and reading manga  "
   },
   {
     id: "alex_gonce",
@@ -100,6 +101,7 @@ export const officers: Officer[] = [
     major: "Computer Engineering",
     image: "/officer_imgs/alex_gonce.png",
     linkedin: "https://www.linkedin.com/in/alex-gonce/",
+    bio: "I completed my undergrad in Computer Engineering and am pursuing a Masters in Engineering Education with the eventual goal of becoming a professor.",
   },
   {
     id: "niki_ritchey",
@@ -122,9 +124,39 @@ export const officers: Officer[] = [
     linkedin: "https://www.linkedin.com/in/bethany-tran-69671a247/",
     bio: "Hi, my name is Bethany and I'm a senior in Computer Engineering. I really enjoy web dev and design. My other hobbies include watching movies and listening to music.",
   },
-  { id: "charles_cai", firstName: "Charles", lastName: "Cai", role: "Content Officer", branch: "content", active: true },
-  { id: "tinh_dan_ha", firstName: "Tinh-Dan", lastName: "Ha", role: "Content Officer", branch: "content", active: true },
-  { id: "adithya_karthikeyan", firstName: "Adithya", lastName: "Karthikeyan", role: "Content Officer", branch: "content", active: true },
+  {
+    id: "charles_cai",
+    firstName: "Charles",
+    lastName: "Cai",
+    role: "Content Officer",
+    branch: "content",
+    active: true,
+    major: "Biomedical Engineering",
+    image: "/officer_imgs/charles_cai.png",
+    linkedin: "https://www.linkedin.com/in/charles-c-139215290",
+    bio: "Howdy, I'm a senior at Texas A&M studying biomedical engineering. In my free time, I enjoy traveling, learning foreign languages, and playing board games."
+  },
+  {
+    id: "tinh_dan_ha",
+    firstName: "Tinh-Dan",
+    lastName: "Ha",
+    role: "Content Officer",
+    branch: "content",
+    active: true,
+    major: "Computer Engineering",
+    bio: "Howdy! My name is Dan and I am a '28 CPEN major. I enjoy playing sports and drawing, and also enjoy playing chess",
+    linkedin: "https://www.linkedin.com/in/tinh-danha"
+  },
+  {
+    id: "adithya_karthikeyan",
+    firstName: "Adithya",
+    lastName: "Karthikeyan",
+    role: "Content Officer",
+    branch: "content",
+    active: true,
+    major: "Computer Science",
+    bio: "Howdy all! My name is Adithya and I'm a CSCE major and trying to also double major in Statistics. In my free time, I love to work out and I'm a big time reader"
+  },
   {
     id: "anthony_pham",
     firstName: "Anthony",
@@ -132,10 +164,10 @@ export const officers: Officer[] = [
     role: "Server & Bot Officer",
     branch: "server",
     active: true,
-    major: "Multidisciplinary Engineering",
+    major: "Engineering Technology",
     image: "/officer_imgs/anthony_pham.png",
     linkedin: "https://www.linkedin.com/in/anthony-ha-pham/",
-    bio: "Howdy! I am a MXET major, class of 2025, from Katy, Texas, and I am the server chair for TAO! Outside of academics, I really love gaming, coding, and hanging out with friends!",
+    bio: "Howdy! I am a MXET major, class of 2025, from Katy, TX, and I am the server chair for TAO! I really love gaming, coding, and hanging out with friends!",
   },
   {
     id: "lawrence_wong",
@@ -149,8 +181,30 @@ export const officers: Officer[] = [
     linkedin: "https://linkedin.com/in//lawrencewongg",
     bio: "Howdy! I'm a Computer Science Major in the class of '26 and I'm looking to get a masters degree and specialize in ML. In my free time I enjoy sleeping.",
   },
-  { id: "thein_nguyen", firstName: "Thein", lastName: "Nguyen", role: "Server & Bot Officer", branch: "server", active: true },
-  { id: "milo_sun", firstName: "Milo", lastName: "Sun", role: "Server & Bot Officer", branch: "server", active: true },
+  {
+    id: "thien_nguyen",
+    firstName: "Thien",
+    lastName: "Nguyen",
+    role: "Server & Bot Officer",
+    branch: "server",
+    active: true,
+    major: "Computer Science",
+    image: "/officer_imgs/thien_nguyen.png",
+    linkedin: "https://www.linkedin.com/in/thien-tnguyen/",
+    bio: "Howdy, my name is Thien Nguyen. I'm originally from Houston and I'm a sophomore studying computer science with an interest in computational mathematics."
+  },
+  {
+    id: "lixing_sun",
+    firstName: "Lixing",
+    lastName: "Sun",
+    role: "Server & Bot Officer",
+    branch: "server",
+    active: true,
+    major: "Computer Science",
+    image: "/officer_imgs/lixing_sun.png",
+    linkedin: "linkedin.com/in/sorbet",
+    bio: "ENTP and casual hobbyist. I like adventure, plunderphonics, volleyball, art, and getting to know people!"
+  },
   {
     id: "owen_cai",
     firstName: "Owen",
@@ -190,7 +244,7 @@ export const officers: Officer[] = [
     id: "peter_phan",
     firstName: "Peter",
     lastName: "Phan",
-    role: "Web Chair",
+    role: "Web Officer",
     branch: "web",
     active: true,
     major: "Computer Science",
@@ -205,7 +259,7 @@ export const officers: Officer[] = [
     role: "Web Officer",
     branch: "web",
     active: true,
-    major: "Computer Science and Statistics",
+    major: "Computer Science, Statistics",
     image: "/officer_imgs/leon_nguyen.png",
     linkedin: "https://www.linkedin.com/in/leonlnguyen/",
     bio: "Howdy, my name is Leon. I love cats and playing TFT.",
@@ -214,7 +268,7 @@ export const officers: Officer[] = [
     id: "ryan_kabir",
     firstName: "Ryan",
     lastName: "Kabir",
-    role: "Former President / Co-Founder",
+    role: "Co-Founder",
     branch: "executive",
     active: false,
     major: "Computer Science & Electrical Engineering",
@@ -226,7 +280,7 @@ export const officers: Officer[] = [
     id: "casey_pei",
     firstName: "Casey",
     lastName: "Pei",
-    role: "Former President / Co-Founder",
+    role: "Co-Founder",
     branch: "executive",
     active: false,
     major: "Computer Science",
@@ -260,4 +314,4 @@ export const officers: Officer[] = [
   },
 ];
 
-export const executive = officers.filter(o => o.branch === "executive");
+export const executive = officers.filter((o) => o.branch === "executive");
