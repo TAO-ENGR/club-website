@@ -1,9 +1,11 @@
+export const dynamic = "force-dynamic";
 export async function GET() {
 
     const res = await fetch(`${process.env.DISCORD_API_ROUTE}/channels/${process.env.TAO_CHANNEL_ID}/messages?limit=5`, {
         headers: {
             Authorization: `Bot ${process.env.DISCORD_BOT_TOKEN}`
-        }
+        },
+        cache: "no-store"
     });
     const data = await res.json();
     let msgs: any[] = []

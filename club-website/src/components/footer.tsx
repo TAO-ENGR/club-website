@@ -46,7 +46,7 @@ const LINKS = [
   },
 ];
 
-export default function Footer({ className }: {className?: string}) {
+export default function Footer({ className }: { className?: string }) {
 
   const pathname = usePathname();
 
@@ -75,7 +75,7 @@ export default function Footer({ className }: {className?: string}) {
           ZACH 420 - 125 Spence St, College Station, TX 77843, United States
           <br />
           <br />
-          2025 © ENGR TA Organization
+          2026 © ENGR TA Organization
         </p>
       </div>
 
@@ -87,11 +87,11 @@ export default function Footer({ className }: {className?: string}) {
             </Link>
           </b>
           <br />
-          <Link href="/about/#impact" className="hover:text-maroon">
+          <Link href="/about/#impact" className="hover:text-maroon text-sm">
             Impact
           </Link>
           <br />
-          <Link href="/about/#officers" className="hover:text-maroon">
+          <Link href="/about/#officers" className="hover:text-maroon text-sm">
             Officers
           </Link>
           <br />-
@@ -107,15 +107,15 @@ export default function Footer({ className }: {className?: string}) {
           </b>
           <br />
           {/* <Link href="/">ENGR 102</Link><br/> */}
-          <Link href="/resources" className="hover:text-maroon">
+          <Link href="/resources" className="hover:text-maroon text-sm">
             ENGR 102
           </Link>
           <br />
-          <Link href="/resources" className="hover:text-maroon">
+          <Link href="/resources" className="hover:text-maroon text-sm">
             ENGR 216
           </Link>
           <br />
-          <Link href="/resources" className="hover:text-maroon">
+          <Link href="/resources" className="hover:text-maroon text-sm">
             Miscellaneous
           </Link>
           <br />-
@@ -130,15 +130,15 @@ export default function Footer({ className }: {className?: string}) {
             </Link>
           </b>
           <br />
-          <Link href="/announcements" className="hover:text-maroon">
+          <Link href="/announcements" className="hover:text-maroon text-sm">
             Announcements
           </Link>
           <br />
-          <Link href="/announcements/#upcoming" className="hover:text-maroon">
+          <Link href="/announcements/#upcoming" className="hover:text-maroon text-sm">
             Upcoming
           </Link>
           <br />
-          <Link href="/calendar" className="hover:text-maroon">
+          <Link href="/calendar" className="hover:text-maroon text-sm">
             Calendar
           </Link>
           <br />-
@@ -155,7 +155,7 @@ export default function Footer({ className }: {className?: string}) {
           target="_blank"
           className="hover:text-maroon"
         >
-          <div className="flex gap-2 items-center">
+          <div className="flex gap-2 items-center text-sm">
             <RiMailLine className="shrink-0" />
             taoengr@gmail.com
           </div>
@@ -165,7 +165,7 @@ export default function Footer({ className }: {className?: string}) {
           target="_blank"
           className="hover:text-maroon"
         >
-          <div className="flex gap-2 items-center">
+          <div className="flex gap-2 items-center text-sm">
             <RiLinkedinBoxLine className="shrink-0" />
             engr-ta-org
           </div>
@@ -175,7 +175,7 @@ export default function Footer({ className }: {className?: string}) {
           target="_blank"
           className="hover:text-maroon"
         >
-          <div className="flex gap-2 items-center">
+          <div className="flex gap-2 items-center text-sm">
             <RiYoutubeLine className="shrink-0" />
             YouTube
           </div>
@@ -185,7 +185,7 @@ export default function Footer({ className }: {className?: string}) {
           target="_blank"
           className="hover:text-maroon"
         >
-          <div className="flex gap-2 items-center">
+          <div className="flex gap-2 items-center text-sm">
             <RiGithubLine className="shrink-0" />
             TAO-ENGR
           </div>

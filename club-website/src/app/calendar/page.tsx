@@ -6,9 +6,11 @@ import type { EventType } from "@/lib/types";
 import Event from "@/components/ui/event";
 import eventData from "../../../public/events.json";
 import { poppins } from "../fonts";
+import { buildEventCounts } from "@/lib/event-counts";
 
 export default function CalendarPage() {
   const events: EventType[] = eventData;
+  const eventCounts = React.useMemo(() => buildEventCounts(events), [events]);
 
   return (
     <div className="w-full px-8 lg:px-24  my-8 mt-24 lg:mt-32">
@@ -23,6 +25,7 @@ export default function CalendarPage() {
           <div className="w-full h-full rounded-2xl">
             <Calendar
               mode="single"
+              eventCounts={eventCounts}
               className="rounded-2xl shadow-lg w-full"
             />
           </div>

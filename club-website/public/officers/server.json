@@ -2,27 +2,37 @@
   {
     "firstName": "Anthony",
     "lastName": "Pham",
-    "position": "Bot Branch Advisor",
-    "major": "Multidisciplinary Engineering",
-    "img": "/officer_imgs/Anthony Pham.jpg",
+    "position": "Server & Bot Officer",
+    "major": "Engineering Technology",
+    "img": "/officer_imgs/anthony_pham.png",
     "linkedIn": "https://www.linkedin.com/in/anthony-ha-pham/",
     "desc": "Howdy! I am a MXET major, class of 2025, from Katy, Texas, and I am the server chair for TAO! Outside of academics, I really love gaming, coding, and hanging out with friends!"
   },
   {
     "firstName": "Lawrence",
     "lastName": "Wong",
-    "position": "Server and Bot Officer",
+    "position": "Server & Bot Officer",
     "major": "Computer Science",
-    "img": "/officer_imgs/Lawrence Wong.jpg",
+    "img": "/officer_imgs/lawrence_wong.png",
     "linkedIn": "https://linkedin.com/in//lawrencewongg",
     "desc": "Howdy! I'm a Computer Science Major in the class of '26 and I'm looking to get a masters degree and specialize in ML. In my free time I enjoy sleeping."
   },
   {
-    "firstName": "Archer",
-    "lastName": "Simmons",
-    "position": "Server and Bot Officer",
-    "major": "Industry and Systems Engineering",
-    "img": "/officer_imgs/Archer Simmons.jpg",
-    "linkedIn": "https://www.linkedin.com/in/archer-simmons-0b653b148/"
+    "firstName": "Thein",
+    "lastName": "Nguyen",
+    "position": "Server & Bot Officer",
+    "major": "",
+    "img": "",
+    "linkedIn": "",
+    "desc": ""
+  },
+  {
+    "firstName": "Milo",
+    "lastName": "Sun",
+    "position": "Server & Bot Officer",
+    "major": "",
+    "img": "",
+    "linkedIn": "",
+    "desc": ""
   }
 ]

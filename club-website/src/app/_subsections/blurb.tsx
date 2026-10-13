@@ -68,49 +68,49 @@ const Blurb: React.FC = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaDiscord className="animate-[float-up-delay_3s_linear]" />
+          <FaDiscord className="animate-[float-up-delay_3s_cubic-bezier(0.22,1,0.36,1)]" />
         </a>
         <a
           href="mailto:taoengr@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaEnvelope className="animate-[float-up-delay_3.2s_linear]" />
+          <FaEnvelope className="animate-[float-up-delay_3.2s_cubic-bezier(0.22,1,0.36,1)]" />
         </a>
         <a
           href="https://www.linkedin.com/authwall?trk=bf&trkInfo=AQF6rTTbSI2dWwAAAYnRh99Q66Yy0_YjDulU7M9nkY0GVbjo9rjweFwRk8m7Lu9xukiacbf6C3Pd0wIgZ4zFedhdRL_eCQC1nxDCHVIVws7hWcmLg9TVAMMDDx7GPfhumP7_uB0=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Fengr-tao"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <ImLinkedin className="animate-[float-up-delay_3.4s_linear]" />
+          <ImLinkedin className="animate-[float-up-delay_3.4s_cubic-bezier(0.22,1,0.36,1)]" />
         </a>
         <a
           href="https://github.com/TAO-ENGR/club-website"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <TbBrandGithubFilled className="animate-[float-up-delay_3.6s_linear]" />
+          <TbBrandGithubFilled className="animate-[float-up-delay_3.6s_cubic-bezier(0.22,1,0.36,1)]" />
         </a>
         <a
           href="https://www.youtube.com/@engrtao"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <BsYoutube className="animate-[float-up-delay_3.8s_linear]" />
+          <BsYoutube className="animate-[float-up-delay_3.8s_cubic-bezier(0.22,1,0.36,1)]" />
         </a>
         <a
           href="https://getinvolved.tamu.edu/org/tao"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaLink className="animate-[float-up-delay_4s_linear]" />
+          <FaLink className="animate-[float-up-delay_4s_cubic-bezier(0.22,1,0.36,1)]" />
         </a>
         <a
           href="https://instagram.com/tamutao"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <RiInstagramFill className="animate-[float-up-delay_4.2s_linear]" />
+          <RiInstagramFill className="animate-[float-up-delay_4.2s_cubic-bezier(0.22,1,0.36,1)]" />
         </a>
       </div>
     </div>

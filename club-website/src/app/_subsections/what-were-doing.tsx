@@ -2,14 +2,20 @@
 
 import React from "react";
 import { poppins } from "../fonts";
-import { Badge } from "@/components/ui/badge";
 import { Calendar } from "@/components/ui/calendar";
 import Announcements from "@/components/announcements";
 import Upcomings from "@/components/upcomings";
 import ArrowButton from "@/components/arrowButton";
+import eventData from "../../../public/events.json";
+import type { EventType } from "@/lib/types";
+import { buildEventCounts } from "@/lib/event-counts";
 
 const WhatWereDoing: React.FC = () => {
   const [date, setDate] = React.useState<Date | undefined>(new Date());
+  const eventCounts = React.useMemo(
+    () => buildEventCounts(eventData as EventType[]),
+    [],
+  );
 
   return (
     <>
@@ -25,14 +31,14 @@ const WhatWereDoing: React.FC = () => {
             <Announcements />
           </div>
           <div className="flex flex-col lg:w-3/5 gap-4">
-            <div className="bg-[#d9d9d9] p-4 rounded-xl">
-              <p className="text-xl font-bold">📢 Howdy everyone!</p>
-              <p>
+            <div className="space-y-3 rounded-xl border border-black/10 bg-[#d9d9d9] p-5 shadow-sm md:p-6">
+              <p className="text-xl font-bold leading-tight">📢 Howdy everyone!</p>
+              <p className="text-[15px] leading-relaxed text-black/80">
                 Hope y&apos;alls first week went well and the second is off to a
                 good start!
               </p>
-              <hr className="bg-gray-400 h-[2px] my-6" />
-              <h4>
+              <hr className="my-5 h-px border-0 bg-black/15" />
+              <h4 className="text-[15px] leading-relaxed">
                 <span className="text-[#ba372a]">
                   <strong>
                     This announcement is your formal invitation to join the TA⚙️
@@ -40,7 +46,7 @@ const WhatWereDoing: React.FC = () => {
                   </strong>
                 </span>
               </h4>
-              <p>
+              <p className="text-[15px] leading-relaxed text-black/85">
                 The <strong>ENGR 102 Discord</strong> is a server made by the
                 ENGR TA Organization in collaboration with the Engineering
                 Department, your profs and course coordinators for ENGR 102,
@@ -67,19 +73,25 @@ const WhatWereDoing: React.FC = () => {
             </div>
             <div>
               <ArrowButton link={"/announcements"}>
-                <>view announcement</>
+                View Announcement
               </ArrowButton>
             </div>
           </div>
         </div>
+
+        <h2 className="text-2xl mt-8 font-bold style={poppins.style}">
+          Upcoming Events
+        </h2>
         <div className="flex flex-col gap-8 lg:flex-row">
+
           <div className="flex flex-col lg:w-1/3 gap-4">
             <div>
               <Calendar
                 mode="single"
                 selected={date}
                 onSelect={setDate}
-                className="rounded-md border w-full h-full"
+                eventCounts={eventCounts}
+                className="rounded-md border w-full h-full shadow-md"
               />
             </div>
             <div>
@@ -89,12 +101,7 @@ const WhatWereDoing: React.FC = () => {
             </div>
           </div>
           <div className="flex flex-col gap-2 lg:w-2/3">
-            <h2 className="text-2xl font-bold style={poppins.style}">
-              Upcoming Events!
-            </h2>
-            <div>
-              <Upcomings />
-            </div>
+            <Upcomings />
           </div>
         </div>
       </div>

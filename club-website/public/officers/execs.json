@@ -1,90 +1,72 @@
 [
   {
-    "firstName": "Sophia",
-    "lastName": "Phu",
-    "position": "President",
-    "major": "Computer Engineering",
-    "img": "/officer_imgs/Sophia Phu.jpg",
-    "linkedIn": "https://www.linkedin.com/in/sophiaphu",
-    "desc": "Hi I'm Sophia!! I'm a sophomore computer engineering student who loves programming, software development, violin, and TAO."
-  },
-  {
-    "firstName": "Ashley",
-    "lastName": "Zhang",
-    "position": "Jr. President",
-    "major": "Computer Science",
-    "img": "/officer_imgs/Ashley Zhang.jpg",
-    "linkedIn": "https://www.linkedin.com/in/ashley-j-zhang/",
-    "desc": "Hi! I'm Ashley. I love programming, fashion, my dog Cici, chess, and shoegaze music. This summer I've been playing a LOT of Realm of the Mad God."
-  },
-  {
-    "firstName": "Larissa",
-    "lastName": "Kim",
-    "position": "Vice President",
-    "major": "Computer Science",
-    "img": "/officer_imgs/Larissa Kim.jpg",
-    "linkedIn": "https://bento.me/larissak",
-    "desc": "Hi! I am an aspiring software developer and love to draw, play music, and pc games!"
-  },
-  {
     "firstName": "Tristan-Lee",
     "lastName": "Aujong",
-    "position": "Vice President",
+    "position": "Co-President",
     "major": "Computer Science",
-    "img": "/officer_imgs/Tristan Aujong.jpg",
+    "img": "/officer_imgs/tristan_aujong.png",
     "linkedIn": "https://www.linkedin.com/in/tristan-lee-aujong/",
     "desc": "If you like cars hmu, I drive a (slow) Civic Si"
   },
   {
-    "firstName": "Samuel",
-    "lastName": "Bush",
-    "position": "Vice President",
-    "major": "Computer Engineering",
-    "img": "/officer_imgs/Samuel Bush.jpg",
-    "linkedIn": "https://www.linkedin.com/in/samuelkbush/"
-  },
-  {
-    "firstName": "Andrew",
-    "lastName": "Tan",
-    "position": "Content Chair",
-    "major": "Biomedical Engineering",
-    "img": "/officer_imgs/Andrew Tan.jpg",
-    "linkedIn": "",
-    "desc": ""
-  },
-  {
-    "firstName": "Antony",
-    "lastName": "Quach",
-    "position": "Social Chair",
-    "major": "Computer Engineering",
-    "img": "/officer_imgs/Antony Quach.jpg",
-    "linkedIn": "",
-    "desc": "I like to draw, mainly muscles and anatomy, I also play tennis and go to the gym frequently"
-  },
-  {
-    "firstName": "Summer",
-    "lastName": "Wong",
-    "position": "Server Chair",
+    "firstName": "Larissa",
+    "lastName": "Kim",
+    "position": "Co-President",
     "major": "Computer Science",
-    "img": "/officer_imgs/Summer Wong.jpg",
-    "linkedIn": "https://www.linkedin.com/in/summerrwong",
-    "desc": "Howdy, I'm Summer, class of '26. I am the Server and Bot Junior Chair and a PT for ENGR 102 and PHYS 216. I am passionate about software development and user interaction. I am an enjoyer of music, star gazing, and doing spontaneous activities with friends. "
+    "img": "/officer_imgs/larissa_kim.png",
+    "linkedIn": "https://bento.me/larissak",
+    "desc": "Hi! I am an aspiring software developer and love to draw, play music, and pc games!"
   },
+  {
+    "firstName": "Anderson",
+    "lastName": "Loan",
+    "position": "Content Chair",
+    "major": "Electrical Engineering",
+    "img": "/officer_imgs/anderson_loan.png",
+    "linkedIn": "https://www.linkedin.com/in/anderson-loan/",
+    "desc": "I'm from Houston TX I love hanging out with friends and watching horror movies"
+  },
+  {
+    "firstName": "Gabrielle",
+    "lastName": "Idzi",
+    "position": "Server & Bot Chair",
+    "major": "Mechatronics",
+    "img": "/officer_imgs/gabrielle_idzi.png",
+    "linkedIn": "https://www.linkedin.com/in/gabrielle-idzi-a69aa13a7/",
+    "desc": "Howdy, I'm El - the Server and Bot Branch Chair with the major MXET '27 and minor EMSI. I like to write, read, and listen to different types of media and mess with anything electrical, mechanical, or software related. "
+  },
+  {
+    "firstName": "Ian",
+    "lastName": "Kong",
+    "position": "Social Chair",
+    "major": "Industrial Engineering",
+    "img": "/officer_imgs/ian_kong.png",
+    "linkedIn": "https://bento.me/iankong",
+    "desc": "Majoring in Industrial Engineering (ISEN) and a Social Officer of Engineering TAO. I love building Gunpla model kits and enjoy playing casual sports like pickleball and bowling, always feel free to contact me about anything regarding myself or TAO Social Branch inquires."
+  },
+
   {
     "firstName": "Andrew",
     "lastName": "Zheng",
     "position": "Web Chair",
     "major": "Computer Science",
-    "img": "/officer_imgs/Andrew Zheng.jpg",
+    "img": "/officer_imgs/andrew_zheng.png",
     "linkedIn": "https://www.linkedin.com/in/andrew--zheng/"
   },
-
+  {
+    "firstName": "Alex",
+    "lastName": "Gonce",
+    "position": "Officer / PT Training Team",
+    "major": "Computer Engineering",
+    "img": "/officer_imgs/alex_gonce.png",
+    "linkedIn": "https://www.linkedin.com/in/alex-gonce/"
+  },
   {
     "firstName": "Dr. Niki",
     "lastName": "Ritchey",
     "position": "TAO Advisor",
     "major": "",
-    "img": "/officer_imgs/Niki Ritchey.jpg",
+    "img": "/officer_imgs/niki_ritchey.png",
     "linkedIn": "",
     "desc": ""
   }

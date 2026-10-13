@@ -1,65 +1,20 @@
 [
   {
-    "firstName": "Siddarth",
-    "lastName": "Kotthur",
-    "position": "Jr. Web Chair",
+    "firstName": "Peter",
+    "lastName": "Phan",
+    "position": "Web Chair",
     "major": "Computer Science",
-    "img": "/officer_imgs/Siddarth Kotthur.jpg",
-    "linkedIn": "https://www.linkedin.com/in/siddarthkot/",
-    "desc": ""
-  },
-  {
-    "firstName": "Claire",
-    "lastName": "Wu",
-    "position": "Web Officer",
-    "major": "Computer Science",
-    "img": "/officer_imgs/Claire Wu.jpg",
-    "linkedIn": "https://www.linkedin.com/in/you-claire-wu?trk=contact-info",
-    "desc": ""
-  },
-  {
-    "firstName": "Eric",
-    "lastName": "Liu",
-    "position": "Web Officer",
-    "major": "Computer Science",
-    "img": "/officer_imgs/Eric Liu.jpeg",
-    "linkedIn": "https://www.linkedin.com/in/eric-liu-b75550220/",
-    "desc": "Howdy! I'm Eric and I'm a web officer here at TAO. Besides CS, I'm really into English (literature courses go crazy), and I'm also a sports reporter at the Battalion."
-  },
-  {
-    "firstName": "Daniel",
-    "lastName": "Chen",
-    "position": "Web Officer",
-    "major": "Computer Science",
-    "img": "/officer_imgs/Daniel Chen.png",
-    "linkedIn": "https://www.linkedin.com/in/daniel-chen-2a6762225/",
-    "desc": "Howdy, I'm a sophomore at Texas A&M studying computer science. In my free time, I enjoy going to the gym and playing board games."
+    "img": "/officer_imgs/peter_phan.png",
+    "linkedIn": "https://www.linkedin.com/in/peterlphan/",
+    "desc": "Howdy! I'm Peter. I love to make music, play games, and learn about software development!"
   },
   {
     "firstName": "Leon",
     "lastName": "Nguyen",
     "position": "Web Officer",
     "major": "Computer Science and Statistics",
-    "img": "/officer_imgs/Leon Nguyen.jpg",
+    "img": "/officer_imgs/leon_nguyen.png",
     "linkedIn": "https://www.linkedin.com/in/leonlnguyen/",
     "desc": "Howdy, my name is Leon. I love cats and playing TFT."
-  },
-  {
-    "firstName": "Peter",
-    "lastName": "Phan",
-    "position": "Web Officer",
-    "major": "Computer Science",
-    "img": "/officer_imgs/Peter Phan.jpg",
-    "linkedIn": "https://www.linkedin.com/in/peterlphan/",
-    "desc": "Howdy! I'm Peter. I love to make music, play games, and learn about software development!"
-  },
-  {
-    "firstName": "Sidney",
-    "lastName": "Vu",
-    "position": "Web Officer",
-    "major": "Computer Science",
-    "img": "/officer_imgs/Sidney Vu.jpg",
-    "linkedIn": "",
-    "desc": "Hellooo!"
   }
 ]

@@ -2,21 +2,21 @@ import { useEffect, useState } from "react";
 import Announcement from "./announcement";
 import axios from "axios";
 
-interface Announcement {
+type AnnouncementData = {
   date: string;
   title: string;
-  link: string;
-}
+  link?: string;
+};
 
-const Announcements: React.FC = () => {
-  const [announcements, setAnnouncements] = useState<Announcement[]>([]);
+export default function Announcements() {
+  const [announcements, setAnnouncements] = useState<AnnouncementData[]>([]);
 
   const fetchAnnouncements = async () => {
     try {
       const res = await axios.get("/api/announcements");
 
       if (res.status === 200) {
-        const a: Announcement[] = res.data;
+        const a: AnnouncementData[] = res.data;
         setAnnouncements(a);
       } else {
         throw new Error(`${res.status} : ${res.statusText}`);
@@ -37,12 +37,10 @@ const Announcements: React.FC = () => {
         <Announcement
           key={index}
           date={announcement.date}
-          title={announcement.title.slice(0, 200) + "..."}
+          title={announcement.title}
           link={announcement.link}
         />
       ))}
     </div>
   );
-};
-
-export default Announcements;
+}
